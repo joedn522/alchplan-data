@@ -7,5 +7,14 @@
     "claudeNote": "",
     "status": "new",
     "createdAt": "2026-03-21T04:19:44.770Z"
+  },
+  {
+    "id": "mmztlmh7byy0",
+    "url": "https://alchplan.asherdom.me/#tab:life",
+    "type": "bug",
+    "content": "這邊每個 block 在點擊 sub item 的時候記得要讓人知道這些 sub item 是可以點得進去的，可能可以 hover 或讓每個 sub item 有邊界",
+    "claudeNote": "",
+    "status": "new",
+    "createdAt": "2026-03-21T04:20:55.435Z"
   }
 ]
