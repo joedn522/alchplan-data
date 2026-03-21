@@ -5,7 +5,7 @@
     "type": "bug",
     "content": "這一頁 01 台股電子報 + 社群經營 就不是一個 獨立頁面，所以我打開反饋中心後我是無法直接指定要你修這一頁的，你的整個網頁很多都是鑲嵌的頁面，這樣讓我無法點開反饋按鈕就很精準告訴你哪邊要修，請整個大改我們的網頁",
     "claudeNote": "",
-    "status": "new",
+    "status": "fix",
     "createdAt": "2026-03-21T04:19:44.770Z"
   },
   {
@@ -14,7 +14,7 @@
     "type": "bug",
     "content": "這邊每個 block 在點擊 sub item 的時候記得要讓人知道這些 sub item 是可以點得進去的，可能可以 hover 或讓每個 sub item 有邊界",
     "claudeNote": "",
-    "status": "new",
+    "status": "fix",
     "createdAt": "2026-03-21T04:20:55.435Z"
   },
   {
@@ -23,7 +23,7 @@
     "type": "improvement",
     "content": "這邊要讓我有更多的功能可以按，包含如果我做完或歸檔後就可以 archive，還有你需要有一整個系統可以讓我把這些語音整理起來，包含給星星，包含歸類類別，包含請你繼續 follow，或是什麼其他的部分",
     "claudeNote": "",
-    "status": "new",
+    "status": "fix",
     "createdAt": "2026-03-21T04:22:34.840Z"
   }
 ]
