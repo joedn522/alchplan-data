@@ -140,6 +140,47 @@ def build_prompt(minister_name, circle_id):
     return ''.join(parts)
 
 
+def run_pre_scripts(minister_name, circle_id):
+    """Voice 部長的前置腳本：先跑 Whisper 轉錄再啟動 claude -p"""
+    if minister_name != 'voice':
+        return None  # 其他部長不需要前置腳本
+
+    print('📼 Voice 前置：執行 Whisper 轉錄腳本...')
+    script = MINISTERS_DIR / 'scripts' / 'voice_transcribe.py'
+    try:
+        result = subprocess.run(
+            ['powershell.exe', '-Command', f'python "{script}"'],
+            capture_output=True, text=True,
+            timeout=1800,  # 30 min for Whisper
+        )
+        stderr_lines = result.stderr.strip()
+        if stderr_lines:
+            print(f'   {stderr_lines}')
+
+        stdout = result.stdout.strip()
+        if stdout:
+            import json as _json
+            try:
+                data = _json.loads(stdout)
+                n = len(data.get('transcribed', []))
+                f = len(data.get('failed', []))
+                print(f'   ✅ 轉錄完成：{n} 成功, {f} 失敗')
+                return stdout  # JSON string to inject into prompt
+            except:
+                print(f'   ⚠️ 腳本輸出非 JSON: {stdout[:200]}')
+                return stdout
+        else:
+            print('   ℹ️ 無新錄音')
+            return '{"new_found": 0, "transcribed": [], "failed": []}'
+
+    except subprocess.TimeoutExpired:
+        print('   ⏰ 轉錄腳本超時（30分鐘）')
+        return '{"error": "timeout"}'
+    except Exception as e:
+        print(f'   ❌ 轉錄腳本失敗: {e}')
+        return f'{{"error": "{e}"}}'
+
+
 def run_minister(minister_name, circle_id, args):
     """執行一個部長"""
     config = MINISTER_CONFIG[minister_name]
@@ -149,8 +190,17 @@ def run_minister(minister_name, circle_id, args):
     print(f'🏛  {minister_name.upper()} 部長啟動 — Circle {circle_id}')
     print(f'{"="*60}\n')
 
+    # Run pre-scripts (Voice minister: Whisper transcription)
+    pre_result = run_pre_scripts(minister_name, circle_id)
+
     # Build prompt
     prompt = build_prompt(minister_name, circle_id)
+
+    # Inject pre-script result into prompt for Voice minister
+    if pre_result and minister_name == 'voice':
+        prompt += f'\n# === 轉錄腳本已執行完畢，結果如下 ===\n'
+        prompt += f'```json\n{pre_result}\n```\n\n'
+        prompt += '轉錄腳本已幫你完成 Step 1。請從 Step 2 (git 持久化) 開始執行。\n'
 
     if args.print_prompt_only:
         print(prompt)

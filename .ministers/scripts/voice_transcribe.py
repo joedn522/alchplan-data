@@ -1,4 +1,4 @@
-"""
+r"""
 Voice 部長專用轉錄腳本
 Batch transcribe Just Press Record → alchplan-data/bujo/voice-inbox/
 輸出 JSON 結果到 stdout 供 Voice 部長讀取。
