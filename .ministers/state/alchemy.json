@@ -1,0 +1,20 @@
+{
+  "last_circle_id": null,
+  "project_status": {
+    "01": { "phase": "deep-thinking-done", "last_action": null, "blocked_on": null, "priority": "high" },
+    "02": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
+    "03": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
+    "04": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
+    "05": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
+    "06": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
+    "07": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
+    "08": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
+    "09": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
+    "10": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
+    "11": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
+    "12": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null }
+  },
+  "focus_projects": [],
+  "stale_projects": [],
+  "action_log": []
+}
