@@ -1,16 +1,21 @@
 {
-  "last_circle_id": "20260511_C001",
-  "total_circles": 2,
-  "consecutive_missing_ministers": {},
-  "last_report_path": ".ministers/circles/circle_20260511_C001.md",
+  "last_circle_id": "20260511_C002",
+  "total_circles": 3,
+  "consecutive_missing_ministers": {
+    "lifecoach": 1,
+    "alchemy": 1,
+    "pm": 1
+  },
+  "last_report_path": ".ministers/circles/circle_20260511_C002.md",
   "last_report_stats": {
-    "ministers_reported": 4,
+    "ministers_reported": 1,
     "ministers_total": 4,
     "asher_inbox_questions": 3,
     "destructive_proposals": 0,
-    "files_changed": 11
+    "files_changed": 44
   },
   "notes": {
-    "20260511_C001": "PM 部長 commit step 未觸發，由 Knowledge 一併 commit；Voice 改為 daemon 後不計入 cycle 部長計數（4 = LifeCoach + Alchemy + PM + Knowledge）"
+    "20260511_C001": "PM 部長 commit step 未觸發，由 Knowledge 一併 commit；Voice 改為 daemon 後不計入 cycle 部長計數（4 = LifeCoach + Alchemy + PM + Knowledge）",
+    "20260511_C002": "同日二跑（距 C001 僅 14 分鐘）— LifeCoach/Alchemy/PM 被 cadence 擋（屬正常，不是違反鐵律 2，因為 C001 才剛跑完）；Knowledge sanity check + 一併 commit Voice Daemon 41 份未 commit 的歷史 voice-inbox（5/10 後台重轉錄）。consecutive_missing 計數=1 但其實是 cadence 行為，不是真的缺席；下 cycle (C003 或 5/12) 看是否歸零。"
   }
 }
