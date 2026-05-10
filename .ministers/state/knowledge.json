@@ -1,5 +1,13 @@
 {
-  "last_circle_id": null,
-  "total_circles": 0,
-  "consecutive_missing_ministers": {}
+  "last_circle_id": "20260510_C001",
+  "total_circles": 1,
+  "consecutive_missing_ministers": {},
+  "last_report_path": ".ministers/circles/circle_20260510_C001.md",
+  "last_report_stats": {
+    "ministers_reported": 3,
+    "ministers_total": 3,
+    "asher_inbox_questions": 0,
+    "destructive_proposals": 0,
+    "files_changed": 16
+  }
 }
