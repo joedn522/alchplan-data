@@ -1,13 +1,16 @@
 {
-  "last_circle_id": "20260510_C001",
-  "total_circles": 1,
+  "last_circle_id": "20260511_C001",
+  "total_circles": 2,
   "consecutive_missing_ministers": {},
-  "last_report_path": ".ministers/circles/circle_20260510_C001.md",
+  "last_report_path": ".ministers/circles/circle_20260511_C001.md",
   "last_report_stats": {
-    "ministers_reported": 3,
-    "ministers_total": 3,
-    "asher_inbox_questions": 0,
+    "ministers_reported": 4,
+    "ministers_total": 4,
+    "asher_inbox_questions": 3,
     "destructive_proposals": 0,
-    "files_changed": 16
+    "files_changed": 11
+  },
+  "notes": {
+    "20260511_C001": "PM 部長 commit step 未觸發，由 Knowledge 一併 commit；Voice 改為 daemon 後不計入 cycle 部長計數（4 = LifeCoach + Alchemy + PM + Knowledge）"
   }
 }

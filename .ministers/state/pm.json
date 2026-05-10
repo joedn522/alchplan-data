@@ -1,34 +1,44 @@
 {
-  "last_circle_id": "20260510_C001",
+  "last_circle_id": "20260511_C001",
   "system_alerts": [
     {
       "level": "info",
       "minister": "voice",
-      "issue": "voice_transcribe.py stdout JSON 輸出不可靠；voice.json 由 Voice 部長從 git status 重建",
-      "circle_id": "20260510_C001",
-      "action": "watch_next_cycle"
+      "issue": "Voice 已重構為獨立 daemon（commit 0839e4a），不再走 cycle。voice.json last_circle_id 停留在 20260510_C001 屬正常，請改用 voice-inbox 檔案 mtime 與 daemon process 狀態判斷健康。",
+      "circle_id": "20260511_C001",
+      "action": "next_cycle_propose_voice_heartbeat"
     }
   ],
   "inbox_stats": {
-    "total": 0,
-    "pending": 0,
+    "total": 3,
+    "pending": 3,
     "answered": 0,
-    "expired": 0
+    "expired": 0,
+    "archived": 0
   },
   "minister_health": {
-    "voice": "healthy",
+    "voice_daemon": "unverified_today",
+    "lifecoach": "healthy",
+    "alchemy": "healthy",
     "knowledge": "pending",
     "pm": "healthy"
+  },
+  "minister_health_detail": {
+    "voice_daemon": "voice-inbox 最新 mtime = 2026-05-10 16:xx；今天 5/11 尚無新檔。可能是 Asher 沒錄音，也可能 daemon 沒跑。需要 heartbeat 機制才能分辨。",
+    "lifecoach": "今 cycle 已產出 newsletter + state + 3 則 inbox 提案",
+    "alchemy": "今 cycle 已產出 newsletter + state + 0 則 inbox（用 default 推進 01/04 最小行動）",
+    "knowledge": "排在 PM 之後執行，本 cycle 結束前應產出 Circle Report"
   },
   "cross_minister_followups": [
     {
       "id": "voice-script-stdout-fix",
       "from": "voice",
       "to": "voice",
-      "topic": "voice_transcribe.py stdout 改 stderr 或檔案模式，避免 voice.json 寫入失敗",
+      "topic": "voice_transcribe.py stdout 改 stderr 或檔案模式",
       "circle_id": "20260510_C001",
-      "status": "noted",
-      "asher_input_required": false
+      "status": "superseded",
+      "resolution": "Voice 已重構為獨立 daemon（commit 0839e4a），原 stdout 問題隨 SOP 改動消失",
+      "resolved_at": "2026-05-11T01:00:00Z"
     },
     {
       "id": "lock-files-gitignore",
@@ -36,9 +46,18 @@
       "to": "pm",
       "topic": ".voice.lock / .pm.lock 加入 .gitignore",
       "circle_id": "20260510_C001",
+      "status": "resolved",
+      "resolution": "本 cycle 建立 .gitignore，pattern: .ministers/state/.*.lock；驗證 git check-ignore 命中 .pm.lock",
+      "resolved_at": "2026-05-11T01:00:00Z"
+    },
+    {
+      "id": "voice-daemon-heartbeat",
+      "from": "pm",
+      "to": "pm",
+      "topic": "Voice daemon 改為 daemon 後缺少健康訊號；提議下個 cycle 設計 heartbeat（例如每小時 touch .ministers/state/voice_daemon.heartbeat）",
+      "circle_id": "20260511_C001",
       "status": "noted",
-      "asher_input_required": false,
-      "pm_plan": "下個 cycle 評估，本次保守不動"
+      "asher_input_required": false
     }
   ]
 }
