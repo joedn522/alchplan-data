@@ -146,10 +146,11 @@ def run_pre_scripts(minister_name, circle_id):
         return None  # 其他部長不需要前置腳本
 
     print('📼 Voice 前置：執行 Whisper 轉錄腳本...')
-    script = MINISTERS_DIR / 'scripts' / 'voice_transcribe.py'
+    # 必須用 Windows 路徑給 powershell.exe
+    win_script = r'C:\Users\ashershih\Documents\alchplan-data\.ministers\scripts\voice_transcribe.py'
     try:
         result = subprocess.run(
-            ['powershell.exe', '-Command', f'python "{script}"'],
+            ['powershell.exe', '-Command', f'python "{win_script}"'],
             capture_output=True, text=True,
             timeout=1800,  # 30 min for Whisper
         )
