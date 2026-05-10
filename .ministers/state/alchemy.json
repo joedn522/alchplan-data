@@ -1,20 +1,107 @@
 {
-  "last_circle_id": null,
+  "last_circle_id": "20260511_C001",
   "project_status": {
-    "01": { "phase": "deep-thinking-done", "last_action": null, "blocked_on": null, "priority": "high" },
-    "02": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
-    "03": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
-    "04": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
-    "05": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
-    "06": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
-    "07": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
-    "08": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
-    "09": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
-    "10": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
-    "11": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null },
-    "12": { "phase": "idea", "last_action": null, "blocked_on": null, "priority": null }
+    "01": {
+      "phase": "deep-thinking-done",
+      "last_action": "2026-03-15",
+      "blocked_on": "execution-not-started",
+      "priority": "high",
+      "name": "台股電子報 + 社群經營",
+      "days_since_action": 57
+    },
+    "02": {
+      "phase": "idea",
+      "last_action": null,
+      "blocked_on": "deep-thinking-not-done",
+      "priority": "medium",
+      "name": "Podcast 波波"
+    },
+    "03": {
+      "phase": "idea",
+      "last_action": null,
+      "blocked_on": "deep-thinking-not-done",
+      "priority": "low",
+      "name": "AI 音樂 YouTube"
+    },
+    "04": {
+      "phase": "deep-thinking-done",
+      "last_action": "2026-03-15",
+      "blocked_on": "mvp-scope-not-defined",
+      "priority": "high",
+      "name": "App / SaaS — 語音子彈筆記",
+      "days_since_action": 57
+    },
+    "05": {
+      "phase": "idea",
+      "last_action": null,
+      "blocked_on": "deep-thinking-not-done",
+      "priority": "low",
+      "name": "波波獸品牌內容"
+    },
+    "06": {
+      "phase": "idea-but-emergent",
+      "last_action": null,
+      "blocked_on": "deep-thinking-not-done",
+      "priority": "medium",
+      "name": "自動化內容產線",
+      "note": "Voice Daemon + 部長系統實質上是這條的雛形，但未正式對齊"
+    },
+    "07": {
+      "phase": "idea",
+      "last_action": null,
+      "blocked_on": "audience-not-built",
+      "priority": "low",
+      "name": "AI 教學課程"
+    },
+    "08": {
+      "phase": "idea",
+      "last_action": null,
+      "blocked_on": "deep-thinking-not-done",
+      "priority": "low",
+      "name": "正念 x AI"
+    },
+    "09": {
+      "phase": "idea",
+      "last_action": null,
+      "blocked_on": "podcast-needed-first",
+      "priority": "low",
+      "name": "聲音營利"
+    },
+    "10": {
+      "phase": "idea",
+      "last_action": null,
+      "blocked_on": "deep-thinking-not-done",
+      "priority": "low",
+      "name": "Build in Public"
+    },
+    "11": {
+      "phase": "idea",
+      "last_action": null,
+      "blocked_on": "intentionally-deferred",
+      "priority": "low",
+      "name": "Freelance Consulting"
+    },
+    "12": {
+      "phase": "idea",
+      "last_action": null,
+      "blocked_on": "needs-coupling-with-01-or-04",
+      "priority": "low",
+      "name": "開源 Sponsorship"
+    }
   },
-  "focus_projects": [],
-  "stale_projects": [],
-  "action_log": []
+  "focus_projects": ["01", "04"],
+  "stale_projects": ["01", "04"],
+  "action_log": [
+    {
+      "circle_id": "20260511_C001",
+      "timestamp": "2026-05-11T00:57:07Z",
+      "action": "首跑盤點：12 條煉金術全部已建立 README。01 與 04 已完成 deep-thinking（2026-03-15），但隨後 57 天無執行動作。其餘 10 條停在 idea 階段。",
+      "decisions": [
+        "本 cycle focus = 01 + 04（兩條已有完整計畫的）",
+        "不為其餘 10 條提案 deep-thinking — 等 01/04 跑出節奏再說",
+        "Microsoft 跳槽槽位由 LifeCoach 處理中（lc-20260511-prop-microsoft-pivot-slot），Alchemy 不重複提案",
+        "本 cycle 不新增 PM inbox 問題（章程 7：能用 default 推進就不問）"
+      ]
+    }
+  ]
 }
