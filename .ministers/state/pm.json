@@ -1,6 +1,14 @@
 {
-  "last_circle_id": null,
-  "system_alerts": [],
+  "last_circle_id": "20260510_C001",
+  "system_alerts": [
+    {
+      "level": "info",
+      "minister": "voice",
+      "issue": "voice_transcribe.py stdout JSON 輸出不可靠；voice.json 由 Voice 部長從 git status 重建",
+      "circle_id": "20260510_C001",
+      "action": "watch_next_cycle"
+    }
+  ],
   "inbox_stats": {
     "total": 0,
     "pending": 0,
@@ -8,8 +16,29 @@
     "expired": 0
   },
   "minister_health": {
-    "voice": "unknown",
-    "knowledge": "unknown",
-    "pm": "unknown"
-  }
+    "voice": "healthy",
+    "knowledge": "pending",
+    "pm": "healthy"
+  },
+  "cross_minister_followups": [
+    {
+      "id": "voice-script-stdout-fix",
+      "from": "voice",
+      "to": "voice",
+      "topic": "voice_transcribe.py stdout 改 stderr 或檔案模式，避免 voice.json 寫入失敗",
+      "circle_id": "20260510_C001",
+      "status": "noted",
+      "asher_input_required": false
+    },
+    {
+      "id": "lock-files-gitignore",
+      "from": "voice",
+      "to": "pm",
+      "topic": ".voice.lock / .pm.lock 加入 .gitignore",
+      "circle_id": "20260510_C001",
+      "status": "noted",
+      "asher_input_required": false,
+      "pm_plan": "下個 cycle 評估，本次保守不動"
+    }
+  ]
 }
