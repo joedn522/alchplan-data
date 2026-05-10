@@ -29,16 +29,10 @@ STATE_DIR = MINISTERS_DIR / 'state'
 CHARTER_PATH = MINISTERS_DIR / 'alchplan_charter.md'
 SAFE_INVOKE = MINISTERS_DIR / 'safe_claude_invoke.sh'
 
-MINISTER_ORDER = ['voice', 'pm', 'knowledge']  # knowledge 必須最後
+MINISTER_ORDER = ['pm', 'knowledge']  # knowledge 必須最後；voice 已改為獨立 daemon
 DEFAULT_MAX_TURNS = 15
 
 MINISTER_CONFIG = {
-    'voice': {
-        'sop': 'minister_voice.md',
-        'state': 'voice.json',
-        'min_cadence_hours': 0,
-        'max_turns': 20,
-    },
     'pm': {
         'sop': 'minister_pm.md',
         'state': 'pm.json',
@@ -254,8 +248,8 @@ def run_minister(minister_name, circle_id, args):
 
 def main():
     parser = argparse.ArgumentParser(description='AlchPlan 部長公司 — 統一入口')
-    parser.add_argument('minister', choices=['voice', 'pm', 'knowledge', 'all'],
-                        help='要執行的部長（或 all 依序全跑）')
+    parser.add_argument('minister', choices=['pm', 'knowledge', 'all'],
+                        help='要執行的部長（或 all 依序全跑）。voice 已改為獨立 daemon。')
     parser.add_argument('--print-prompt-only', action='store_true',
                         help='只印 prompt 不執行')
     parser.add_argument('--debug', action='store_true',
