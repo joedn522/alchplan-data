@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": "lc-20260511-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "今天（5/11）的日記還沒寫喔。錄一段語音也行，Voice Daemon 會幫你轉。最近從 5/9 起連 3 天空白，趁今天接回來。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-13T00:00:00Z",
+    "status": "pending",
+    "asher_answer": null,
+    "consumed_by": null,
+    "created_at": "2026-05-11T00:53:31Z",
+    "circle_id": "20260511_C001"
+  },
+  {
+    "id": "lc-20260511-prop-microsoft-pivot-slot",
+    "type": "approval",
+    "minister": "lifecoach",
+    "question": "提案：把『研究跳槽回 Microsoft』正式加為 Alchemy 部長的一條副業槽位，每週至少推進 1 步（投履歷 / 連絡前同事 / 看 JD / 模擬面試擇一）。原因：你 5/4 寫下『認真研究跳槽回 Microsoft 的路徑和時程』、5/7 又把『找新工作』排進 Top 3，但這 7 天沒看到具體推進 — 想法只在腦中跑，沒有系統幫你接住。",
+    "options": ["上線新槽位", "shelve（不加副業，自行追蹤）"],
+    "minister_default": "shelve_not_onboard",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-18T00:00:00Z",
+    "status": "pending",
+    "asher_answer": null,
+    "consumed_by": null,
+    "created_at": "2026-05-11T00:53:31Z",
+    "circle_id": "20260511_C001"
+  },
+  {
+    "id": "lc-20260511-prop-diary-min-threshold",
+    "type": "approval",
+    "minister": "lifecoach",
+    "question": "提案：日記改成『最低只寫一格就算數』— 只要 1.1（任務一行）或 6（心情一句）任一格寫東西，就算今天有寫。原因：5/2、5/3、5/6、5/7、5/8 五份日記檔都只有空模板，比沒寫更迷惑系統 — 看起來有資料其實沒內容。降門檻可能比強迫填完整版更貼近你的真實節奏。",
+    "options": ["改最低門檻", "維持現有完整版"],
+    "minister_default": "shelve_not_onboard",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-18T00:00:00Z",
+    "status": "pending",
+    "asher_answer": null,
+    "consumed_by": null,
+    "created_at": "2026-05-11T00:53:31Z",
+    "circle_id": "20260511_C001"
+  }
+]

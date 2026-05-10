@@ -1,11 +1,63 @@
 {
-  "last_circle_id": null,
+  "last_circle_id": "20260511_C001",
   "streak": {
     "bujo_days": 0,
-    "last_bujo_date": null
+    "last_bujo_date": "2026-05-08",
+    "last_meaningful_bujo_date": "2026-05-04",
+    "note": "5/6-5/8 連 3 天有檔但只是空模板；5/9 起 3 天無檔；最近一份有實質內容的日記是 5/4"
   },
-  "recent_mood_keywords": [],
-  "active_proposals": [],
-  "service_gaps_identified": [],
-  "nudge_history": []
+  "recent_mood_keywords": [
+    {
+      "date": "2026-05-04",
+      "keywords": ["不爽但清醒", "跳槽意識再起", "中立"],
+      "energy": 3,
+      "summary": "工作節奏變趕，Mentor Chaitanya 壓力，但保持中立心態，視『不爽』為跳槽提醒信號"
+    }
+  ],
+  "active_proposals": [
+    {
+      "id": "lc-20260511-prop-microsoft-pivot-slot",
+      "title": "把『跳槽回 Microsoft』登錄為 Alchemy 副業槽位",
+      "created_at": "2026-05-11",
+      "deadline": "2026-05-18",
+      "status": "pending"
+    },
+    {
+      "id": "lc-20260511-prop-diary-min-threshold",
+      "title": "日記改最低門檻：寫一格就算數",
+      "created_at": "2026-05-11",
+      "deadline": "2026-05-18",
+      "status": "pending"
+    }
+  ],
+  "service_gaps_identified": [
+    {
+      "gap": "no_microsoft_pivot_progress_tracking",
+      "evidence": "5/4 與 5/7 反覆提及跳槽 Microsoft，但 7 天無具體推進紀錄",
+      "since": "2026-05-11"
+    },
+    {
+      "gap": "diary_completion_rate_low",
+      "evidence": "5/2、5/3、5/6、5/7、5/8 全是空模板；只 5/4 有實質內容",
+      "since": "2026-05-11"
+    },
+    {
+      "gap": "no_exercise_tracking",
+      "evidence": "5/7 Top 3 寫『運動』但沒有任何完成或追蹤紀錄",
+      "since": "2026-05-11"
+    },
+    {
+      "gap": "no_finance_tracking",
+      "evidence": "5/4、5/7、5/8 都出現『核銷/帳單/報帳』未完成任務，沒有滾動式追蹤",
+      "since": "2026-05-11"
+    }
+  ],
+  "nudge_history": [
+    {
+      "date": "2026-05-11",
+      "type": "diary_today",
+      "channel": "pm_inbox",
+      "tone": "friendly"
+    }
+  ]
 }
