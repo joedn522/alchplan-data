@@ -1,0 +1,15 @@
+{
+  "last_circle_id": null,
+  "system_alerts": [],
+  "inbox_stats": {
+    "total": 0,
+    "pending": 0,
+    "answered": 0,
+    "expired": 0
+  },
+  "minister_health": {
+    "voice": "unknown",
+    "knowledge": "unknown",
+    "pm": "unknown"
+  }
+}
