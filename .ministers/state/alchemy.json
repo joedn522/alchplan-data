@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260511_C004",
+  "last_circle_id": "20260511_C005",
   "schema_version": 2,
   "schema_note": "v2 重構：12 條原 slot 大幅 dormant；新增 14/15 為外部管理觀察者；focus 從『推進』改成『觀察 + 對 Asher 影響評估』",
   "project_status": {
@@ -25,14 +25,16 @@
     },
     "04": {
       "name": "App / SaaS — 語音子彈筆記",
-      "phase": "deep-thinking-done",
+      "phase": "stale-with-dormant-clock",
       "last_action": "2026-03-15",
       "blocked_on": "mvp-scope-not-defined",
       "priority": "low",
       "days_since_action": 57,
       "prep_artifacts": ["mvp-scope.md (skeleton)", "mvp-scope.md#30-sec-voice-version"],
       "next_action_size": "30-sec voice memo",
-      "dormant_threshold": "若 30 天內 0 動作 → dormant",
+      "dormant_clock_started": "2026-05-11",
+      "dormant_clock_expires": "2026-06-10",
+      "dormant_clock_rule": "若 5/11 到 6/10 0 動作（無 voice memo / 無 commit 觸及 alchemy/04-*）→ phase 改 dormant，停止追蹤直到 Asher 主動回來",
       "note": "保留試水。Asher 已有 2 條主力副業，這條沒生意義時就 dormant。"
     },
     "05": {
@@ -85,6 +87,7 @@
       "name": "跳槽計畫（Job Pivot）",
       "phase": "active",
       "last_action": "2026-05-11",
+      "last_action_type": "topic-expanded-and-sub-trackers-seeded",
       "priority": "high",
       "cadence": "每週至少推 1 步（投履歷 / 連絡人 / 看 JD / 刷 LeetCode / System Design / 模擬面試 擇一）",
       "next_action_size": "30-sec voice memo",
@@ -92,6 +95,11 @@
       "directory": "alchemy/13-job-pivot/",
       "sub_trackers": ["targets.md", "leetcode.md", "system-design.md", "weekly-log.md"],
       "primary_target": "Microsoft",
+      "current_week": "W20 (5/11-5/17)",
+      "current_week_actions": 0,
+      "first_weekly_check_due": "2026-05-17",
+      "next_alchemy_action": "5/17 (週日) 檢查 weekly-log.md — 若 W20 仍 0 row 則發 30 秒語音 nudge；提早來訊號就提早接住",
+      "nudge_policy": "不堆積、不每天問；週末檢一次；不會說『你三週沒動要補三步』",
       "note": "原本叫 Microsoft Pivot，5/11 擴展為「跳槽」大 topic。Microsoft 是 targets.md 中首要目標，但不是唯一。"
     },
     "14": {
@@ -102,8 +110,16 @@
       "managed_by": "external-claude-code",
       "managed_location": "/mnt/c/Users/ashershih/sandbox/ + /mnt/c/Users/ashershih/finlab_db/",
       "alchplan_role": "observe-and-log-only",
+      "latest_signal": {
+        "circle_id": "20260511_C005",
+        "channel": "finlab_db file mtime",
+        "evidence": "/mnt/c/Users/ashershih/finlab_db/expiry.pkl mtime = 2026-05-11 19:52（今天稍早）",
+        "verdict": "alive",
+        "note": "sandbox/ 本身最新 mtime = 1/2（cold），但實際資料管線在 finlab_db/ 跑得很活。靠 sandbox 看會誤判，需以 finlab_db 為主要 heartbeat。"
+      },
       "signals_to_track": [
-        "git activity 訊號（sandbox 最新 commit）",
+        "primary: finlab_db/*.pkl 最新 mtime",
+        "secondary: sandbox/ git activity（目前無 .git，未來 Asher 若 init 就改用）",
         "對 Asher 工時 / 精力負荷的影響（→ LifeCoach）"
       ],
       "note": "Asher 自述為『第一個副業』。已部署、200+ trades、ML 策略多檔孵化中。AlchPlan 不 nudge。"
@@ -115,6 +131,12 @@
       "priority": "active-observed",
       "managed_by": "external-claude-code",
       "alchplan_role": "observe-and-log-only",
+      "latest_signal": {
+        "circle_id": "20260511_C005",
+        "channel": "none",
+        "verdict": "unknown",
+        "note": "本 cycle 尚無外部訊號通道。YT data feed 未接，無法判斷新影片狀態。下 cycle 之後評估是否接 YT API。"
+      },
       "signals_to_track": [
         "新影片發布（之後決定要不要接 YT API）",
         "對 Asher 創作能量 / 心情的影響（→ LifeCoach）"
@@ -126,6 +148,7 @@
   "observed_projects": ["14", "15"],
   "stale_projects": ["04"],
   "dormant_projects": ["01", "02", "03", "05", "06", "07", "08", "09", "10", "11", "12"],
+  "cross_minister_followups_open": [],
   "action_log": [
     {
       "circle_id": "20260511_C001",
@@ -153,6 +176,20 @@
         "focus_projects 從 [01, 04] 改成 [13]（唯一還由 Alchemy 主動推的）；observed_projects 新欄位 = [14, 15]",
         "下 cycle 起 Alchemy 不再對 01/04 推進度（04 保留 30 天試水期，0 動作後 dormant）",
         "此次更新由 Asher 與 Session PM 在對話中直接寫入 state，不走部長 cycle"
+      ]
+    },
+    {
+      "circle_id": "20260511_C005",
+      "timestamp": "2026-05-11T21:51:18Z",
+      "action": "v2 schema 上線後第一個正式 cycle：close-loop handoff、實作觀察通道、啟動 04 dormant clock。",
+      "details": [
+        "Consume handoff lc-to-alchemy-20260511-onboard-microsoft-pivot → 標 consumed_by=alchemy_20260511_C005（slot 13 在 manual-asher-correction 已建立，本 cycle 是正式關票）",
+        "14 觀察通道生效：finlab_db/expiry.pkl mtime=2026-05-11 19:52 → alive。發現 sandbox/ 本身是 cold dir（1/2），改以 finlab_db 為主 heartbeat 訊號",
+        "15 觀察通道：本 cycle 無外部訊號（無 YT API），verdict=unknown — 不視為問題，下 cycle 評估是否接 API",
+        "04 啟動 30 天 dormant clock：2026-05-11 → 2026-06-10。期間 0 動作 → phase 改 dormant",
+        "13 W20 (5/11-5/17) 是 onboard 首週，0 推進 actions — 太早 nudge（週才剛開始）。設 first_weekly_check_due=5/17",
+        "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；早上才回 3 題、晚間才剛 schema 重構）",
+        "確認 11 條 dormant slot 完全不動（無 nudge / 無檢查），釋出 cycle 預算給 13/14/15"
       ]
     }
   ]

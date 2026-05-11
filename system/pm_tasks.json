@@ -64,9 +64,11 @@
     "source_inbox_id": "lc-20260511-prop-microsoft-pivot-slot",
     "minister_default": "execute",
     "default_action": "execute",
-    "status": "pending_action",
-    "consumed_by": null,
+    "status": "consumed",
+    "consumed_by": "alchemy_20260511_C005",
     "created_at": "2026-05-11T18:35:18Z",
-    "circle_id": "20260511_C004"
+    "circle_id": "20260511_C004",
+    "consumed_at": "2026-05-11T21:51:18Z",
+    "consume_note": "Slot 13 已於 C004 由 Asher + Session PM 直接寫入 state（manual-asher-correction 條目）。本 cycle Alchemy 正式關掉這張 handoff 票。實際擴展為「跳槽計畫」大 topic，比原 handoff 要求的更廣（不只 Microsoft）。"
   }
 ]
