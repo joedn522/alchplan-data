@@ -1,12 +1,12 @@
 {
-  "last_circle_id": "20260511_C001",
+  "last_circle_id": "20260511_C003",
   "system_alerts": [
     {
       "level": "info",
-      "minister": "voice",
-      "issue": "Voice 已重構為獨立 daemon（commit 0839e4a），不再走 cycle。voice.json last_circle_id 停留在 20260510_C001 屬正常，請改用 voice-inbox 檔案 mtime 與 daemon process 狀態判斷健康。",
-      "circle_id": "20260511_C001",
-      "action": "next_cycle_propose_voice_heartbeat"
+      "minister": "voice_daemon",
+      "issue": "voice-inbox 最新 mtime = 2026-05-10 17:35（距今約 17h 無新檔）。可能是 Asher 沒錄音，也可能 daemon 沒跑。",
+      "circle_id": "20260511_C003",
+      "action": "health_protocol_designed_this_cycle"
     }
   ],
   "inbox_stats": {
@@ -17,17 +17,36 @@
     "archived": 0
   },
   "minister_health": {
-    "voice_daemon": "unverified_today",
+    "voice_daemon": "unverified",
     "lifecoach": "healthy",
     "alchemy": "healthy",
-    "knowledge": "pending",
+    "knowledge": "pending_this_cycle",
     "pm": "healthy"
   },
   "minister_health_detail": {
-    "voice_daemon": "voice-inbox 最新 mtime = 2026-05-10 16:xx；今天 5/11 尚無新檔。可能是 Asher 沒錄音，也可能 daemon 沒跑。需要 heartbeat 機制才能分辨。",
-    "lifecoach": "今 cycle 已產出 newsletter + state + 3 則 inbox 提案",
-    "alchemy": "今 cycle 已產出 newsletter + state + 0 則 inbox（用 default 推進 01/04 最小行動）",
-    "knowledge": "排在 PM 之後執行，本 cycle 結束前應產出 Circle Report"
+    "voice_daemon": "voice-inbox 最新 mtime 2026-05-10 17:35。今 5/11 無新檔。判定 unverified 而非 down（同 C001 結論）。",
+    "lifecoach": "C003 已產出 newsletter + state；本 cycle 採刻意安靜策略（C001 已下 1 nudge + 2 提案）",
+    "alchemy": "C003 已產出 newsletter + state；新增 01 substack-quick-start.md + 04 mvp-scope.md（零摩擦腳本）",
+    "knowledge": "本 cycle 將排在 PM 之後執行，預期產出 Circle Report",
+    "pm": "本 cycle 巡檢完成；設計 voice_daemon_health_protocol 並寫入 state"
+  },
+  "voice_daemon_health_protocol": {
+    "version": "v0.1",
+    "designed_at": "2026-05-11T11:04:00Z",
+    "circle_id": "20260511_C003",
+    "rationale": "Voice 改為獨立 daemon 後無 cycle 訊號；不應跨界要求 daemon 改動，PM 用既有檔案訊號自行判斷即可",
+    "signals": [
+      "primary: bujo/voice-inbox/*.md 最新 mtime",
+      "fallback: 若 daemon 之後寫 heartbeat 檔（.ministers/state/voice_daemon.heartbeat），優先使用其 mtime"
+    ],
+    "thresholds": {
+      "healthy": "最新 mtime 在 24h 內",
+      "unverified": "最新 mtime > 24h 且 < 72h（Asher 可能沒錄音）",
+      "suspicious": "最新 mtime > 72h（極可能 daemon 沒跑，建議 Asher 確認）",
+      "down": "voice-inbox 目錄不存在或無檔案"
+    },
+    "action_on_suspicious": "PM 提交 inbox 問題給 Asher：『Voice Daemon 已 72h 無新檔，請確認 mac 端是否還活著』",
+    "action_on_down": "Newsletter 紅字標示 + 提 destructive_proposal 升級為緊急事件"
   },
   "cross_minister_followups": [
     {
@@ -54,10 +73,16 @@
       "id": "voice-daemon-heartbeat",
       "from": "pm",
       "to": "pm",
-      "topic": "Voice daemon 改為 daemon 後缺少健康訊號；提議下個 cycle 設計 heartbeat（例如每小時 touch .ministers/state/voice_daemon.heartbeat）",
+      "topic": "Voice daemon 健康檢測 protocol",
       "circle_id": "20260511_C001",
-      "status": "noted",
-      "asher_input_required": false
+      "status": "designed",
+      "resolution": "C003 完成 v0.1 protocol 設計，見 voice_daemon_health_protocol 欄位；不要求 daemon 改動，PM 用 voice-inbox mtime 判斷",
+      "resolved_at": "2026-05-11T11:04:00Z"
     }
+  ],
+  "this_cycle_decisions": [
+    "本 cycle 不新增 inbox 問題（呼應 LifeCoach C003 安靜策略，章程鐵律 7：問題是成本）",
+    "實質產出 = voice_daemon_health_protocol v0.1，未來 cycle 可用統一介面判斷 voice 健康",
+    "Inbox 3 題全部仍在期限內，無動作需要；最早到期 5/13（diary-today-nudge）"
   ]
 }
