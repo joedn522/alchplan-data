@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260511_C003",
+  "last_circle_id": "20260511_C004",
   "project_status": {
     "01": {
       "phase": "deep-thinking-done",
@@ -8,7 +8,9 @@
       "priority": "high",
       "name": "台股電子報 + 社群經營",
       "days_since_action": 57,
-      "prep_artifacts": ["substack-quick-start.md"]
+      "prep_artifacts": ["substack-quick-start.md", "substack-quick-start.md#30-sec-voice-version"],
+      "next_action_size": "30-sec voice memo",
+      "dormant_threshold": "next cycle if still 0 action"
     },
     "02": {
       "phase": "idea",
@@ -31,7 +33,9 @@
       "priority": "high",
       "name": "App / SaaS — 語音子彈筆記",
       "days_since_action": 57,
-      "prep_artifacts": ["mvp-scope.md (skeleton)"]
+      "prep_artifacts": ["mvp-scope.md (skeleton)", "mvp-scope.md#30-sec-voice-version"],
+      "next_action_size": "30-sec voice memo",
+      "dormant_threshold": "next cycle if still 0 action"
     },
     "05": {
       "phase": "idea",
@@ -114,6 +118,18 @@
         "新增 alchemy/04-app-saas/mvp-scope.md（skeleton，只需填 3-5 個 bullet）",
         "本 cycle 不新增 PM inbox 問題（pending 已 3 題、LifeCoach C003 同步採安靜策略）",
         "下個 cycle 觸發條件：若 01 substack-quick-start.md 有打勾或 04 mvp-scope.md 有填 bullet，推進階段；若仍 0 動作，下次按 C001 承諾再砍小一半（例如：01 縮成『打開 substack.com 看 3 分鐘』）"
+      ]
+    },
+    {
+      "circle_id": "20260511_C004",
+      "timestamp": "2026-05-11T17:52:45Z",
+      "action": "C003 → C004 約 7 小時，仍 0 動作（兩份檔案皆無打勾／無填 bullet、無新日記、無新語音）。執行 C003 承諾：把 next action 再砍一半。新策略 = 把輸入通道從『打開編輯器寫 markdown』改成『30 秒語音 memo』，利用 Voice Daemon 已運作的管道。Asher 不用註冊 Substack、不用填 bullet，只要對手機講一句話。",
+      "decisions": [
+        "01 substack-quick-start.md 頂部新增『30 秒版』block — 只要錄『Substack 第一篇我想寫 ___』，註冊平台之事暫停（先有題目再找平台，順序倒過來）",
+        "04 mvp-scope.md 頂部新增『30 秒版』block — 只要錄『我希望 voice app 自動幫我做 ___』，dogfood：用語音定義語音 app 自己",
+        "本 cycle 仍不新增 PM inbox 問題（pending 仍 3 題、為 PM 安靜協議讓路）",
+        "Dormant 觸發條件：若下個 cycle 仍 0 語音 + 0 打勾，01 與 04 phase 標記為 `dormant`，停止每 cycle 推進，等 Asher 主動回來。系統不會因為他不動就一直催 — 章程 7 + 反模式 1 共同推導：催到他不想看 = 系統死亡。",
+        "輸入通道統一：未來 alchemy 與 lifecoach 應盡量讓 Asher 用語音回應而非編輯 markdown — 摩擦降到生理最低值"
       ]
     }
   ]

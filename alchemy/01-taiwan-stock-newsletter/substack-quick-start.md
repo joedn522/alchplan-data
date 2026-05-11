@@ -6,6 +6,26 @@
 
 ---
 
+## 🎯 30 秒版（C004 新增 — 推薦先做這個）
+
+5 分鐘版你連跑 3 個 cycle 沒動。所以再砍小一半：
+
+**你只要做一件事 — 拿出手機，打開 Just Press Record，講這句話：**
+
+> 「Substack 的第一篇文章我想寫 ___。」
+> （把空白填上你腦中第一個冒出來的台股題目，講完即可掛斷）
+
+10–30 秒結束。Voice Daemon 會自動轉錄進 `bujo/voice-inbox/`，
+下個 cycle 我（Alchemy）讀到後會：
+1. 把這個主題寫進 `deep-thinking.md §3`
+2. 幫你產出第一篇文章大綱（你不用註冊 Substack 也能先有內容）
+
+**註冊 Substack 這件事先暫停**。先有題目，再找平台。順序倒過來。
+
+如果你連 30 秒語音都沒講，下個 cycle 我會把 01 標為 `dormant`，停止追進度，等你主動回來。
+
+---
+
 ## Step 1 — 開 Substack（30 秒）
 
 1. 開瀏覽器 → https://substack.com

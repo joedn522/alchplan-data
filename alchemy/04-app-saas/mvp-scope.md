@@ -6,6 +6,28 @@
 
 ---
 
+## 🎯 30 秒版（C004 新增 — 推薦先做這個）
+
+填 bullet 你連跑 3 個 cycle 沒動。再砍小：
+
+**這專案就是「語音子彈筆記」— 直接用語音給我輸入吧。**
+
+拿出手機 → Just Press Record → 講這句：
+
+> 「我希望 voice app 自動幫我做 ___。」
+> （講你最想要的 1 件事就行。例如：「每天結束自動生成今天的摘要」「把同主題語音歸成一堆」「抓出我反覆提到的人事物」）
+
+10–30 秒結束。Voice Daemon 自動轉錄 → 下個 cycle 我會：
+1. 把你語音裡的 wish 整理進這份 mvp-scope.md 的 bullet 區
+2. 04 phase 從 `deep-thinking-done` 推到 `mvp-defined`
+3. 再下個 cycle 給你 Cursor / Claude Code 可直接吃的 prompt
+
+**意義**：04 是「語音子彈筆記」，那 dogfood — 用語音定義它自己。
+
+如果連 30 秒語音都沒講，下個 cycle 04 也會被標為 `dormant`。
+
+---
+
 ## 核心問題
 
 > 「你過去 30 天用了 Voice Daemon 收了一堆語音 inbox。
