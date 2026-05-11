@@ -1,10 +1,26 @@
 {
-  "last_circle_id": "20260511_C003",
+  "last_circle_id": "20260511_C004",
+  "streak_rules": {
+    "min_threshold": "1.1 任一行有實質內容 OR Section 6 任一句有實質內容 = 該日算寫了",
+    "effective_from": "2026-05-11_C004",
+    "source": "Asher 於 lc-20260511-prop-diary-min-threshold 批准（answered_at: 2026-05-11T10:27:12Z）",
+    "note": "空 checkbox '- [ ]' 或空 '- ' 不算；要有實際文字"
+  },
   "streak": {
     "bujo_days": 0,
     "last_bujo_date": "2026-05-08",
     "last_meaningful_bujo_date": "2026-05-04",
-    "note": "5/6-5/8 連 3 天有檔但只是空模板；5/9 起 3 天無檔；最近一份有實質內容的日記是 5/4"
+    "current_streak_breakdown_under_new_rule": {
+      "2026-05-04": "count (full)",
+      "2026-05-05": "missing",
+      "2026-05-06": "empty template, no count",
+      "2026-05-07": "count (3 tasks in 1.1)",
+      "2026-05-08": "count (3 tasks in 1.1)",
+      "2026-05-09": "missing",
+      "2026-05-10": "missing",
+      "2026-05-11": "empty template, no count (so far)"
+    },
+    "note": "新規則下 5/7-5/8 兩天算寫了；5/9-5/11 連 3 天斷檔；current_streak=0"
   },
   "recent_mood_keywords": [
     {
@@ -14,42 +30,45 @@
       "summary": "工作節奏變趕，Mentor Chaitanya 壓力，但保持中立心態，視『不爽』為跳槽提醒信號"
     }
   ],
-  "active_proposals": [
+  "active_proposals": [],
+  "completed_proposals": [
     {
       "id": "lc-20260511-prop-microsoft-pivot-slot",
       "title": "把『跳槽回 Microsoft』登錄為 Alchemy 副業槽位",
       "created_at": "2026-05-11",
-      "deadline": "2026-05-18",
-      "status": "pending"
+      "answered_at": "2026-05-11T10:27:12Z",
+      "asher_answer": "上線新槽位",
+      "consumed_at_circle": "20260511_C004",
+      "follow_up": "lc-to-alchemy-20260511-onboard-microsoft-pivot handoff 已下單給 Alchemy"
     },
     {
       "id": "lc-20260511-prop-diary-min-threshold",
       "title": "日記改最低門檻：寫一格就算數",
       "created_at": "2026-05-11",
-      "deadline": "2026-05-18",
-      "status": "pending"
+      "answered_at": "2026-05-11T10:27:12Z",
+      "asher_answer": "改最低門檻",
+      "consumed_at_circle": "20260511_C004",
+      "follow_up": "streak_rules 已寫入 state；即日生效"
     }
   ],
   "service_gaps_identified": [
     {
-      "gap": "no_microsoft_pivot_progress_tracking",
-      "evidence": "5/4 與 5/7 反覆提及跳槽 Microsoft，但 7 天無具體推進紀錄",
-      "since": "2026-05-11"
-    },
-    {
       "gap": "diary_completion_rate_low",
-      "evidence": "5/2、5/3、5/6、5/7、5/8 全是空模板；只 5/4 有實質內容",
-      "since": "2026-05-11"
+      "evidence": "新規則下 5/9-5/11 連 3 天斷檔；觀察新門檻是否提高實際填寫率",
+      "since": "2026-05-11",
+      "status": "watching_under_new_rule"
     },
     {
       "gap": "no_exercise_tracking",
       "evidence": "5/7 Top 3 寫『運動』但沒有任何完成或追蹤紀錄",
-      "since": "2026-05-11"
+      "since": "2026-05-11",
+      "status": "candidate_for_next_proposal"
     },
     {
       "gap": "no_finance_tracking",
       "evidence": "5/4、5/7、5/8 都出現『核銷/帳單/報帳』未完成任務，沒有滾動式追蹤",
-      "since": "2026-05-11"
+      "since": "2026-05-11",
+      "status": "candidate_for_next_proposal"
     }
   ],
   "nudge_history": [
@@ -57,7 +76,9 @@
       "date": "2026-05-11",
       "type": "diary_today",
       "channel": "pm_inbox",
-      "tone": "friendly"
+      "tone": "friendly",
+      "circle_id": "20260511_C001",
+      "resolved": "Asher shelved"
     },
     {
       "date": "2026-05-11",
@@ -66,6 +87,14 @@
       "tone": "minimal",
       "circle_id": "20260511_C003",
       "reason": "C001 已下 1 nudge + 2 proposal，Asher 尚未回應；本 cycle 不再加 inbox 噪音"
+    },
+    {
+      "date": "2026-05-11",
+      "type": "close_loop_cycle",
+      "channel": "newsletter_only",
+      "tone": "minimal",
+      "circle_id": "20260511_C004",
+      "reason": "Asher 10:27 回了 3 題；本 cycle 重點是把 yes 轉成系統行動（handoff + state 更新），不打擾"
     }
   ]
 }

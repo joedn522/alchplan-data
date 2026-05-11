@@ -10,7 +10,7 @@
     "default_deadline": "2026-05-13T00:00:00Z",
     "status": "answered",
     "asher_answer": "shelve",
-    "consumed_by": null,
+    "consumed_by": "lifecoach_20260511_C004",
     "created_at": "2026-05-11T00:53:31Z",
     "circle_id": "20260511_C001",
     "answered_at": "2026-05-11T10:27:12Z"
@@ -29,7 +29,7 @@
     "default_deadline": "2026-05-18T00:00:00Z",
     "status": "answered",
     "asher_answer": "上線新槽位",
-    "consumed_by": null,
+    "consumed_by": "lifecoach_20260511_C004",
     "created_at": "2026-05-11T00:53:31Z",
     "circle_id": "20260511_C001",
     "answered_at": "2026-05-11T10:27:12Z"
@@ -48,9 +48,25 @@
     "default_deadline": "2026-05-18T00:00:00Z",
     "status": "answered",
     "asher_answer": "改最低門檻",
-    "consumed_by": null,
+    "consumed_by": "lifecoach_20260511_C004",
     "created_at": "2026-05-11T00:53:31Z",
     "circle_id": "20260511_C001",
     "answered_at": "2026-05-11T10:27:12Z"
+  },
+  {
+    "id": "lc-to-alchemy-20260511-onboard-microsoft-pivot",
+    "type": "handoff",
+    "from_minister": "lifecoach",
+    "to_minister": "alchemy",
+    "subject": "請登錄『跳槽回 Microsoft』為新副業槽位",
+    "question": "Asher 已於 C001 答覆 lc-20260511-prop-microsoft-pivot-slot = 『上線新槽位』（answered_at: 2026-05-11T10:27:12Z）。LifeCoach C004 完成 consume。請 Alchemy 下個 cycle 把它登錄為一條副業槽位（建議 slot 13『Microsoft Pivot』，phase 設為 idea-but-emergent 或 deep-thinking-needed，priority high），並訂出每週至少推進 1 步的節奏（投履歷 / 連絡前同事 / 看 JD / 模擬面試擇一）。Asher 5/4 與 5/7 反覆提及但 7 天無實際推進，現在正式由 Alchemy 接手追蹤。",
+    "options": [],
+    "source_inbox_id": "lc-20260511-prop-microsoft-pivot-slot",
+    "minister_default": "execute",
+    "default_action": "execute",
+    "status": "pending_action",
+    "consumed_by": null,
+    "created_at": "2026-05-11T18:35:18Z",
+    "circle_id": "20260511_C004"
   }
 ]
