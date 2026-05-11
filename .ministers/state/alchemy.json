@@ -1,135 +1,155 @@
 {
   "last_circle_id": "20260511_C004",
+  "schema_version": 2,
+  "schema_note": "v2 重構：12 條原 slot 大幅 dormant；新增 14/15 為外部管理觀察者；focus 從『推進』改成『觀察 + 對 Asher 影響評估』",
   "project_status": {
     "01": {
-      "phase": "deep-thinking-done",
-      "last_action": "2026-03-15",
-      "blocked_on": "execution-not-started",
-      "priority": "high",
       "name": "台股電子報 + 社群經營",
-      "days_since_action": 57,
-      "prep_artifacts": ["substack-quick-start.md", "substack-quick-start.md#30-sec-voice-version"],
-      "next_action_size": "30-sec voice memo",
-      "dormant_threshold": "next cycle if still 0 action"
+      "phase": "absorbed",
+      "absorbed_by": "14",
+      "priority": "dormant",
+      "note": "WSLFinLab 才是主體。若未來要做 newsletter，會是 14 的外露口，不獨立推進。"
     },
     "02": {
-      "phase": "idea",
-      "last_action": null,
-      "blocked_on": "deep-thinking-not-done",
-      "priority": "medium",
-      "name": "Podcast 波波"
+      "name": "Podcast 波波",
+      "phase": "absorbed",
+      "absorbed_by": "15",
+      "priority": "dormant"
     },
     "03": {
-      "phase": "idea",
-      "last_action": null,
-      "blocked_on": "deep-thinking-not-done",
-      "priority": "low",
-      "name": "AI 音樂 YouTube"
+      "name": "AI 音樂 YouTube",
+      "phase": "absorbed",
+      "absorbed_by": "15",
+      "priority": "dormant",
+      "note": "Bobo's FM 就是這條的實體"
     },
     "04": {
+      "name": "App / SaaS — 語音子彈筆記",
       "phase": "deep-thinking-done",
       "last_action": "2026-03-15",
       "blocked_on": "mvp-scope-not-defined",
-      "priority": "high",
-      "name": "App / SaaS — 語音子彈筆記",
+      "priority": "low",
       "days_since_action": 57,
       "prep_artifacts": ["mvp-scope.md (skeleton)", "mvp-scope.md#30-sec-voice-version"],
       "next_action_size": "30-sec voice memo",
-      "dormant_threshold": "next cycle if still 0 action"
+      "dormant_threshold": "若 30 天內 0 動作 → dormant",
+      "note": "保留試水。Asher 已有 2 條主力副業，這條沒生意義時就 dormant。"
     },
     "05": {
-      "phase": "idea",
-      "last_action": null,
-      "blocked_on": "deep-thinking-not-done",
-      "priority": "low",
-      "name": "波波獸品牌內容"
+      "name": "波波獸品牌內容",
+      "phase": "absorbed",
+      "absorbed_by": "15",
+      "priority": "dormant",
+      "note": "音樂面已透過 Bobo's FM 展開"
     },
     "06": {
-      "phase": "idea-but-emergent",
-      "last_action": null,
-      "blocked_on": "deep-thinking-not-done",
-      "priority": "medium",
       "name": "自動化內容產線",
-      "note": "Voice Daemon + 部長系統實質上是這條的雛形，但未正式對齊"
+      "phase": "realized",
+      "priority": "dormant",
+      "note": "AlchPlan 部長系統 + Voice Daemon + Telegram bot + 兩條副業各自 Claude Code = 已實現雛形。不再追蹤"
     },
     "07": {
-      "phase": "idea",
-      "last_action": null,
-      "blocked_on": "audience-not-built",
-      "priority": "low",
-      "name": "AI 教學課程"
+      "name": "AI 教學課程",
+      "phase": "dormant",
+      "priority": "dormant"
     },
     "08": {
-      "phase": "idea",
-      "last_action": null,
-      "blocked_on": "deep-thinking-not-done",
-      "priority": "low",
-      "name": "正念 x AI"
+      "name": "正念 x AI",
+      "phase": "dormant",
+      "priority": "dormant"
     },
     "09": {
-      "phase": "idea",
-      "last_action": null,
-      "blocked_on": "podcast-needed-first",
-      "priority": "low",
-      "name": "聲音營利"
+      "name": "聲音營利",
+      "phase": "absorbed",
+      "absorbed_by": "15",
+      "priority": "dormant",
+      "note": "若 Bobo's FM 衍生出 voice 變現再開"
     },
     "10": {
-      "phase": "idea",
-      "last_action": null,
-      "blocked_on": "deep-thinking-not-done",
-      "priority": "low",
-      "name": "Build in Public"
+      "name": "Build in Public",
+      "phase": "dormant",
+      "priority": "dormant",
+      "note": "若 14/15 想做可自己加，AlchPlan 不主動推"
     },
     "11": {
-      "phase": "idea",
-      "last_action": null,
-      "blocked_on": "intentionally-deferred",
-      "priority": "low",
-      "name": "Freelance Consulting"
+      "name": "Freelance Consulting",
+      "phase": "dormant",
+      "priority": "dormant"
     },
     "12": {
-      "phase": "idea",
-      "last_action": null,
-      "blocked_on": "needs-coupling-with-01-or-04",
-      "priority": "low",
-      "name": "開源 Sponsorship"
+      "name": "開源 Sponsorship",
+      "phase": "dormant",
+      "priority": "dormant"
+    },
+    "13": {
+      "name": "Microsoft Pivot",
+      "phase": "onboarded",
+      "last_action": "2026-05-11",
+      "priority": "high",
+      "cadence": "每週至少推 1 步（投履歷 / 連絡前同事 / 看 JD / 模擬面試 擇一）",
+      "next_action_size": "30-sec voice memo",
+      "managed_by": "alchplan",
+      "note": "C001 Asher 同意上線、C004 README 建立。唯一還由 Alchemy 主動 nudge 的槽位。"
+    },
+    "14": {
+      "name": "WSLFinLab",
+      "phase": "active-production",
+      "url": "https://wslfinlab.asherdom.me",
+      "priority": "active-observed",
+      "managed_by": "external-claude-code",
+      "managed_location": "/mnt/c/Users/ashershih/sandbox/ + /mnt/c/Users/ashershih/finlab_db/",
+      "alchplan_role": "observe-and-log-only",
+      "signals_to_track": [
+        "git activity 訊號（sandbox 最新 commit）",
+        "對 Asher 工時 / 精力負荷的影響（→ LifeCoach）"
+      ],
+      "note": "Asher 自述為『第一個副業』。已部署、200+ trades、ML 策略多檔孵化中。AlchPlan 不 nudge。"
+    },
+    "15": {
+      "name": "Bobo's FM",
+      "phase": "active",
+      "url": "https://www.youtube.com/@bobosfm",
+      "priority": "active-observed",
+      "managed_by": "external-claude-code",
+      "alchplan_role": "observe-and-log-only",
+      "signals_to_track": [
+        "新影片發布（之後決定要不要接 YT API）",
+        "對 Asher 創作能量 / 心情的影響（→ LifeCoach）"
+      ],
+      "note": "Asher 自述為『第二個副業』+ 個人音樂品牌。AlchPlan 不 nudge。"
     }
   },
-  "focus_projects": ["01", "04"],
-  "stale_projects": ["01", "04"],
+  "focus_projects": ["13"],
+  "observed_projects": ["14", "15"],
+  "stale_projects": ["04"],
+  "dormant_projects": ["01", "02", "03", "05", "06", "07", "08", "09", "10", "11", "12"],
   "action_log": [
     {
       "circle_id": "20260511_C001",
       "timestamp": "2026-05-11T00:57:07Z",
-      "action": "首跑盤點：12 條煉金術全部已建立 README。01 與 04 已完成 deep-thinking（2026-03-15），但隨後 57 天無執行動作。其餘 10 條停在 idea 階段。",
-      "decisions": [
-        "本 cycle focus = 01 + 04（兩條已有完整計畫的）",
-        "不為其餘 10 條提案 deep-thinking — 等 01/04 跑出節奏再說",
-        "Microsoft 跳槽槽位由 LifeCoach 處理中（lc-20260511-prop-microsoft-pivot-slot），Alchemy 不重複提案",
-        "本 cycle 不新增 PM inbox 問題（章程 7：能用 default 推進就不問）"
-      ]
+      "action": "首跑盤點：12 條 README 建立。01 與 04 deep-thinking 完成，57 天無執行。其餘 10 條 idea 階段。"
     },
     {
       "circle_id": "20260511_C003",
       "timestamp": "2026-05-11T11:02:09Z",
-      "action": "Asher 自 C001 至 C003 約 10 小時無動作（01 README 無打勾、04 無 mvp-scope）。本 cycle 採『預備而非催促』策略：抽 deep-thinking 內容預備成兩份零摩擦腳本，讓 01/04 下一步從『讀文件再想』變成『複製貼上』。",
-      "decisions": [
-        "新增 alchemy/01-taiwan-stock-newsletter/substack-quick-start.md（5 步驟註冊腳本，About 文案已預貼好）",
-        "新增 alchemy/04-app-saas/mvp-scope.md（skeleton，只需填 3-5 個 bullet）",
-        "本 cycle 不新增 PM inbox 問題（pending 已 3 題、LifeCoach C003 同步採安靜策略）",
-        "下個 cycle 觸發條件：若 01 substack-quick-start.md 有打勾或 04 mvp-scope.md 有填 bullet，推進階段；若仍 0 動作，下次按 C001 承諾再砍小一半（例如：01 縮成『打開 substack.com 看 3 分鐘』）"
-      ]
+      "action": "預備腳本：01 substack-quick-start.md + 04 mvp-scope.md。"
     },
     {
       "circle_id": "20260511_C004",
       "timestamp": "2026-05-11T17:52:45Z",
-      "action": "C003 → C004 約 7 小時，仍 0 動作（兩份檔案皆無打勾／無填 bullet、無新日記、無新語音）。執行 C003 承諾：把 next action 再砍一半。新策略 = 把輸入通道從『打開編輯器寫 markdown』改成『30 秒語音 memo』，利用 Voice Daemon 已運作的管道。Asher 不用註冊 Substack、不用填 bullet，只要對手機講一句話。",
+      "action": "兩條 next-action 砍小到 30 秒語音版 + 設計 dormant 機制。同 cycle 後段建立 13 Microsoft Pivot README（從 LifeCoach handoff consume）。"
+    },
+    {
+      "circle_id": "manual-asher-correction",
+      "timestamp": "2026-05-11T19:30:00Z",
+      "action": "重大校準：Asher 提供事實 — 已有 2 條 active 副業實質運作，由各自 Claude Code session 管理。系統先前對狀態判斷錯誤（把已部署的 WSLFinLab 標為 01 stale 57 天）。",
       "decisions": [
-        "01 substack-quick-start.md 頂部新增『30 秒版』block — 只要錄『Substack 第一篇我想寫 ___』，註冊平台之事暫停（先有題目再找平台，順序倒過來）",
-        "04 mvp-scope.md 頂部新增『30 秒版』block — 只要錄『我希望 voice app 自動幫我做 ___』，dogfood：用語音定義語音 app 自己",
-        "本 cycle 仍不新增 PM inbox 問題（pending 仍 3 題、為 PM 安靜協議讓路）",
-        "Dormant 觸發條件：若下個 cycle 仍 0 語音 + 0 打勾，01 與 04 phase 標記為 `dormant`，停止每 cycle 推進，等 Asher 主動回來。系統不會因為他不動就一直催 — 章程 7 + 反模式 1 共同推導：催到他不想看 = 系統死亡。",
-        "輸入通道統一：未來 alchemy 與 lifecoach 應盡量讓 Asher 用語音回應而非編輯 markdown — 摩擦降到生理最低值"
+        "新增 slot 14 WSLFinLab、15 Bobo's FM 為 active-production / active 狀態",
+        "新增 alchplan_role=observe-and-log-only 概念：對外部管理的副業不 nudge、只記錄 + 把對 Asher 影響交給 LifeCoach",
+        "12 條原 slot 大幅整理：01/02/03/05/09 標 absorbed_by(14 或 15)；06 標 realized（系統本身已是證據）；07/08/10/11/12 標 dormant",
+        "focus_projects 從 [01, 04] 改成 [13]（唯一還由 Alchemy 主動推的）；observed_projects 新欄位 = [14, 15]",
+        "下 cycle 起 Alchemy 不再對 01/04 推進度（04 保留 30 天試水期，0 動作後 dormant）",
+        "此次更新由 Asher 與 Session PM 在對話中直接寫入 state，不走部長 cycle"
       ]
     }
   ]
