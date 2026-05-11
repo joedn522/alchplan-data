@@ -82,14 +82,17 @@
       "priority": "dormant"
     },
     "13": {
-      "name": "Microsoft Pivot",
-      "phase": "onboarded",
+      "name": "跳槽計畫（Job Pivot）",
+      "phase": "active",
       "last_action": "2026-05-11",
       "priority": "high",
-      "cadence": "每週至少推 1 步（投履歷 / 連絡前同事 / 看 JD / 模擬面試 擇一）",
+      "cadence": "每週至少推 1 步（投履歷 / 連絡人 / 看 JD / 刷 LeetCode / System Design / 模擬面試 擇一）",
       "next_action_size": "30-sec voice memo",
       "managed_by": "alchplan",
-      "note": "C001 Asher 同意上線、C004 README 建立。唯一還由 Alchemy 主動 nudge 的槽位。"
+      "directory": "alchemy/13-job-pivot/",
+      "sub_trackers": ["targets.md", "leetcode.md", "system-design.md", "weekly-log.md"],
+      "primary_target": "Microsoft",
+      "note": "原本叫 Microsoft Pivot，5/11 擴展為「跳槽」大 topic。Microsoft 是 targets.md 中首要目標，但不是唯一。"
     },
     "14": {
       "name": "WSLFinLab",

@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-05-11T19:45:00Z",
+  "player": {
+    "name": "Asher",
+    "total_level": 24,
+    "total_xp": 1500
+  },
+  "skill_trees": {
+    "engineering": {
+      "name": "🧠 Engineering",
+      "description": "LeetCode、System Design、技術閱讀、coding 練習",
+      "level": 5,
+      "xp": 0,
+      "xp_to_next": 600,
+      "lifetime_xp": 0
+    },
+    "career_move": {
+      "name": "🚀 Career Move",
+      "description": "跳槽計畫 — 投履歷、連絡人、面試、JD 研究",
+      "level": 1,
+      "xp": 0,
+      "xp_to_next": 100,
+      "lifetime_xp": 0
+    },
+    "quant": {
+      "name": "💰 Quant",
+      "description": "WSLFinLab 量化交易平台 — 策略、回測、ML 模型",
+      "level": 10,
+      "xp": 0,
+      "xp_to_next": 1100,
+      "lifetime_xp": 5500,
+      "pre_seeded": true,
+      "pre_seed_reason": "WSLFinLab 已上線且 200+ trades — Asher 自述「第一個副業」。系統從 Lv 10 起算，認可既有成就。"
+    },
+    "music": {
+      "name": "🎵 Music",
+      "description": "Bobo's FM YouTube — 音樂創作、品牌經營",
+      "level": 8,
+      "xp": 0,
+      "xp_to_next": 900,
+      "lifetime_xp": 3600,
+      "pre_seeded": true,
+      "pre_seed_reason": "Bobo's FM 已開頻道、有上架作品 — Asher 自述「第二個副業」+ 個人音樂品牌。系統從 Lv 8 起算。"
+    },
+    "mind": {
+      "name": "🧘 Mind",
+      "description": "日記、反思、語音 inbox、心情追蹤",
+      "level": 0,
+      "xp": 0,
+      "xp_to_next": 100,
+      "lifetime_xp": 0
+    },
+    "body": {
+      "name": "💪 Body",
+      "description": "運動、睡眠、飲食",
+      "level": 0,
+      "xp": 0,
+      "xp_to_next": 100,
+      "lifetime_xp": 0,
+      "note": "尚未啟用 — LifeCoach 下 cycle 可能會加運動 nudge，屆時啟用"
+    }
+  },
+  "achievements_unlocked": [
+    {
+      "id": "shipped-prod-platform",
+      "name": "🏆 已上線生產級平台",
+      "tree": "quant",
+      "unlocked_at": "pre-alchplan",
+      "description": "WSLFinLab dashboard 已部署，real-time trading data flow 完整"
+    },
+    {
+      "id": "200-trades-logged",
+      "name": "💯 累積 200+ 筆交易紀錄",
+      "tree": "quant",
+      "unlocked_at": "pre-alchplan",
+      "description": "WSLFinLab 已記錄 200+ 筆 trade 與 P&L"
+    },
+    {
+      "id": "personal-brand-launched",
+      "name": "🎤 個人品牌上線",
+      "tree": "music",
+      "unlocked_at": "pre-alchplan",
+      "description": "Bobo's FM YouTube channel 已開立並有作品"
+    },
+    {
+      "id": "minister-system-online",
+      "name": "🤖 自建 AI Agent 系統",
+      "tree": "engineering",
+      "unlocked_at": "2026-05-11",
+      "description": "AlchPlan 部長公司（4 部長 + voice daemon + telegram bot），從 0 自建 close-loop 系統。等同 06 自動化內容產線 realized"
+    },
+    {
+      "id": "first-close-loop",
+      "name": "🔁 系統首次完整 close-loop",
+      "tree": "engineering",
+      "unlocked_at": "2026-05-11",
+      "description": "Asher 早上 10:27 的 30 秒回應 → 同日 18:43 4 部長接力推完，inbox 從 3 題清空"
+    }
+  ],
+  "achievements_locked_preview": [
+    { "id": "diary-7-day-streak", "name": "🔥 日記 7 天連擊", "tree": "mind", "unlock_when": "連續 7 天日記符合新規則" },
+    { "id": "first-resume-sent", "name": "📨 第一封履歷已投", "tree": "career_move", "unlock_when": "targets.md 任一公司階段達 `已投履歷`" },
+    { "id": "leetcode-10", "name": "🧠 LeetCode 累積 10 題", "tree": "engineering", "unlock_when": "leetcode.md 累積 10 行紀錄" },
+    { "id": "leetcode-100", "name": "🎯 LeetCode 累積 100 題", "tree": "engineering", "unlock_when": "leetcode.md 累積 100 行紀錄" },
+    { "id": "weekly-job-streak-4", "name": "📅 跳槽連 4 週推進", "tree": "career_move", "unlock_when": "weekly-log.md streak 達 4 週" },
+    { "id": "microsoft-first-contact", "name": "🤝 已連絡 Microsoft 前同事", "tree": "career_move", "unlock_when": "targets.md Microsoft 階段達 `recruiter call` 或 weekly-log 出現 connect 紀錄" },
+    { "id": "yt-100-subs", "name": "🎶 Bobo's FM 達 100 訂閱", "tree": "music", "unlock_when": "外部訊號（YT API 接入後）" },
+    { "id": "exercise-week", "name": "🏃 一週動 3 次", "tree": "body", "unlock_when": "尚未啟用（待 body tree 啟用）" }
+  ],
+  "recent_xp_log": []
+}
