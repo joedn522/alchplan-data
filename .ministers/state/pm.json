@@ -1,11 +1,11 @@
 {
-  "last_circle_id": "20260511_C004",
+  "last_circle_id": "20260511_C005",
   "system_alerts": [
     {
       "level": "info",
       "minister": "voice_daemon",
-      "issue": "voice-inbox 最新 mtime = 2026-05-10 16:21（距今約 26h）。落在 unverified 區間（24-72h）— 同 C001/C003 結論，未升級。",
-      "circle_id": "20260511_C004",
+      "issue": "voice-inbox 最新 mtime = 2026-05-10 17:35（距今約 28.3h）。落在 unverified 區間（24-72h）— 連續第 4 個 cycle 同樣判定，尚未跨入 suspicious。",
+      "circle_id": "20260511_C005",
       "action": "continue_watch_per_health_protocol"
     }
   ],
@@ -13,10 +13,12 @@
     "total": 4,
     "pending": 0,
     "answered": 0,
-    "consumed_this_cycle": 3,
-    "pending_handoff": 1,
+    "consumed_this_cycle": 1,
+    "consumed_cumulative": 4,
+    "pending_handoff": 0,
     "expired": 0,
-    "archived": 0
+    "archived": 0,
+    "note": "handoff lc-to-alchemy-microsoft-pivot 由 alchemy C005 正式 consume；inbox 真正歸零（無待回、無 in-flight handoff）"
   },
   "minister_health": {
     "voice_daemon": "unverified",
@@ -26,11 +28,17 @@
     "pm": "healthy"
   },
   "minister_health_detail": {
-    "voice_daemon": "voice-inbox 最新 mtime 2026-05-10 16:21（~26h）。落在 unverified 區間。連 2 cycle 同樣判定，尚未跨入 suspicious。",
-    "lifecoach": "C004 完成 — close-loop Asher 3 題回應；handoff 已下單給 Alchemy；streak_rules 寫入 state",
-    "alchemy": "C004 完成 — 再砍小一半（30 秒語音版）+ dormant 機制設計；下個 cycle 將處理 Microsoft Pivot handoff",
+    "voice_daemon": "voice-inbox 最新 mtime 2026-05-10 17:35（~28.3h）。落在 unverified 區間。連 4 cycle 同樣判定，仍未跨入 suspicious。5/13 18:00 為升級臨界。",
+    "lifecoach": "C005 完成 — post-close-loop breather（不重發 nudge，尊重 Asher 早上 shelve 決定）；新規則 day 1 (5/11) 截至 21:48 尚未接住；finance gap 從 candidate 升級為 ready_to_propose（5/4/5/7/5/8 連 3 天「核銷/帳單/報帳」未完成）",
+    "alchemy": "C005 完成 — v2 schema 上線首正式 cycle；handoff lc-to-alchemy-microsoft-pivot 正式 consume；WSLFinLab 觀察通道生效（finlab_db/expiry.pkl alive）；04 啟動 30 天 dormant clock（5/11→6/10）",
     "knowledge": "排在 PM 之後執行；預期產出 Circle Report 並 commit",
-    "pm": "本 cycle 巡檢完成；3 題 answered → consumed；新 handoff 入 followups 追蹤；無新增 inbox 問題（章程 7）"
+    "pm": "本 cycle 巡檢完成；handoff 從 in_flight → resolved；inbox 真正歸零；無新增 Asher-facing 問題（章程鐵律 7）"
+  },
+  "observed_not_managed_projects": {
+    "note": "由 Alchemy C005 newsletter 提出並採納：slot 14 WSLFinLab / 15 Bobo's FM 為 alchplan_role=observe-and-log-only，由外部 Claude Code session 管理。它們不算進部長健康檢查的『需要部長產出』類別。",
+    "projects": ["14", "15"],
+    "since": "20260511_C005",
+    "implication_for_pm": "minister_health 不為 14/15 設條目；如果它們連 N cycle 無訊號 → 由 Alchemy 內部判斷，不升級到 PM 系統警報"
   },
   "voice_daemon_health_protocol": {
     "version": "v0.1",
@@ -50,11 +58,11 @@
     "action_on_suspicious": "PM 提交 inbox 問題給 Asher：『Voice Daemon 已 72h 無新檔，請確認 mac 端是否還活著』",
     "action_on_down": "Newsletter 紅字標示 + 提 destructive_proposal 升級為緊急事件",
     "current_reading": {
-      "circle_id": "20260511_C004",
-      "latest_mtime": "2026-05-10T16:21:42+0800",
-      "hours_since": 26.3,
+      "circle_id": "20260511_C005",
+      "latest_mtime": "2026-05-10T17:35:52+0800",
+      "hours_since": 28.3,
       "verdict": "unverified",
-      "consecutive_cycles_in_band": 3,
+      "consecutive_cycles_in_band": 4,
       "escalation_trigger": "若 5/13 18:00 後仍 > 72h（即連續無新檔超過 3 天）→ 升級為 suspicious 並提 inbox 問題"
     }
   },
@@ -86,7 +94,7 @@
       "topic": "Voice daemon 健康檢測 protocol",
       "circle_id": "20260511_C001",
       "status": "designed",
-      "resolution": "C003 完成 v0.1 protocol 設計；C004 加入 current_reading 欄位累積讀數",
+      "resolution": "C003 完成 v0.1 protocol 設計；C004/C005 加入 current_reading 欄位累積讀數",
       "resolved_at": "2026-05-11T11:04:00Z"
     },
     {
@@ -95,18 +103,21 @@
       "to": "alchemy",
       "topic": "登錄『跳槽回 Microsoft』為 slot 13",
       "circle_id": "20260511_C004",
-      "status": "in_flight",
+      "status": "resolved",
       "expected_consumer": "alchemy 下一 cycle",
       "inbox_item_id": "lc-to-alchemy-20260511-onboard-microsoft-pivot",
       "watch_for": "alchemy state 出現 slot 13 + project_status['13'] 寫入 + handoff 在 inbox 標記 consumed",
-      "created_at": "2026-05-11T18:40:52Z"
+      "created_at": "2026-05-11T18:40:52Z",
+      "resolved_at": "2026-05-11T21:51:18Z",
+      "resolution": "三個 watch_for 條件全達成：(1) alchemy state slot 13 寫入（C004 + manual-asher-correction 已存在，C005 補完 last_action / sub_trackers / nudge_policy）；(2) project_status['13'] 完整；(3) inbox handoff status=consumed by alchemy_20260511_C005（consumed_at 2026-05-11T21:51:18Z）。實際結果比原 handoff 要求更廣 — 擴展為「跳槽計畫」大 topic，Microsoft 是首要 target 但非唯一。"
     }
   ],
   "this_cycle_decisions": [
-    "處理 3 題 Asher 已答覆的 inbox：狀態由 answered → consumed（lifecoach C004 已 consume，PM 完成 close-loop 紀錄）",
-    "新 handoff（lc-to-alchemy microsoft-pivot）保留 pending_action，加入 cross_minister_followups 追蹤，下個 cycle Alchemy 預期 consume",
-    "本 cycle 不新增 PM inbox 問題（章程鐵律 7；inbox 已有 1 題 pending_handoff，無 Asher-facing 待答題）",
-    "Voice Daemon 健康讀數累積為第 3 個連續 unverified cycle；設定 5/13 18:00 為升級臨界",
-    "系統健康整體 🟢 — 三位主動部長都在 cycle 內有產出；voice daemon 用 file mtime 判定為 unverified（非 down）"
+    "標記 cross_minister_followup lc-to-alchemy-microsoft-pivot 為 resolved — 三個 watch_for 條件全達成（slot 13 寫入 + project_status 完整 + handoff inbox status=consumed）",
+    "Inbox 真正歸零：4 題全 consumed，0 in-flight handoff，0 pending_handoff，0 Asher-facing 待答（首次達到此狀態，C004 仍有 1 in-flight）",
+    "本 cycle 不新增 PM inbox 問題（章程鐵律 7；Asher 早上才回 3 題、晚間又做 schema v2 重構，已大量決策負荷）",
+    "Voice Daemon 健康讀數累積為第 4 個連續 unverified cycle；hours_since 從 26.3 → 28.3；5/13 18:00 升級臨界未到",
+    "採納 Alchemy C005 給 PM 的觀察：slot 14/15 為 observed-not-managed，不算進部長健康檢查；寫入 observed_not_managed_projects 區段",
+    "系統健康整體 🟢 — 三位主動部長都在 cycle 內有產出；voice daemon unverified（非 down）；inbox 0 噪音"
   ]
 }
