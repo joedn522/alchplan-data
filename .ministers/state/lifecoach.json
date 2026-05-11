@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260511_C001",
+  "last_circle_id": "20260511_C003",
   "streak": {
     "bujo_days": 0,
     "last_bujo_date": "2026-05-08",
@@ -58,6 +58,14 @@
       "type": "diary_today",
       "channel": "pm_inbox",
       "tone": "friendly"
+    },
+    {
+      "date": "2026-05-11",
+      "type": "intentional_quiet_cycle",
+      "channel": "newsletter_only",
+      "tone": "minimal",
+      "circle_id": "20260511_C003",
+      "reason": "C001 已下 1 nudge + 2 proposal，Asher 尚未回應；本 cycle 不再加 inbox 噪音"
     }
   ]
 }
