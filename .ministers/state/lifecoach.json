@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260511_C004",
+  "last_circle_id": "20260511_C005",
   "streak_rules": {
     "min_threshold": "1.1 任一行有實質內容 OR Section 6 任一句有實質內容 = 該日算寫了",
     "effective_from": "2026-05-11_C004",
@@ -8,8 +8,8 @@
   },
   "streak": {
     "bujo_days": 0,
-    "last_bujo_date": "2026-05-08",
-    "last_meaningful_bujo_date": "2026-05-04",
+    "last_bujo_date_any_file": "2026-05-11",
+    "last_bujo_date_meets_threshold": "2026-05-08",
     "current_streak_breakdown_under_new_rule": {
       "2026-05-04": "count (full)",
       "2026-05-05": "missing",
@@ -18,9 +18,9 @@
       "2026-05-08": "count (3 tasks in 1.1)",
       "2026-05-09": "missing",
       "2026-05-10": "missing",
-      "2026-05-11": "empty template, no count (so far)"
+      "2026-05-11": "empty template at C005 21:48 (1.1/§6 都空)"
     },
-    "note": "新規則下 5/7-5/8 兩天算寫了；5/9-5/11 連 3 天斷檔；current_streak=0"
+    "note": "新規則 day 1 (5/11) 截至 C005 21:48 還沒接住；5/9-5/11 連 3 天斷檔；current_streak=0"
   },
   "recent_mood_keywords": [
     {
@@ -54,21 +54,32 @@
   "service_gaps_identified": [
     {
       "gap": "diary_completion_rate_low",
-      "evidence": "新規則下 5/9-5/11 連 3 天斷檔；觀察新門檻是否提高實際填寫率",
+      "evidence": "新規則 day 1 (5/11) 截至晚間 21:48 仍未接住；5/9-5/11 連 3 天斷檔",
       "since": "2026-05-11",
-      "status": "watching_under_new_rule"
+      "status": "watching_under_new_rule",
+      "review_after": "2026-05-18 (新規則生效 7 天後評估)"
     },
     {
       "gap": "no_exercise_tracking",
       "evidence": "5/7 Top 3 寫『運動』但沒有任何完成或追蹤紀錄",
       "since": "2026-05-11",
-      "status": "candidate_for_next_proposal"
+      "status": "ready_to_propose",
+      "next_window": "C006 起，看 Asher inbox 容量是否清空"
     },
     {
       "gap": "no_finance_tracking",
-      "evidence": "5/4、5/7、5/8 都出現『核銷/帳單/報帳』未完成任務，沒有滾動式追蹤",
+      "evidence": "5/4、5/7、5/8 都出現『核銷/帳單/報帳』未完成任務，沒有滾動式追蹤；已連 3 個日記日出現 = 長期回流任務的徵兆",
       "since": "2026-05-11",
-      "status": "candidate_for_next_proposal"
+      "status": "ready_to_propose",
+      "next_window": "C006 起，看 Asher inbox 容量是否清空",
+      "note": "比 exercise 更迫切 — 已有具體未完成任務反覆出現"
+    },
+    {
+      "gap": "high_friction_diary_in_low_energy_days",
+      "evidence": "5/4 高張力日（下雨+mentor 衝突+情緒激動）寫了完整版；之後平淡日連空模板都寫不出來。可能門檻還是太高，或是平淡日缺乏觸發點",
+      "since": "2026-05-11_C005",
+      "status": "observing",
+      "note": "未來 candidate：要不要做『一行版』模板（只 1 任務 + 1 心情 emoji）。等 min-threshold 規則跑 1 週後再評估。"
     }
   ],
   "nudge_history": [
@@ -95,6 +106,14 @@
       "tone": "minimal",
       "circle_id": "20260511_C004",
       "reason": "Asher 10:27 回了 3 題；本 cycle 重點是把 yes 轉成系統行動（handoff + state 更新），不打擾"
+    },
+    {
+      "date": "2026-05-11",
+      "type": "post_close_loop_breather",
+      "channel": "newsletter_only",
+      "tone": "minimal_with_gentle_evening_reminder",
+      "circle_id": "20260511_C005",
+      "reason": "Asher 早上 shelve 過今天的 diary nudge + 才剛拍板 2 個提案；尊重節奏，不重發 inbox 題。Newsletter 裡放今晚 11 點前接住一句的友善提醒。"
     }
   ]
 }
