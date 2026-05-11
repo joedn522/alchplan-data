@@ -43,7 +43,7 @@ MINISTER_CONFIG = {
         'sop': 'minister_alchemy.md',
         'state': 'alchemy.json',
         'min_cadence_hours': 0,
-        'max_turns': 15,
+        'max_turns': 25,
     },
     'pm': {
         'sop': 'minister_pm.md',
