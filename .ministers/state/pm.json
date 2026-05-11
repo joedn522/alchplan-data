@@ -1,18 +1,20 @@
 {
-  "last_circle_id": "20260511_C003",
+  "last_circle_id": "20260511_C004",
   "system_alerts": [
     {
       "level": "info",
       "minister": "voice_daemon",
-      "issue": "voice-inbox 最新 mtime = 2026-05-10 17:35（距今約 17h 無新檔）。可能是 Asher 沒錄音，也可能 daemon 沒跑。",
-      "circle_id": "20260511_C003",
-      "action": "health_protocol_designed_this_cycle"
+      "issue": "voice-inbox 最新 mtime = 2026-05-10 16:21（距今約 26h）。落在 unverified 區間（24-72h）— 同 C001/C003 結論，未升級。",
+      "circle_id": "20260511_C004",
+      "action": "continue_watch_per_health_protocol"
     }
   ],
   "inbox_stats": {
-    "total": 3,
-    "pending": 3,
+    "total": 4,
+    "pending": 0,
     "answered": 0,
+    "consumed_this_cycle": 3,
+    "pending_handoff": 1,
     "expired": 0,
     "archived": 0
   },
@@ -24,11 +26,11 @@
     "pm": "healthy"
   },
   "minister_health_detail": {
-    "voice_daemon": "voice-inbox 最新 mtime 2026-05-10 17:35。今 5/11 無新檔。判定 unverified 而非 down（同 C001 結論）。",
-    "lifecoach": "C003 已產出 newsletter + state；本 cycle 採刻意安靜策略（C001 已下 1 nudge + 2 提案）",
-    "alchemy": "C003 已產出 newsletter + state；新增 01 substack-quick-start.md + 04 mvp-scope.md（零摩擦腳本）",
-    "knowledge": "本 cycle 將排在 PM 之後執行，預期產出 Circle Report",
-    "pm": "本 cycle 巡檢完成；設計 voice_daemon_health_protocol 並寫入 state"
+    "voice_daemon": "voice-inbox 最新 mtime 2026-05-10 16:21（~26h）。落在 unverified 區間。連 2 cycle 同樣判定，尚未跨入 suspicious。",
+    "lifecoach": "C004 完成 — close-loop Asher 3 題回應；handoff 已下單給 Alchemy；streak_rules 寫入 state",
+    "alchemy": "C004 完成 — 再砍小一半（30 秒語音版）+ dormant 機制設計；下個 cycle 將處理 Microsoft Pivot handoff",
+    "knowledge": "排在 PM 之後執行；預期產出 Circle Report 並 commit",
+    "pm": "本 cycle 巡檢完成；3 題 answered → consumed；新 handoff 入 followups 追蹤；無新增 inbox 問題（章程 7）"
   },
   "voice_daemon_health_protocol": {
     "version": "v0.1",
@@ -46,7 +48,15 @@
       "down": "voice-inbox 目錄不存在或無檔案"
     },
     "action_on_suspicious": "PM 提交 inbox 問題給 Asher：『Voice Daemon 已 72h 無新檔，請確認 mac 端是否還活著』",
-    "action_on_down": "Newsletter 紅字標示 + 提 destructive_proposal 升級為緊急事件"
+    "action_on_down": "Newsletter 紅字標示 + 提 destructive_proposal 升級為緊急事件",
+    "current_reading": {
+      "circle_id": "20260511_C004",
+      "latest_mtime": "2026-05-10T16:21:42+0800",
+      "hours_since": 26.3,
+      "verdict": "unverified",
+      "consecutive_cycles_in_band": 3,
+      "escalation_trigger": "若 5/13 18:00 後仍 > 72h（即連續無新檔超過 3 天）→ 升級為 suspicious 並提 inbox 問題"
+    }
   },
   "cross_minister_followups": [
     {
@@ -76,13 +86,27 @@
       "topic": "Voice daemon 健康檢測 protocol",
       "circle_id": "20260511_C001",
       "status": "designed",
-      "resolution": "C003 完成 v0.1 protocol 設計，見 voice_daemon_health_protocol 欄位；不要求 daemon 改動，PM 用 voice-inbox mtime 判斷",
+      "resolution": "C003 完成 v0.1 protocol 設計；C004 加入 current_reading 欄位累積讀數",
       "resolved_at": "2026-05-11T11:04:00Z"
+    },
+    {
+      "id": "lc-to-alchemy-microsoft-pivot",
+      "from": "lifecoach",
+      "to": "alchemy",
+      "topic": "登錄『跳槽回 Microsoft』為 slot 13",
+      "circle_id": "20260511_C004",
+      "status": "in_flight",
+      "expected_consumer": "alchemy 下一 cycle",
+      "inbox_item_id": "lc-to-alchemy-20260511-onboard-microsoft-pivot",
+      "watch_for": "alchemy state 出現 slot 13 + project_status['13'] 寫入 + handoff 在 inbox 標記 consumed",
+      "created_at": "2026-05-11T18:40:52Z"
     }
   ],
   "this_cycle_decisions": [
-    "本 cycle 不新增 inbox 問題（呼應 LifeCoach C003 安靜策略，章程鐵律 7：問題是成本）",
-    "實質產出 = voice_daemon_health_protocol v0.1，未來 cycle 可用統一介面判斷 voice 健康",
-    "Inbox 3 題全部仍在期限內，無動作需要；最早到期 5/13（diary-today-nudge）"
+    "處理 3 題 Asher 已答覆的 inbox：狀態由 answered → consumed（lifecoach C004 已 consume，PM 完成 close-loop 紀錄）",
+    "新 handoff（lc-to-alchemy microsoft-pivot）保留 pending_action，加入 cross_minister_followups 追蹤，下個 cycle Alchemy 預期 consume",
+    "本 cycle 不新增 PM inbox 問題（章程鐵律 7；inbox 已有 1 題 pending_handoff，無 Asher-facing 待答題）",
+    "Voice Daemon 健康讀數累積為第 3 個連續 unverified cycle；設定 5/13 18:00 為升級臨界",
+    "系統健康整體 🟢 — 三位主動部長都在 cycle 內有產出；voice daemon 用 file mtime 判定為 unverified（非 down）"
   ]
 }
