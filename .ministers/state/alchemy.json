@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260511_C001",
+  "last_circle_id": "20260511_C003",
   "project_status": {
     "01": {
       "phase": "deep-thinking-done",
@@ -7,7 +7,8 @@
       "blocked_on": "execution-not-started",
       "priority": "high",
       "name": "台股電子報 + 社群經營",
-      "days_since_action": 57
+      "days_since_action": 57,
+      "prep_artifacts": ["substack-quick-start.md"]
     },
     "02": {
       "phase": "idea",
@@ -29,7 +30,8 @@
       "blocked_on": "mvp-scope-not-defined",
       "priority": "high",
       "name": "App / SaaS — 語音子彈筆記",
-      "days_since_action": 57
+      "days_since_action": 57,
+      "prep_artifacts": ["mvp-scope.md (skeleton)"]
     },
     "05": {
       "phase": "idea",
@@ -101,6 +103,17 @@
         "不為其餘 10 條提案 deep-thinking — 等 01/04 跑出節奏再說",
         "Microsoft 跳槽槽位由 LifeCoach 處理中（lc-20260511-prop-microsoft-pivot-slot），Alchemy 不重複提案",
         "本 cycle 不新增 PM inbox 問題（章程 7：能用 default 推進就不問）"
+      ]
+    },
+    {
+      "circle_id": "20260511_C003",
+      "timestamp": "2026-05-11T11:02:09Z",
+      "action": "Asher 自 C001 至 C003 約 10 小時無動作（01 README 無打勾、04 無 mvp-scope）。本 cycle 採『預備而非催促』策略：抽 deep-thinking 內容預備成兩份零摩擦腳本，讓 01/04 下一步從『讀文件再想』變成『複製貼上』。",
+      "decisions": [
+        "新增 alchemy/01-taiwan-stock-newsletter/substack-quick-start.md（5 步驟註冊腳本，About 文案已預貼好）",
+        "新增 alchemy/04-app-saas/mvp-scope.md（skeleton，只需填 3-5 個 bullet）",
+        "本 cycle 不新增 PM inbox 問題（pending 已 3 題、LifeCoach C003 同步採安靜策略）",
+        "下個 cycle 觸發條件：若 01 substack-quick-start.md 有打勾或 04 mvp-scope.md 有填 bullet，推進階段；若仍 0 動作，下次按 C001 承諾再砍小一半（例如：01 縮成『打開 substack.com 看 3 分鐘』）"
       ]
     }
   ]
