@@ -70,5 +70,23 @@
     "circle_id": "20260511_C004",
     "consumed_at": "2026-05-11T21:51:18Z",
     "consume_note": "Slot 13 已於 C004 由 Asher + Session PM 直接寫入 state（manual-asher-correction 條目）。本 cycle Alchemy 正式關掉這張 handoff 票。實際擴展為「跳槽計畫」大 topic，比原 handoff 要求的更廣（不只 Microsoft）。"
+  },
+  {
+    "id": "career-20260512-location-preference",
+    "type": "choice",
+    "minister": "career",
+    "question": "跳槽地點偏好要先收斂嗎？現在 targets.md 寫的是『TBD（台灣 / 海外 / 遠端 皆可考慮）』— 這個 TBD 會放大每一步研究成本（同樣是 Microsoft，台灣分部 / Redmond / Vancouver / 遠端的 team / TC / 簽證路徑都不一樣）。先把優先序定下來，後面的 JD 研究、targets 擴充、人脈連絡都會更聚焦。",
+    "options": [
+      "台灣（含台灣外商分部）為主",
+      "海外（美國 / 加拿大 / 歐洲）為主",
+      "遠端優先（公司不限地點）",
+      "維持 TBD，3 個方向都各物色 1 家"
+    ],
+    "minister_default": "維持 TBD，3 個方向都各物色 1 家",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-19T00:00:00Z",
+    "status": "open",
+    "created_at": "2026-05-12T22:15:29Z",
+    "circle_id": "20260512_C001"
   }
 ]

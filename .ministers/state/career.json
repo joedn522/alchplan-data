@@ -1,7 +1,7 @@
 {
-  "last_circle_id": null,
+  "last_circle_id": "20260512_C001",
   "schema_version": 1,
-  "last_deep_review_date": null,
+  "last_deep_review_date": "2026-05-12",
 
   "context": {
     "current_employer": "Google",
@@ -9,7 +9,7 @@
     "pain_point": "所在部門工時過長，非個人表現問題",
     "goal": "工時適中（WLB 第一優先）、收入穩定或成長的 SWE 職位",
     "priority_order": ["WLB", "TC", "brand"],
-    "location_preference": "TBD（台灣 / 海外 / 遠端 皆可考慮）",
+    "location_preference": "TBD（待 Asher 於 PM inbox 答覆收斂）",
     "timeline": "無硬截止，穩中求進"
   },
 
@@ -23,7 +23,7 @@
     "system_design_topics_mastered": 0,
     "resume_ready": false,
     "linkedin_updated": false,
-    "notes": "系統剛建立（2026-05-11），從 0 起算"
+    "notes": "首次深度檢視（2026-05-12 C001）— 從 0 起算，尚無任何準備類動作"
   },
 
   "pipeline_summary": {
@@ -34,14 +34,34 @@
   },
 
   "weekly_streak": 0,
+  "longest_streak": 0,
   "last_action_date": null,
   "last_action_type": null,
+
+  "diary_signal": {
+    "last_career_mention_date": "2026-05-07",
+    "last_career_mention_summary": "Top 3 第 4 項：找新工作",
+    "days_since_last_mention": 5,
+    "note": "5/4 強訊號（『認真研究跳槽回 Microsoft 的路徑和時程』），5/7 列入 Top 3 周邊。5/8–5/11 日記無跳槽相關提及。想法在腦中跑，沒落到 weekly-log。"
+  },
+
+  "this_cycle_recommendation": {
+    "type": "看 JD",
+    "summary": "本週推 1 步：認真讀 1 個 Microsoft JD（建議優先 Azure / M365 / Copilot 其一），做 1 頁筆記 → 把 targets.md 的 Microsoft 從 TBD 收斂到具體 team。",
+    "expected_xp_on_completion": 15,
+    "rationale": "準備 < 基本門檻 + targets 只有 1 家且尚未具體化。讀 JD 是最低門檻 + 最高性價比的下一步，做完就有 1 頁可比對的事實。"
+  },
 
   "action_log": [
     {
       "circle_id": "manual-setup",
       "date": "2026-05-12",
       "action": "Career 部長初始化。背景：Asher 在 Google 工時過長部門，目標是找 WLB 良好的 SWE 職位。slot 13 追蹤目錄從 Alchemy 移交 Career 部長主管。"
+    },
+    {
+      "circle_id": "20260512_C001",
+      "date": "2026-05-12",
+      "action": "首次深度檢視。確認 W19/W20 均無事實推進、streak=0、所有準備類指標皆 0、targets 只有 Microsoft 且 TBD。提交 PM inbox 1 題（地點偏好收斂），給出本週 1 個最小下一步：讀 1 個 Microsoft JD + 1 頁筆記。"
     }
   ]
 }
