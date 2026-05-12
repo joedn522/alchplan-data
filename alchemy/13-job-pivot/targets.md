@@ -3,15 +3,26 @@
 > 用一張表追蹤所有正在物色 / 已投 / 已面 / 已 offer 的公司與 role。
 > 階段：`物色` → `JD 研究完` → `已投履歷` → `recruiter call` → `tech screen` → `onsite` → `offer` → `談判` → `decline` / `accept`
 
+## 背景（Career 部長必讀）
+
+- **現職**：Google SWE
+- **離職原因**：所在部門工時過長，非個人表現問題
+- **目標**：工時適中（不需要 0 工時，但不要燒掉私人時間）、薪資穩定維持或成長的 SWE 職位
+- **條件優先序**：WLB > TC > 公司品牌
+- **地點**：TBD（台灣 / 海外 / 遠端 皆可考慮）
+
+---
+
 ## Active 物色中
 
-| 公司 | Role | Team / Org | 階段 | 來源 | 最近動作日期 | Notes |
-|------|------|-----------|------|------|-------------|-------|
-| Microsoft | TBD（SDE? Tech Lead? Applied Scientist?） | TBD（Azure? M365? Copilot? Research?） | 物色 | Asher 反覆提及（5/4、5/7 寫進日記） | — | 第一目標。地點 TBD（Redmond / MTV / 台灣 dev center?） |
+| 公司 | Role | Team / Org | 階段 | 來源 | 最近動作日期 | WLB 評估 | Notes |
+|------|------|-----------|------|------|-------------|---------|-------|
+| Microsoft | TBD（SDE? Tech Lead?） | TBD（Azure? M365? Copilot?） | 物色 | Asher 反覆提及 | — | 待研究 | 第一目標。地點 TBD |
 
 ## 還沒列上但腦中有的（候補）
 
 - _（每週可加 1 個。物色不等於投，先寫上來才能比較）_
+- 建議方向：台灣外商分部（Apple、Amazon、Stripe、Shopee）、WLB 聲譽好的美國中型科技公司
 
 ## Closed / Declined / Inactive
 
@@ -20,8 +31,22 @@
 
 ---
 
+## WLB 評估框架（Career 部長用）
+
+每家公司的 WLB 評估填以下維度（從公開資訊 / Glassdoor / Blind / 業界口碑）：
+
+| 維度 | 說明 |
+|------|------|
+| Glassdoor WLB 分 | /5，看最近 6 個月評論趨勢 |
+| On-call 強度 | 無 / 輕 / 重 |
+| 面試難度 vs 日常工時 | 是否面試很猛但日常輕鬆（好信號） |
+| 規模 | 大廠（穩）/ 中型（靈活）/ 小型（高風險） |
+| TC 估計 | 用 levels.fyi |
+
+---
+
 ## 怎麼用這個檔案
 
 - 每次有新動作（投了、收到回覆、想新增物色目標），更新「最近動作日期」+ Notes 一句話
-- 30 秒語音版：對手機講「___ 公司的 ___ role 進度到 ___」，下 cycle Alchemy 幫你寫進來
-- 重要：階段往前走 = +XP（遊戲化規則細節見 `.ministers/state/gamification.json`，建立中）
+- 30 秒語音版：對手機講「___ 公司的 ___ role 進度到 ___」，Career 部長下 cycle 幫你寫進來
+- 重要：階段往前走 = +XP（遊戲化規則：Career Move tree）

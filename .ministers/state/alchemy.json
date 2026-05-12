@@ -91,7 +91,7 @@
       "priority": "high",
       "cadence": "每週至少推 1 步（投履歷 / 連絡人 / 看 JD / 刷 LeetCode / System Design / 模擬面試 擇一）",
       "next_action_size": "30-sec voice memo",
-      "managed_by": "alchplan",
+      "managed_by": "career-minister",
       "directory": "alchemy/13-job-pivot/",
       "sub_trackers": ["targets.md", "leetcode.md", "system-design.md", "weekly-log.md"],
       "primary_target": "Microsoft",
@@ -100,7 +100,7 @@
       "first_weekly_check_due": "2026-05-17",
       "next_alchemy_action": "5/17 (週日) 檢查 weekly-log.md — 若 W20 仍 0 row 則發 30 秒語音 nudge；提早來訊號就提早接住",
       "nudge_policy": "不堆積、不每天問；週末檢一次；不會說『你三週沒動要補三步』",
-      "note": "原本叫 Microsoft Pivot，5/11 擴展為「跳槽」大 topic。Microsoft 是 targets.md 中首要目標，但不是唯一。"
+      "note": "原本叫 Microsoft Pivot，5/11 擴展為「跳槽」大 topic。5/12 移交 Career 部長主管，Alchemy 不再追蹤此 slot。背景：Asher 現職 Google，部門工時過長，目標 WLB > TC。"
     },
     "14": {
       "name": "WSLFinLab",

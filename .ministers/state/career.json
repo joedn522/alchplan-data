@@ -1,0 +1,47 @@
+{
+  "last_circle_id": null,
+  "schema_version": 1,
+  "last_deep_review_date": null,
+
+  "context": {
+    "current_employer": "Google",
+    "current_role": "Software Engineer",
+    "pain_point": "所在部門工時過長，非個人表現問題",
+    "goal": "工時適中（WLB 第一優先）、收入穩定或成長的 SWE 職位",
+    "priority_order": ["WLB", "TC", "brand"],
+    "location_preference": "TBD（台灣 / 海外 / 遠端 皆可考慮）",
+    "timeline": "無硬截止，穩中求進"
+  },
+
+  "phase": "準備期",
+
+  "prep_status": {
+    "leetcode_total": 0,
+    "leetcode_easy": 0,
+    "leetcode_medium": 0,
+    "leetcode_hard": 0,
+    "system_design_topics_mastered": 0,
+    "resume_ready": false,
+    "linkedin_updated": false,
+    "notes": "系統剛建立（2026-05-11），從 0 起算"
+  },
+
+  "pipeline_summary": {
+    "total_companies_tracked": 1,
+    "active": 1,
+    "recruiter_call_or_above": 0,
+    "offer": 0
+  },
+
+  "weekly_streak": 0,
+  "last_action_date": null,
+  "last_action_type": null,
+
+  "action_log": [
+    {
+      "circle_id": "manual-setup",
+      "date": "2026-05-12",
+      "action": "Career 部長初始化。背景：Asher 在 Google 工時過長部門，目標是找 WLB 良好的 SWE 職位。slot 13 追蹤目錄從 Alchemy 移交 Career 部長主管。"
+    }
+  ]
+}
