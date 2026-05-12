@@ -47,9 +47,9 @@
       "name": "🧘 Mind",
       "description": "日記、反思、語音 inbox、心情追蹤",
       "level": 0,
-      "xp": 0,
+      "xp": 10,
       "xp_to_next": 100,
-      "lifetime_xp": 0
+      "lifetime_xp": 10
     },
     "body": {
       "name": "💪 Body",
@@ -108,5 +108,13 @@
     { "id": "yt-100-subs", "name": "🎶 Bobo's FM 達 100 訂閱", "tree": "music", "unlock_when": "外部訊號（YT API 接入後）" },
     { "id": "exercise-week", "name": "🏃 一週動 3 次", "tree": "body", "unlock_when": "尚未啟用（待 body tree 啟用）" }
   ],
-  "recent_xp_log": []
+  "recent_xp_log": [
+    {
+      "date": "2026-05-11",
+      "tree": "mind",
+      "xp": 10,
+      "reason": "日記新規則達標（voice memo 整合進 5/11 日記，1 格以上）",
+      "added_by": "session-pm"
+    }
+  ]
 }
