@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260511_C005",
+  "last_circle_id": "20260516_C001",
   "streak_rules": {
     "min_threshold": "1.1 任一行有實質內容 OR Section 6 任一句有實質內容 = 該日算寫了",
     "effective_from": "2026-05-11_C004",
@@ -7,22 +7,41 @@
     "note": "空 checkbox '- [ ]' 或空 '- ' 不算；要有實際文字"
   },
   "streak": {
-    "bujo_days": 0,
+    "bujo_days": 1,
     "last_bujo_date_any_file": "2026-05-11",
-    "last_bujo_date_meets_threshold": "2026-05-08",
+    "last_bujo_date_meets_threshold": "2026-05-11",
     "current_streak_breakdown_under_new_rule": {
-      "2026-05-04": "count (full)",
-      "2026-05-05": "missing",
-      "2026-05-06": "empty template, no count",
-      "2026-05-07": "count (3 tasks in 1.1)",
-      "2026-05-08": "count (3 tasks in 1.1)",
-      "2026-05-09": "missing",
-      "2026-05-10": "missing",
-      "2026-05-11": "empty template at C005 21:48 (1.1/§6 都空)"
+      "2026-05-11": "count (3 tasks in 1.1 + §6 '沒有，今天很輕鬆')",
+      "2026-05-12": "missing (work-pressure voice note only: Marco/NVIDIA)",
+      "2026-05-13": "missing",
+      "2026-05-14": "missing (but Asher engaged: answered career-20260512 at 13:08Z with detailed lock-in)",
+      "2026-05-15": "missing",
+      "2026-05-16": "TBD (today, 11:04 morning)"
     },
-    "note": "新規則 day 1 (5/11) 截至 C005 21:48 還沒接住；5/9-5/11 連 3 天斷檔；current_streak=0"
+    "note": "新規則 day 1 (5/11) 接住了，但 5/12-5/15 連 4 天斷檔。整個系統也靜默 5 天（最後 minister cycle 是 5/12 Career 首跑）。但 5/14 Asher 主動回答 career 那題 — 互動仍在，只是不寫 diary。"
   },
+  "engagement_signals_outside_diary": [
+    {
+      "date": "2026-05-14",
+      "type": "inbox_answer",
+      "id": "career-20260512-location-preference",
+      "quality": "high_detail",
+      "summary": "答了一個 3-layer 鎖定：Tier 1 Google 內部跳轉 / Tier 2 Microsoft 外部 / 地點台北+remote / 350 萬 hard floor。完全是『clear small question』就會用心回答的模式。"
+    },
+    {
+      "date": "2026-05-12",
+      "type": "voice_note",
+      "topic": "work_pressure",
+      "summary": "提到兩台機器沒底、要解 Marco 和 NVIDIA — 工作雜事，不是 diary 內容。Voice Daemon 接住了但沒轉成 diary（合理：沒有 diary 觸發詞）。"
+    }
+  ],
   "recent_mood_keywords": [
+    {
+      "date": "2026-05-11",
+      "keywords": ["輕鬆", "踏實"],
+      "energy": 4,
+      "summary": "光明正大請假一天，打瘦瘦針 + 辦行照 + 工作 maintain。風平浪靜的一天。"
+    },
     {
       "date": "2026-05-04",
       "keywords": ["不爽但清醒", "跳槽意識再起", "中立"],
@@ -31,6 +50,21 @@
     }
   ],
   "active_proposals": [],
+  "deferred_proposals": [
+    {
+      "id": "lc-deferred-exercise-tracking",
+      "reason": "原本 C006 起要提，但 5/12-5/15 連 4 天無 diary — 基本互動還沒回來，先不加新負擔",
+      "deferred_at": "2026-05-16_C001",
+      "next_window": "下次 Asher 接住 diary（任何一天）後的下個 cycle"
+    },
+    {
+      "id": "lc-deferred-finance-tracking",
+      "reason": "同上 — 雖然比 exercise 迫切，但前提是 baseline 互動回來",
+      "deferred_at": "2026-05-16_C001",
+      "next_window": "下次 Asher 接住 diary（任何一天）後的下個 cycle",
+      "note": "5/4、5/7、5/8 三天反覆出現的核銷/帳單未完成任務還在記憶裡"
+    }
+  ],
   "completed_proposals": [
     {
       "id": "lc-20260511-prop-microsoft-pivot-slot",
@@ -48,41 +82,57 @@
       "answered_at": "2026-05-11T10:27:12Z",
       "asher_answer": "改最低門檻",
       "consumed_at_circle": "20260511_C004",
-      "follow_up": "streak_rules 已寫入 state；即日生效"
+      "follow_up": "streak_rules 已寫入 state；即日生效。但 5/12-5/15 連 4 天斷檔顯示降門檻效果有限。"
     }
   ],
   "service_gaps_identified": [
     {
       "gap": "diary_completion_rate_low",
-      "evidence": "新規則 day 1 (5/11) 截至晚間 21:48 仍未接住；5/9-5/11 連 3 天斷檔",
+      "evidence": "新規則 5 天 = 1 天接住（5/11）+ 4 天斷檔（5/12-5/15）。降門檻效果不如預期。",
       "since": "2026-05-11",
-      "status": "watching_under_new_rule",
-      "review_after": "2026-05-18 (新規則生效 7 天後評估)"
+      "status": "active_observation",
+      "review_after": "2026-05-18 (原訂 7 天評估期)",
+      "note": "新觀察：Asher 5/14 主動回答 career inbox 但同期不寫 diary — 證據顯示『clear small question』比『開檔案填模板』摩擦小很多。要不要把 diary 改成 inbox 一題式？候選實驗。"
+    },
+    {
+      "gap": "high_friction_diary_in_busy_periods",
+      "evidence": "5/12 voice 提到要解 Marco + NVIDIA，明顯工作壓力上來；5/12-5/15 全部沒寫。Pattern：忙起來就 skip。",
+      "since": "2026-05-11_C005",
+      "status": "strengthened_2026-05-16",
+      "note": "5/16 強化：5 天連續斷檔，且最後一次 voice (5/12) 內容是工作雜事不是 diary — 顯示忙的時候 voice 也只記工作，不會自然轉成 diary。"
     },
     {
       "gap": "no_exercise_tracking",
       "evidence": "5/7 Top 3 寫『運動』但沒有任何完成或追蹤紀錄",
       "since": "2026-05-11",
-      "status": "ready_to_propose",
-      "next_window": "C006 起，看 Asher inbox 容量是否清空"
+      "status": "deferred",
+      "next_window": "等 diary 接住後再提"
     },
     {
       "gap": "no_finance_tracking",
-      "evidence": "5/4、5/7、5/8 都出現『核銷/帳單/報帳』未完成任務，沒有滾動式追蹤；已連 3 個日記日出現 = 長期回流任務的徵兆",
+      "evidence": "5/4、5/7、5/8 都出現『核銷/帳單/報帳』未完成任務，沒有滾動式追蹤",
       "since": "2026-05-11",
-      "status": "ready_to_propose",
-      "next_window": "C006 起，看 Asher inbox 容量是否清空",
-      "note": "比 exercise 更迫切 — 已有具體未完成任務反覆出現"
+      "status": "deferred",
+      "next_window": "等 diary 接住後再提",
+      "note": "比 exercise 更迫切但同樣 defer — baseline 沒回來不能堆新負擔"
     },
     {
-      "gap": "high_friction_diary_in_low_energy_days",
-      "evidence": "5/4 高張力日（下雨+mentor 衝突+情緒激動）寫了完整版；之後平淡日連空模板都寫不出來。可能門檻還是太高，或是平淡日缺乏觸發點",
-      "since": "2026-05-11_C005",
-      "status": "observing",
-      "note": "未來 candidate：要不要做『一行版』模板（只 1 任務 + 1 心情 emoji）。等 min-threshold 規則跑 1 週後再評估。"
+      "gap": "system_idle_5_days_no_minister_cycles",
+      "evidence": "5/12 Career 首跑後到 5/16 沒有任何 minister cycle。整個 service 看起來像停擺。",
+      "since": "2026-05-16",
+      "status": "fresh_observation",
+      "note": "這違反章程鐵律 2（系統必須活著）。但這是執行層的問題（沒人跑 cron），不是 LifeCoach 能修的。記下來給 PM 觀察。"
     }
   ],
   "nudge_history": [
+    {
+      "date": "2026-05-16",
+      "type": "diary_today_after_5day_gap",
+      "channel": "pm_inbox",
+      "tone": "warm_welcome_back",
+      "circle_id": "20260516_C001",
+      "reason": "5 天空白 + 系統也靜默 5 天 — 但 Asher 5/14 有回 career inbox，證明他在。今天用『接住一行就好』的低門檻溫和拉回來，不提任何新提案。"
+    },
     {
       "date": "2026-05-11",
       "type": "diary_today",

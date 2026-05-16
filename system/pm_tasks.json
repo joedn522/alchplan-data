@@ -85,8 +85,24 @@
     "minister_default": "維持 TBD，3 個方向都各物色 1 家",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-19T00:00:00Z",
-    "status": "open",
+    "status": "answered",
+    "asher_answer": "custom: 完整鎖定 — (1) 路徑策略：Tier 1 Google 內部跳轉（優先，免外部面試）；Tier 2 Microsoft 外部面試（前公司，WLB 佳，需面試）。(2) 地點:台北市 / 新北市 / 全 remote（不考慮海外搬遷）。(3) 最低年薪：350 萬 TWD（hard floor）。targets.md 背景區已同步更新，請 Career 部長下個 cycle 用新約束重新盤點物色清單。",
+    "answered_at": "2026-05-14T13:08:05Z",
     "created_at": "2026-05-12T22:15:29Z",
     "circle_id": "20260512_C001"
+  },
+  {
+    "id": "lc-20260516-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "Asher，5/12 到 5/15 連 4 天沒寫日記了，今天（5/16，星期六）接住一行就好嗎？新規則：1.1 任一格 OR 6 任一句寫一個字就算。如果今天不方便，錄一段語音也行（標題包含『日誌』就會被當 diary 接）。完全不寫也 ok — shelve 就好，我們下個 cycle 再聊。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-18T00:00:00Z",
+    "status": "open",
+    "created_at": "2026-05-16T11:04:46Z",
+    "circle_id": "20260516_C001",
+    "context": "Asher 5/14 主動回了 career inbox（answered with high detail），證明他在。但 diary 同期空白 5 天。本 nudge 採用『接住一行就好』低門檻 + shelve-friendly tone，避免重壓。"
   }
 ]
