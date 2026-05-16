@@ -11,6 +11,7 @@ Voice Daemon — 監聽 iCloud Just Press Record → Whisper 轉錄 → 寫入 v
 """
 import os
 import sys
+import re
 import json
 import time
 import subprocess
@@ -69,6 +70,7 @@ def get_existing_originals():
     for fname in os.listdir(VOICE_INBOX):
         if not fname.endswith('.md'):
             continue
+        # Primary: check frontmatter original_file (daemon-generated files)
         fpath = os.path.join(VOICE_INBOX, fname)
         try:
             with open(fpath, 'r', encoding='utf-8') as f:
@@ -79,6 +81,12 @@ def get_existing_originals():
                         break
         except:
             pass
+        # Fallback: extract time code from filename pattern "(HHMMSS).md"
+        # Covers legacy transcripts that have no frontmatter
+        m = re.search(r'\((\d{6})\)\.md$', fname)
+        if m:
+            t = m.group(1)
+            existing.add(f"{t[:2]}-{t[2:4]}-{t[4:]}.m4a")
     return existing
 
 
