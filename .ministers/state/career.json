@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260512_C001",
+  "last_circle_id": "20260516_C001",
   "schema_version": 1,
   "last_deep_review_date": "2026-05-12",
 
@@ -9,28 +9,42 @@
     "pain_point": "所在部門工時過長，非個人表現問題",
     "goal": "工時適中（WLB 第一優先）、收入穩定或成長的 SWE 職位",
     "priority_order": ["WLB", "TC", "brand"],
-    "location_preference": "TBD（待 Asher 於 PM inbox 答覆收斂）",
+    "location_preference": "台北市 / 新北市 / 全 remote（2026-05-14 Asher 鎖定，不考慮海外搬遷）",
+    "min_annual_salary_twd": 3500000,
+    "path_strategy": {
+      "tier_1": "Google 內部跳轉（優先）— 免外部面試、保留現有 TC/福利/年資。鎖 Google Taipei team 或 remote-friendly team",
+      "tier_2": "Microsoft 外部面試 — 前公司、WLB 聲譽佳。鎖 Microsoft Taipei 或 remote-friendly team"
+    },
     "timeline": "無硬截止，穩中求進"
   },
 
-  "phase": "準備期",
+  "phase": "準備期 — 暖身啟動週",
 
   "prep_status": {
     "leetcode_total": 0,
     "leetcode_easy": 0,
     "leetcode_medium": 0,
     "leetcode_hard": 0,
+    "leetcode_language_locked": "Python 3",
+    "leetcode_premium": "TBD",
     "system_design_topics_mastered": 0,
     "resume_ready": false,
     "linkedin_updated": false,
-    "notes": "首次深度檢視（2026-05-12 C001）— 從 0 起算，尚無任何準備類動作"
+    "prep_plan_exists": true,
+    "prep_plan_file": "alchemy/13-job-pivot/leetcode-prep-plan.md",
+    "ai_workflow_file": "alchemy/13-job-pivot/leetcode-ai-workflow.md",
+    "notes": "5/14 共制 6-8 週 Blind 75 復健計畫 + AI 教練/車上模式 SOP。Phase 0（Week 1 暖身）尚未啟動，待 Asher 跑第 1 題（Two Sum）。"
   },
 
   "pipeline_summary": {
-    "total_companies_tracked": 1,
-    "active": 1,
+    "total_companies_tracked": 2,
+    "active": 2,
     "recruiter_call_or_above": 0,
-    "offer": 0
+    "offer": 0,
+    "breakdown": {
+      "Google_internal": "物色（尚未鎖定具體 Taipei / remote team）",
+      "Microsoft_external": "物色（尚未鎖定 Taipei / remote team + role）"
+    }
   },
 
   "weekly_streak": 0,
@@ -41,16 +55,26 @@
   "diary_signal": {
     "last_career_mention_date": "2026-05-07",
     "last_career_mention_summary": "Top 3 第 4 項：找新工作",
-    "days_since_last_mention": 5,
-    "note": "5/4 強訊號（『認真研究跳槽回 Microsoft 的路徑和時程』），5/7 列入 Top 3 周邊。5/8–5/11 日記無跳槽相關提及。想法在腦中跑，沒落到 weekly-log。"
+    "days_since_last_mention": 9,
+    "note": "5/8 起 diary 無跳槽提及。5/12-5/15 diary 連 4 天空白（lifecoach 已 nudge）。但 5/14 PM inbox 收到 Asher 高完整度答覆（path/location/salary 全鎖定），證明策略思考有在跑，只是沒落到日記。"
   },
 
   "this_cycle_recommendation": {
-    "type": "看 JD",
-    "summary": "本週推 1 步：認真讀 1 個 Microsoft JD（建議優先 Azure / M365 / Copilot 其一），做 1 頁筆記 → 把 targets.md 的 Microsoft 從 TBD 收斂到具體 team。",
+    "type": "刷 LeetCode (Phase 0 第 1 題)",
+    "summary": "週末（5/16 或 5/17）撥 30 分鐘跑 Blind 75 #1 Two Sum（Easy, Python）。先 5 分鐘建立 /mnt/c/Users/ashershih/sandbox/leetcode-prep/ 目錄 + CLAUDE.md（範本在 leetcode-ai-workflow.md line 44-76），再 25 分鐘跑完整流程。完成後在 weekly-log W20 寫 1 行。",
     "expected_xp_on_completion": 15,
-    "rationale": "準備 < 基本門檻 + targets 只有 1 家且尚未具體化。讀 JD 是最低門檻 + 最高性價比的下一步，做完就有 1 頁可比對的事實。"
+    "rationale": "本週週六仍未推 1 步（觸發 nudge）+ 準備從 0 起算（觸發補準備）+ 銜接 5/14 共制的 Phase 0 計畫。第 1 題的價值不在解題，在於把『環境/AI 教練/流程』跑起來 — 第 2 題以後成本就大幅降低。週末時間 block 剛好適合。"
   },
+
+  "carryover_recommendations": [
+    {
+      "from_circle": "20260512_C001",
+      "type": "看 JD",
+      "summary": "讀 1 個 Microsoft Taipei JD + 1 頁筆記",
+      "status": "deferred",
+      "reason": "5/14 路徑策略鎖定後，Tier 1 Google 內轉變更高優先；且應先啟動 Phase 0 prep。JD 研究延到下個 deep cycle（5/18 起）再排。"
+    }
+  ],
 
   "action_log": [
     {
@@ -62,6 +86,11 @@
       "circle_id": "20260512_C001",
       "date": "2026-05-12",
       "action": "首次深度檢視。確認 W19/W20 均無事實推進、streak=0、所有準備類指標皆 0、targets 只有 Microsoft 且 TBD。提交 PM inbox 1 題（地點偏好收斂），給出本週 1 個最小下一步：讀 1 個 Microsoft JD + 1 頁筆記。"
+    },
+    {
+      "circle_id": "20260516_C001",
+      "date": "2026-05-16",
+      "action": "Pulse check（距上次深度檢視 4 天 < 6 天門檻）。確認 5/14 重大進展：Asher 鎖定 Tier 1 Google 內轉 / Tier 2 Microsoft、地點台北/remote、≥350W TWD floor；共制 leetcode-prep-plan.md + leetcode-ai-workflow.md（6-8 週 Blind 75 + AI 教練 SOP）。targets.md 已收斂、pipeline 從 1 家擴為 2 家。W20 籃子內動作仍為 0，本週末給具體第一步：跑 LeetCode Two Sum（Phase 0 啟動）。原 5/12 建議（讀 MS JD）延期到下個 deep cycle。"
     }
   ]
 }

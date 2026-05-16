@@ -10,7 +10,8 @@
 ## 2026 W20（5/11 – 5/17）— current week
 
 - 5/11 系統將「跳槽」展開為大 topic、建立 4 個子追蹤檔案（Alchemy 主動 ≠ 推進 1 步，不算）
-- _（本週還沒推 1 步）_
+- 5/14 Asher 鎖定路徑策略（Tier 1 Google 內轉、Tier 2 Microsoft）+ 地點（台北/全 remote）+ 最低年薪 350W TWD；與 Session PM 共制 `leetcode-prep-plan.md` + `leetcode-ai-workflow.md`（meta-planning，非籃子內動作，不計入 streak）
+- _（本週還沒推 1 步 — 籃子內動作 0）_
 
 ---
 
