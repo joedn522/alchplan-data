@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260511_C005",
+  "last_circle_id": "20260516_C001",
   "schema_version": 2,
   "schema_note": "v2 重構：12 條原 slot 大幅 dormant；新增 14/15 為外部管理觀察者；focus 從『推進』改成『觀察 + 對 Asher 影響評估』",
   "project_status": {
@@ -29,12 +29,14 @@
       "last_action": "2026-03-15",
       "blocked_on": "mvp-scope-not-defined",
       "priority": "low",
-      "days_since_action": 57,
+      "days_since_action": 62,
       "prep_artifacts": ["mvp-scope.md (skeleton)", "mvp-scope.md#30-sec-voice-version"],
       "next_action_size": "30-sec voice memo",
       "dormant_clock_started": "2026-05-11",
       "dormant_clock_expires": "2026-06-10",
+      "dormant_clock_progress": "D5/30（今 5/16），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
       "dormant_clock_rule": "若 5/11 到 6/10 0 動作（無 voice memo / 無 commit 觸及 alchemy/04-*）→ phase 改 dormant，停止追蹤直到 Asher 主動回來",
+      "next_alchemy_check": "2026-05-26（D15 中點）— 不 nudge 只記錄；6/10 到期時轉 dormant",
       "note": "保留試水。Asher 已有 2 條主力副業，這條沒生意義時就 dormant。"
     },
     "05": {
@@ -86,21 +88,21 @@
     "13": {
       "name": "跳槽計畫（Job Pivot）",
       "phase": "active",
-      "last_action": "2026-05-11",
-      "last_action_type": "topic-expanded-and-sub-trackers-seeded",
+      "last_action": "2026-05-14",
+      "last_action_type": "lock-strategy + build-leetcode-prep-environment",
       "priority": "high",
       "cadence": "每週至少推 1 步（投履歷 / 連絡人 / 看 JD / 刷 LeetCode / System Design / 模擬面試 擇一）",
       "next_action_size": "30-sec voice memo",
       "managed_by": "career-minister",
       "directory": "alchemy/13-job-pivot/",
-      "sub_trackers": ["targets.md", "leetcode.md", "system-design.md", "weekly-log.md"],
-      "primary_target": "Microsoft",
+      "external_directory": "/mnt/c/Users/ashershih/sandbox/leetcode-prep/",
+      "sub_trackers": ["targets.md", "leetcode.md", "system-design.md", "weekly-log.md", "leetcode-prep-plan.md (5/14)", "leetcode-ai-workflow.md (5/14)"],
+      "primary_target": "Tier 1 Google 內轉 / Tier 2 Microsoft 外部面試",
       "current_week": "W20 (5/11-5/17)",
-      "current_week_actions": 0,
-      "first_weekly_check_due": "2026-05-17",
-      "next_alchemy_action": "5/17 (週日) 檢查 weekly-log.md — 若 W20 仍 0 row 則發 30 秒語音 nudge；提早來訊號就提早接住",
-      "nudge_policy": "不堆積、不每天問；週末檢一次；不會說『你三週沒動要補三步』",
-      "note": "原本叫 Microsoft Pivot，5/11 擴展為「跳槽」大 topic。5/12 移交 Career 部長主管，Alchemy 不再追蹤此 slot。背景：Asher 現職 Google，部門工時過長，目標 WLB > TC。"
+      "current_week_observed_activity": "5/14 答 career inbox（鎖定 location=台北/新北/remote、薪資 floor=350W TWD、路徑 Tier 1/2）+ 修改 targets.md + 建立 2 份 prep 文件 + 在 sandbox/leetcode-prep/ 建立完整環境（CLAUDE.md + 目錄結構）。是否計入『週推進 1 步』由 Career 部長判斷",
+      "alchplan_role": "Alchemy 已不再主動 nudge / 也不再做 weekly check（已轉 Career 部長）",
+      "next_alchemy_action": "none — 完全轉移給 Career 部長",
+      "note": "原本叫 Microsoft Pivot，5/11 擴展為「跳槽」大 topic。5/12 移交 Career 部長主管。本 cycle 確認交接完成，Alchemy 移除 first_weekly_check_due。背景：Asher 現職 Google，部門工時過長，目標 WLB > TC。"
     },
     "14": {
       "name": "WSLFinLab",
@@ -111,11 +113,11 @@
       "managed_location": "/mnt/c/Users/ashershih/sandbox/ + /mnt/c/Users/ashershih/finlab_db/",
       "alchplan_role": "observe-and-log-only",
       "latest_signal": {
-        "circle_id": "20260511_C005",
+        "circle_id": "20260516_C001",
         "channel": "finlab_db file mtime",
-        "evidence": "/mnt/c/Users/ashershih/finlab_db/expiry.pkl mtime = 2026-05-11 19:52（今天稍早）",
+        "evidence": "/mnt/c/Users/ashershih/finlab_db/expiry.pkl mtime = 2026-05-15 19:51:10（約 16 小時前，週五盤後）",
         "verdict": "alive",
-        "note": "sandbox/ 本身最新 mtime = 1/2（cold），但實際資料管線在 finlab_db/ 跑得很活。靠 sandbox 看會誤判，需以 finlab_db 為主要 heartbeat。"
+        "note": "距上 cycle (5/11 19:52) 心跳 4 天，週五盤後管線正常更新。多檔 *.pickle 同步在 5/15 19:05–19:51 寫入（broker_transactions / price#收盤價 / margin_transactions / institutional_investors），證實是完整盤後 ETL 不只是 expiry 心跳。"
       },
       "signals_to_track": [
         "primary: finlab_db/*.pkl 最新 mtime",
@@ -132,20 +134,27 @@
       "managed_by": "external-claude-code",
       "alchplan_role": "observe-and-log-only",
       "latest_signal": {
-        "circle_id": "20260511_C005",
-        "channel": "none",
+        "circle_id": "20260516_C001",
+        "channel": "none (decided not to wire YT API this cycle)",
         "verdict": "unknown",
-        "note": "本 cycle 尚無外部訊號通道。YT data feed 未接，無法判斷新影片狀態。下 cycle 之後評估是否接 YT API。"
+        "note": "本 cycle 評估接 YT API 的 ROI：成本（OAuth + cron + API key 管理 + quota 監控）> 收益（純觀察用，Asher 自己經營自己知道；LifeCoach 已負責對心情面的解讀）。決定不接，維持 unknown 狀態 — unknown ≠ unhealthy。如未來 15 出現停滯訊號（例如 Asher 在日記/語音中自述創作能量低）才再評估。"
       },
       "signals_to_track": [
-        "新影片發布（之後決定要不要接 YT API）",
+        "Asher 在日記/語音中自述（→ LifeCoach 中繼）",
         "對 Asher 創作能量 / 心情的影響（→ LifeCoach）"
       ],
+      "yt_api_decision": {
+        "decided_at": "2026-05-16",
+        "decision": "do-not-wire",
+        "reason": "ROI 不划算；Asher 自己經營有第一手資訊；LifeCoach 心情通道已覆蓋",
+        "revisit_trigger": "Asher 自述 Bobo's FM 停滯 / 焦慮 / 想被觀察"
+      },
       "note": "Asher 自述為『第二個副業』+ 個人音樂品牌。AlchPlan 不 nudge。"
     }
   },
-  "focus_projects": ["13"],
+  "focus_projects": [],
   "observed_projects": ["14", "15"],
+  "transferred_projects": ["13"],
   "stale_projects": ["04"],
   "dormant_projects": ["01", "02", "03", "05", "06", "07", "08", "09", "10", "11", "12"],
   "cross_minister_followups_open": [],
@@ -190,6 +199,19 @@
         "13 W20 (5/11-5/17) 是 onboard 首週，0 推進 actions — 太早 nudge（週才剛開始）。設 first_weekly_check_due=5/17",
         "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；早上才回 3 題、晚間才剛 schema 重構）",
         "確認 11 條 dormant slot 完全不動（無 nudge / 無檢查），釋出 cycle 預算給 13/14/15"
+      ]
+    },
+    {
+      "circle_id": "20260516_C001",
+      "timestamp": "2026-05-16T11:09:36Z",
+      "action": "5 天斷檔後第一個 cycle：14 心跳更新、15 決定不接 YT API、04 dormant clock 中段檢查、13 完成交接 Career 部長。",
+      "details": [
+        "14 心跳：finlab_db/expiry.pkl 5/15 19:51 mtime → alive。完整盤後 ETL（broker_transactions / 收盤價 / 融券 / 投信買賣超）同步在 5/15 19:05–19:51 寫入，是真心跳不是噪音",
+        "15 YT API 評估決議：不接。理由 = 成本 > ROI；Asher 自己有第一手資訊；LifeCoach 心情通道已覆蓋。記入 yt_api_decision 留 revisit_trigger（Asher 自述停滯時）",
+        "04 dormant clock D5/30：0 動作（無 alchemy/04-* commit、voice-inbox 無相關 mention）。下次檢查 5/26（D15 中點）",
+        "13 交接確認：5/14 Asher 答 career inbox（鎖 location/salary/路徑）+ 修改 targets.md + 建立 2 份 prep 文件 + 在 sandbox/leetcode-prep/ 建立完整環境。Alchemy 移除 first_weekly_check_due 與 next_alchemy_action，明確不再 weekly check（章程鐵律 5：不跨界），責任完全交給 Career 部長",
+        "schema 微調：focus_projects 清空（13 已移交）、新增 transferred_projects=[13]",
+        "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；昨天 LifeCoach 已發 diary nudge 仍 open，疊問會 push back）"
       ]
     }
   ]
