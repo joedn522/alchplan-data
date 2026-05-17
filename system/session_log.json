@@ -56,7 +56,7 @@
       "source": "20260517 散步隨記.md",
       "date": "2026-05-17",
       "content": "請教一下持續買進，為什麼這麼多人買",
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "obs_20260517_03",
@@ -84,7 +84,7 @@
       "source": "20260517 散步隨記.md",
       "date": "2026-05-17",
       "content": "思考一下如何利用麥克風走路錄音（已部分解決：voice daemon + Obsidian audio daemon 已建立）",
-      "status": "in_progress"
+      "status": "done"
     }
   ]
 }
