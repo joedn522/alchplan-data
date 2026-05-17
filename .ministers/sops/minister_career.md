@@ -32,6 +32,7 @@
 - 追蹤目錄：`alchemy/13-job-pivot/` 所有檔案
 - Gamification state：`.ministers/state/gamification.json`（更新 Career Move XP）
 - 最近 3 天日記：`bujo/daily/YYYY-MM-DD.md`（抓跳槽相關提及）
+- **Obsidian LeetCode 筆記**：`C:\Users\ashershih\iCloudDrive\iCloud~md~obsidian\Alchplan\LeetCode\`（所有 .md）
 - PM inbox：`system/pm_tasks.json`（看有無跳槽相關 inbox）
 
 ## 輸出
@@ -78,8 +79,12 @@
 
 ### Step 4: 讀準備進度（深度模式才跑）
 
-讀 `leetcode.md`：
+讀 `leetcode.md`（alchplan-data 裡的 log）：
 - 總刷題數、難度分布、最近一筆日期
+
+**同時讀 Obsidian LeetCode 資料夾**（`Alchplan/LeetCode/*.md`）：
+- 有沒有新的刷題筆記或錄音轉錄？
+- 把新筆記的題目 / 思路摘要補進 `alchemy/13-job-pivot/leetcode.md`
 - 評估：對比目標公司面試風格，準備是否充足？
 
 讀 `system-design.md`：

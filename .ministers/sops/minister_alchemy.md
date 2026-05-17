@@ -17,6 +17,10 @@
 
 - 12 個專案目錄：`alchemy/01-*` ~ `alchemy/12-*`（每個有 README.md + deep-thinking.md）
 - 最近日記中提到的副業相關內容
+- **Obsidian 副業筆記**：
+  - `C:\Users\ashershih\iCloudDrive\iCloud~md~obsidian\Alchplan\WSLFinLab\`（Slot 14 隨手想法）
+  - `C:\Users\ashershih\iCloudDrive\iCloud~md~obsidian\Alchplan\BobOS FM\`（Slot 15 隨手想法）
+  - `C:\Users\ashershih\iCloudDrive\iCloud~md~obsidian\Alchplan\Microsoft\`（Slot 13 相關想法）
 - Alchemy state：`.ministers/state/alchemy.json`
 - PM inbox：`system/pm_tasks.json`
 
@@ -66,7 +70,16 @@
 }
 ```
 
-### Step 2: 掃描所有專案
+### Step 2: 掃描 Obsidian 副業筆記
+
+在掃 alchemy/ 資料夾之前，先讀 Obsidian 對應資料夾：
+- `WSLFinLab/` → Slot 14 的隨手想法、問題、靈感
+- `BobOS FM/` → Slot 15 的創作想法、channel 策略
+- `Microsoft/` → Slot 13 跳槽相關（與 Career 部長共享，不重複 nudge）
+
+把有意義的新筆記 / 錄音轉錄摘要進 newsletter，不要複製全文。
+
+### Step 4: 掃描所有專案
 
 對每個 `alchemy/NN-*/`：
 1. 讀 `README.md` — 看狀態、優先度、待辦
@@ -74,7 +87,7 @@
 3. 檢查 `last_action` 距今多久 — 超過 7 天沒動靜 = stale
 4. 更新 `project_status`
 
-### Step 3: 卡關偵測
+### Step 5: 卡關偵測
 
 對每個 stale 專案：
 - 為什麼卡住？是缺決策？缺時間？缺資源？
@@ -82,7 +95,7 @@
 - 如果是缺決策 → 提交 PM inbox（type: `choice`）
 - 如果是缺時間 → 在 newsletter 建議降優先或暫停
 
-### Step 4: 排優先順序
+### Step 6: 排優先順序
 
 根據以下標準排序：
 1. **變現速度** — 哪個最快能產生收入？
@@ -92,20 +105,20 @@
 
 產出 `focus_projects`：本週建議 Asher 專注的 1-3 個專案。
 
-### Step 5: 推進行動
+### Step 7: 推進行動
 
 對 `focus_projects` 裡的每個專案：
 - 提出「下一步最小行動」— 要夠具體，Asher 看到就能做
 - 例如：「台股電子報：本週寫第一篇文章的大綱，主題建議用你 finlab 已有的回測結果」
 - 例如：「Podcast：先錄一集 5 分鐘的試音，不用完美，用 Just Press Record 錄就好」
 
-### Step 6: 持久化
+### Step 8: 持久化
 
 - 寫入 `alchemy.json` state
 - 如有新 inbox 問題，更新 `system/pm_tasks.json`
 - `git add` + `git commit` + `git push`
 
-### Step 7: 寫 Newsletter
+### Step 9: 寫 Newsletter
 
 `.ministers/newsletters/alchemy_<circle_id>.md`：
 

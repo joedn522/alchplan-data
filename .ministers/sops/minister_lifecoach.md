@@ -18,6 +18,8 @@
 
 - 最近 7 天的日記：`bujo/daily/*.md`（掃日期最近的 7 個）
 - 最近的語音轉錄：`bujo/voice-inbox/`（最近 10 則）
+- **Obsidian 日記**：`C:\Users\ashershih\iCloudDrive\iCloud~md~obsidian\Alchplan\daily\`（最近 7 天 .md）
+- **Obsidian 隨手記錄**：`C:\Users\ashershih\iCloudDrive\iCloud~md~obsidian\Alchplan\inbox\`（所有未讀 .md）
 - Life Coach state：`.ministers/state/lifecoach.json`
 - PM inbox：`system/pm_tasks.json`
 
@@ -48,7 +50,18 @@
 }
 ```
 
-### Step 2: 日記健康檢查
+### Step 2: 讀 Obsidian Inbox
+
+掃 `Alchplan/inbox/` 裡所有 `.md` 檔案（按日期排序，最新在前）：
+- 把有意義的條目摘要到 newsletter 的「Asher 這週想到的事」
+- 偵測情緒關鍵字（同 Step 3 的情緒掃描）
+- 掃完後不刪除，只讀取（Asher 自己決定何時清空）
+
+掃 `Alchplan/daily/` 最近 7 天：
+- 補充 bujo/daily/ 可能沒寫的那幾天
+- 如果 Alchplan daily 有、bujo daily 沒有 → 不算 streak 斷掉（Asher 有記錄，只是換地方）
+
+### Step 3: 日記健康檢查
 
 掃 `bujo/daily/` 最近 7 天的日期：
 
