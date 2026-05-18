@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260516_C001",
+  "last_circle_id": "20260518_C001",
   "streak_rules": {
     "min_threshold": "1.1 任一行有實質內容 OR Section 6 任一句有實質內容 = 該日算寫了",
     "effective_from": "2026-05-11_C004",
@@ -7,20 +7,23 @@
     "note": "空 checkbox '- [ ]' 或空 '- ' 不算；要有實際文字"
   },
   "streak": {
-    "bujo_days": 1,
-    "last_bujo_date_any_file": "2026-05-11",
-    "last_bujo_date_meets_threshold": "2026-05-11",
+    "bujo_days": 0,
+    "last_bujo_date_any_file": "2026-05-16",
+    "last_bujo_date_meets_threshold": "2026-05-16",
     "current_streak_breakdown_under_new_rule": {
-      "2026-05-11": "count (3 tasks in 1.1 + §6 '沒有，今天很輕鬆')",
-      "2026-05-12": "missing (work-pressure voice note only: Marco/NVIDIA)",
-      "2026-05-13": "missing",
-      "2026-05-14": "missing (but Asher engaged: answered career-20260512 at 13:08Z with detailed lock-in)",
-      "2026-05-15": "missing",
-      "2026-05-16": "TBD (today, 11:04 morning)"
+      "2026-05-16": "count (Top 3 有 3 項、Events 有內容、Notes 有內容、§6 '工作好滿又沒參加到死黨的聚會')",
+      "2026-05-17": "missing (週日，無 diary 檔，無 voice note)",
+      "2026-05-18": "TBD (今天，09:13 早上)"
     },
-    "note": "新規則 day 1 (5/11) 接住了，但 5/12-5/15 連 4 天斷檔。整個系統也靜默 5 天（最後 minister cycle 是 5/12 Career 首跑）。但 5/14 Asher 主動回答 career 那題 — 互動仍在，只是不寫 diary。"
+    "note": "5/16（週六）接住了 — 放鬆日去書店看書，diary 有實質內容。5/17（週日）又斷。Pattern 強化：只有刻意安排放鬆時才會寫，工作日 + 週日都容易 skip。"
   },
   "engagement_signals_outside_diary": [
+    {
+      "date": "2026-05-16",
+      "type": "voice_notes_plural",
+      "topic": "relaxation_day_book_browsing",
+      "summary": "5/16 共 5 條語音：晶片戰爭、思辨賽局、放鬆的衣袖、治軍量三千、拍照記錄生活。書名/活動標記，週六放鬆日的記錄方式（書店或逛街時錄）。"
+    },
     {
       "date": "2026-05-14",
       "type": "inbox_answer",
@@ -37,32 +40,32 @@
   ],
   "recent_mood_keywords": [
     {
+      "date": "2026-05-16",
+      "keywords": ["放鬆", "遺憾（錯過死黨聚會）", "接受下週挑戰"],
+      "energy": null,
+      "summary": "週六刻意 me-time：書店看書、拍照、iPad 鍵盤玩。但工作滿到沒法參加死黨聚會 — 有遺憾但心態是接受。演員框架仍在（'接受下週挑戰'）。"
+    },
+    {
       "date": "2026-05-11",
       "keywords": ["輕鬆", "踏實"],
       "energy": 4,
       "summary": "光明正大請假一天，打瘦瘦針 + 辦行照 + 工作 maintain。風平浪靜的一天。"
-    },
-    {
-      "date": "2026-05-04",
-      "keywords": ["不爽但清醒", "跳槽意識再起", "中立"],
-      "energy": 3,
-      "summary": "工作節奏變趕，Mentor Chaitanya 壓力，但保持中立心態，視『不爽』為跳槽提醒信號"
     }
   ],
   "active_proposals": [],
   "deferred_proposals": [
     {
       "id": "lc-deferred-exercise-tracking",
-      "reason": "原本 C006 起要提，但 5/12-5/15 連 4 天無 diary — 基本互動還沒回來，先不加新負擔",
-      "deferred_at": "2026-05-16_C001",
-      "next_window": "下次 Asher 接住 diary（任何一天）後的下個 cycle"
+      "reason": "5/16 diary 接住 → 原條件已滿足。但 5/18-5/22 是最硬工作週 + 5/22 生日，再延到生日週後",
+      "deferred_at": "20260518_C001",
+      "next_window": "2026-05-26 之後（生日週過後）"
     },
     {
       "id": "lc-deferred-finance-tracking",
-      "reason": "同上 — 雖然比 exercise 迫切，但前提是 baseline 互動回來",
-      "deferred_at": "2026-05-16_C001",
-      "next_window": "下次 Asher 接住 diary（任何一天）後的下個 cycle",
-      "note": "5/4、5/7、5/8 三天反覆出現的核銷/帳單未完成任務還在記憶裡"
+      "reason": "原條件已滿足（5/16 diary 接住），但高壓週不加新負擔。信用卡帳單已在 newsletter + pm_inbox 提醒",
+      "deferred_at": "20260518_C001",
+      "next_window": "2026-05-26 之後（生日週過後）",
+      "note": "5/18 已在 pm_inbox 放房貸提醒，信用卡帳單也在 newsletter 列出"
     }
   ],
   "completed_proposals": [
@@ -82,56 +85,64 @@
       "answered_at": "2026-05-11T10:27:12Z",
       "asher_answer": "改最低門檻",
       "consumed_at_circle": "20260511_C004",
-      "follow_up": "streak_rules 已寫入 state；即日生效。但 5/12-5/15 連 4 天斷檔顯示降門檻效果有限。"
+      "follow_up": "streak_rules 已寫入 state；即日生效。5/16 有效接住 1 天，但整體 diary rate 仍低。"
     }
   ],
   "service_gaps_identified": [
     {
       "gap": "diary_completion_rate_low",
-      "evidence": "新規則 5 天 = 1 天接住（5/11）+ 4 天斷檔（5/12-5/15）。降門檻效果不如預期。",
+      "evidence": "5/11-5/18 的 7 天：接住 2 天（5/11、5/16），5 天斷檔。接住率 2/7 ≈ 29%。",
       "since": "2026-05-11",
       "status": "active_observation",
-      "review_after": "2026-05-18 (原訂 7 天評估期)",
-      "note": "新觀察：Asher 5/14 主動回答 career inbox 但同期不寫 diary — 證據顯示『clear small question』比『開檔案填模板』摩擦小很多。要不要把 diary 改成 inbox 一題式？候選實驗。"
+      "review_after": "2026-05-25 (7 天後重新評估)",
+      "note": "模式越來越清楚：Asher 在刻意放鬆日（請假/週六）比較容易寫，工作壓力大的平日幾乎不寫。可能不是門檻問題，而是習慣觸發點的問題。"
     },
     {
       "gap": "high_friction_diary_in_busy_periods",
-      "evidence": "5/12 voice 提到要解 Marco + NVIDIA，明顯工作壓力上來；5/12-5/15 全部沒寫。Pattern：忙起來就 skip。",
+      "evidence": "5/18-5/19 是網路移交 deadline 週，5/23 被要求加班 — 這週 diary 風險最高",
       "since": "2026-05-11_C005",
-      "status": "strengthened_2026-05-16",
-      "note": "5/16 強化：5 天連續斷檔，且最後一次 voice (5/12) 內容是工作雜事不是 diary — 顯示忙的時候 voice 也只記工作，不會自然轉成 diary。"
+      "status": "high_risk_this_week",
+      "note": "這週是目前已知壓力最高點（網路移交 + 生日 + 被要求加班）。diary 幾乎肯定會斷。不要在這週設 streak 期望，改成：這週有接住任何 1 天就算贏。"
+    },
+    {
+      "gap": "social_compression_by_work",
+      "evidence": "5/16 週六錯過死黨聚會（工作滿），5/23 被要求加班（生日週末）",
+      "since": "20260518_C001",
+      "status": "new_observation",
+      "note": "工作不只壓縮 diary，也在壓縮 Asher 的社交充電時間。死黨聚會是他的充電來源之一。需要觀察這個侵蝕是否持續。"
     },
     {
       "gap": "no_exercise_tracking",
       "evidence": "5/7 Top 3 寫『運動』但沒有任何完成或追蹤紀錄",
       "since": "2026-05-11",
       "status": "deferred",
-      "next_window": "等 diary 接住後再提"
+      "next_window": "2026-05-26 之後"
     },
     {
       "gap": "no_finance_tracking",
-      "evidence": "5/4、5/7、5/8 都出現『核銷/帳單/報帳』未完成任務，沒有滾動式追蹤",
+      "evidence": "5/4、5/7、5/8 反覆出現帳單未完成；信用卡帳單兩張未讀（中信 5/16、聯邦 5/10）",
       "since": "2026-05-11",
-      "status": "deferred",
-      "next_window": "等 diary 接住後再提",
-      "note": "比 exercise 更迫切但同樣 defer — baseline 沒回來不能堆新負擔"
-    },
-    {
-      "gap": "system_idle_5_days_no_minister_cycles",
-      "evidence": "5/12 Career 首跑後到 5/16 沒有任何 minister cycle。整個 service 看起來像停擺。",
-      "since": "2026-05-16",
-      "status": "fresh_observation",
-      "note": "這違反章程鐵律 2（系統必須活著）。但這是執行層的問題（沒人跑 cron），不是 LifeCoach 能修的。記下來給 PM 觀察。"
+      "status": "deferred_with_newsletter_reminder",
+      "next_window": "2026-05-26 之後（系統化提案）；單次提醒已在本 cycle newsletter 列出"
     }
   ],
   "nudge_history": [
+    {
+      "date": "2026-05-18",
+      "type": "finance_alert_esun_mortgage",
+      "channel": "pm_inbox",
+      "tone": "informational",
+      "circle_id": "20260518_C001",
+      "reason": "今天是玉山房貸自動扣款日（NT$19,484），高優先提醒確認餘額充足。"
+    },
     {
       "date": "2026-05-16",
       "type": "diary_today_after_5day_gap",
       "channel": "pm_inbox",
       "tone": "warm_welcome_back",
       "circle_id": "20260516_C001",
-      "reason": "5 天空白 + 系統也靜默 5 天 — 但 Asher 5/14 有回 career inbox，證明他在。今天用『接住一行就好』的低門檻溫和拉回來，不提任何新提案。"
+      "reason": "5 天空白 + 系統也靜默 5 天 — 但 Asher 5/14 有回 career inbox，證明他在。今天用『接住一行就好』的低門檻溫和拉回來，不提任何新提案。",
+      "result": "✅ Asher 答『接住』，5/16 diary 有實質內容確認"
     },
     {
       "date": "2026-05-11",
