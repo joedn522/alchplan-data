@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260516_C001",
+  "last_circle_id": "20260518_C001",
   "schema_version": 2,
   "schema_note": "v2 重構：12 條原 slot 大幅 dormant；新增 14/15 為外部管理觀察者；focus 從『推進』改成『觀察 + 對 Asher 影響評估』",
   "project_status": {
@@ -34,7 +34,7 @@
       "next_action_size": "30-sec voice memo",
       "dormant_clock_started": "2026-05-11",
       "dormant_clock_expires": "2026-06-10",
-      "dormant_clock_progress": "D5/30（今 5/16），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
+      "dormant_clock_progress": "D7/30（今 5/18），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
       "dormant_clock_rule": "若 5/11 到 6/10 0 動作（無 voice memo / 無 commit 觸及 alchemy/04-*）→ phase 改 dormant，停止追蹤直到 Asher 主動回來",
       "next_alchemy_check": "2026-05-26（D15 中點）— 不 nudge 只記錄；6/10 到期時轉 dormant",
       "note": "保留試水。Asher 已有 2 條主力副業，這條沒生意義時就 dormant。"
@@ -113,12 +113,22 @@
       "managed_location": "/mnt/c/Users/ashershih/sandbox/ + /mnt/c/Users/ashershih/finlab_db/",
       "alchplan_role": "observe-and-log-only",
       "latest_signal": {
-        "circle_id": "20260516_C001",
+        "circle_id": "20260518_C001",
         "channel": "finlab_db file mtime",
-        "evidence": "/mnt/c/Users/ashershih/finlab_db/expiry.pkl mtime = 2026-05-15 19:51:10（約 16 小時前，週五盤後）",
+        "evidence": "expiry.pkl mtime = 2026-05-17 20:05；broker_transactions.pickle mtime = 2026-05-17 19:05",
         "verdict": "alive",
-        "note": "距上 cycle (5/11 19:52) 心跳 4 天，週五盤後管線正常更新。多檔 *.pickle 同步在 5/15 19:05–19:51 寫入（broker_transactions / price#收盤價 / margin_transactions / institutional_investors），證實是完整盤後 ETL 不只是 expiry 心跳。"
+        "note": "連續第三次心跳確認。5/17 盤後完整 ETL：expiry + broker_transactions 更新（5/16 盤後亦有 price#收盤價 / margin_transactions / institutional_investors）。ETL pipeline 穩定日更。另：5/7 語音有策略想法『大盤盤勢可作強訊號套用所有策略』，已記入 idea_signals。"
       },
+      "idea_signals": [
+        {
+          "date": "2026-05-07",
+          "channel": "voice-inbox",
+          "content": "我覺得可以把大盤盤勢當作是一個強訊號套用在所有的策略上面",
+          "relevance": "WSLFinLab 策略迭代想法 — 市場擇時作為全策略過濾層",
+          "status": "logged-only",
+          "note": "Asher 自己的 Claude Code session 管理，AlchPlan 不 nudge；記錄留存供參考"
+        }
+      ],
       "signals_to_track": [
         "primary: finlab_db/*.pkl 最新 mtime",
         "secondary: sandbox/ git activity（目前無 .git，未來 Asher 若 init 就改用）",
@@ -212,6 +222,20 @@
         "13 交接確認：5/14 Asher 答 career inbox（鎖 location/salary/路徑）+ 修改 targets.md + 建立 2 份 prep 文件 + 在 sandbox/leetcode-prep/ 建立完整環境。Alchemy 移除 first_weekly_check_due 與 next_alchemy_action，明確不再 weekly check（章程鐵律 5：不跨界），責任完全交給 Career 部長",
         "schema 微調：focus_projects 清空（13 已移交）、新增 transferred_projects=[13]",
         "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；昨天 LifeCoach 已發 diary nudge 仍 open，疊問會 push back）"
+      ]
+    },
+    {
+      "circle_id": "20260518_C001",
+      "timestamp": "2026-05-18T09:18:47Z",
+      "action": "生日週前夕觀察 cycle：14 心跳更新（連三次確認）、記錄 5/7 WSLFinLab 策略想法、04 dormant clock D7 中段紀錄。",
+      "details": [
+        "14 心跳：expiry.pkl 5/17 20:05 + broker_transactions 5/17 19:05 → alive。ETL pipeline 穩定日更，連續三次心跳正常",
+        "14 策略想法 logged：5/7 語音『大盤盤勢當作強訊號套用所有策略』— 記入 idea_signals，不 nudge（外部 session 管理）",
+        "15 無新訊號：voice-inbox 及日記無 Bobo's FM 相關 mention。5/16 日記顯示 Asher 在放鬆自我出走，無創作停滯訊號",
+        "04 dormant clock D7/30：0 動作。下次檢查仍 5/26（D15 中點）",
+        "13 不跨界：本 cycle 無跨 Career 部長動作",
+        "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；LifeCoach 同 cycle 已有房貸提醒 + 高壓週，不疊加壓力）",
+        "背景：高壓週（網路移交 5/18-19 deadline，5/23 加班），生日 5/22 倒數 4 天 → 保護副業時間優先"
       ]
     }
   ]
