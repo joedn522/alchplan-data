@@ -7,18 +7,21 @@
 
 - _（本週尚無紀錄）_
 
-## 2026 W20（5/11 – 5/17）— current week
+## 2026 W20（5/11 – 5/17）
 
-- 5/11 系統將「跳槽」展開為大 topic、建立 4 個子追蹤檔案（Alchemy 主動 ≠ 推進 1 步，不算）
-- 5/14 Asher 鎖定路徑策略（Tier 1 Google 內轉、Tier 2 Microsoft）+ 地點（台北/全 remote）+ 最低年薪 350W TWD；與 Session PM 共制 `leetcode-prep-plan.md` + `leetcode-ai-workflow.md`（meta-planning，非籃子內動作，不計入 streak）
-- _（本週還沒推 1 步 — 籃子內動作 0）_
+- 5/13 刷 LeetCode：LC 1 Two Sum（Easy / Hash Map）+ LC 100 Same Tree（Easy / DFS）— Phase 0 正式起跑 ✅
+- 5/16 刷 LeetCode：LC 121 Best Time to Buy and Sell Stock（Easy）/ LC 217 Contains Duplicate（Easy）/ LC 242 Valid Anagram（Easy）/ LC 53 Maximum Subarray（Medium / Kadane's）/ LC 238 Product of Array Except Self（Medium / Prefix-Suffix）— **Phase 0 完成，5 題含 2 Medium**
+
+## 2026 W21（5/18 – 5/24）— current week
+
+- _（本週尚無紀錄 — W2 Phase 1 待推）_
 
 ---
 
 ## Streak
 
-- 連續週數有推 1 步：**0** 週（本週還沒推）
-- 史上最長 streak：**0** 週
+- 連續週數有推 1 步：**1** 週（W20 ✅）
+- 史上最長 streak：**1** 週
 
 ## 累積動作數
 
@@ -27,7 +30,7 @@
 | 投履歷 | 0 |
 | 連絡人 | 0 |
 | 看 JD | 0 |
-| 刷 LeetCode | 0 |
+| 刷 LeetCode | 1（W20，共 7 題） |
 | System Design | 0 |
 | 模擬面試 | 0 |
 
