@@ -8,12 +8,14 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-13T00:00:00Z",
-    "status": "consumed",
+    "status": "archived",
     "asher_answer": "shelve",
     "consumed_by": "lifecoach_20260511_C004",
     "created_at": "2026-05-11T00:53:31Z",
     "circle_id": "20260511_C001",
-    "answered_at": "2026-05-11T10:27:12Z"
+    "answered_at": "2026-05-11T10:27:12Z",
+    "archived_at": "2026-05-19T08:13:00Z",
+    "archive_reason": "consumed + 建立超過 7 天，PM 20260519_C001 封存"
   },
   {
     "id": "lc-20260511-prop-microsoft-pivot-slot",
@@ -27,12 +29,14 @@
     "minister_default": "shelve_not_onboard",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-18T00:00:00Z",
-    "status": "consumed",
+    "status": "archived",
     "asher_answer": "上線新槽位",
     "consumed_by": "lifecoach_20260511_C004",
     "created_at": "2026-05-11T00:53:31Z",
     "circle_id": "20260511_C001",
-    "answered_at": "2026-05-11T10:27:12Z"
+    "answered_at": "2026-05-11T10:27:12Z",
+    "archived_at": "2026-05-19T08:13:00Z",
+    "archive_reason": "consumed + 建立超過 7 天，PM 20260519_C001 封存"
   },
   {
     "id": "lc-20260511-prop-diary-min-threshold",
@@ -46,12 +50,14 @@
     "minister_default": "shelve_not_onboard",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-18T00:00:00Z",
-    "status": "consumed",
+    "status": "archived",
     "asher_answer": "改最低門檻",
     "consumed_by": "lifecoach_20260511_C004",
     "created_at": "2026-05-11T00:53:31Z",
     "circle_id": "20260511_C001",
-    "answered_at": "2026-05-11T10:27:12Z"
+    "answered_at": "2026-05-11T10:27:12Z",
+    "archived_at": "2026-05-19T08:13:00Z",
+    "archive_reason": "consumed + 建立超過 7 天，PM 20260519_C001 封存"
   },
   {
     "id": "lc-to-alchemy-20260511-onboard-microsoft-pivot",
@@ -64,12 +70,14 @@
     "source_inbox_id": "lc-20260511-prop-microsoft-pivot-slot",
     "minister_default": "execute",
     "default_action": "execute",
-    "status": "consumed",
+    "status": "archived",
     "consumed_by": "alchemy_20260511_C005",
     "created_at": "2026-05-11T18:35:18Z",
     "circle_id": "20260511_C004",
     "consumed_at": "2026-05-11T21:51:18Z",
-    "consume_note": "Slot 13 已於 C004 由 Asher + Session PM 直接寫入 state（manual-asher-correction 條目）。本 cycle Alchemy 正式關掉這張 handoff 票。實際擴展為「跳槽計畫」大 topic，比原 handoff 要求的更廣（不只 Microsoft）。"
+    "consume_note": "Slot 13 已於 C004 由 Asher + Session PM 直接寫入 state（manual-asher-correction 條目）。本 cycle Alchemy 正式關掉這張 handoff 票。實際擴展為「跳槽計畫」大 topic，比原 handoff 要求的更廣（不只 Microsoft）。",
+    "archived_at": "2026-05-19T08:13:00Z",
+    "archive_reason": "consumed + 建立超過 7 天，PM 20260519_C001 封存"
   },
   {
     "id": "career-20260512-location-preference",
