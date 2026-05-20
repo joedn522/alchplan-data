@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260519_C001",
+  "last_circle_id": "20260520_C001",
   "schema_version": 2,
   "schema_note": "v2 重構：12 條原 slot 大幅 dormant；新增 14/15 為外部管理觀察者；focus 從『推進』改成『觀察 + 對 Asher 影響評估』",
   "project_status": {
@@ -34,7 +34,7 @@
       "next_action_size": "30-sec voice memo",
       "dormant_clock_started": "2026-05-11",
       "dormant_clock_expires": "2026-06-10",
-      "dormant_clock_progress": "D8/30（今 5/19），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
+      "dormant_clock_progress": "D9/30（今 5/20），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
       "dormant_clock_rule": "若 5/11 到 6/10 0 動作（無 voice memo / 無 commit 觸及 alchemy/04-*）→ phase 改 dormant，停止追蹤直到 Asher 主動回來",
       "next_alchemy_check": "2026-05-26（D15 中點）— 不 nudge 只記錄；6/10 到期時轉 dormant",
       "note": "保留試水。Asher 已有 2 條主力副業，這條沒生意義時就 dormant。"
@@ -113,11 +113,11 @@
       "managed_location": "/mnt/c/Users/ashershih/sandbox/ + /mnt/c/Users/ashershih/finlab_db/",
       "alchplan_role": "observe-and-log-only",
       "latest_signal": {
-        "circle_id": "20260519_C001",
+        "circle_id": "20260520_C001",
         "channel": "finlab_db file mtime",
-        "evidence": "expiry.pkl mtime = 2026-05-18 19:51；price#收盤價.pickle mtime = 2026-05-18 19:05；broker_transactions.pickle mtime = 2026-05-18 19:05",
+        "evidence": "expiry.pkl mtime = 2026-05-19 19:56；institutional_investors_trading_summary#投信買賣超股數.pickle mtime = 2026-05-19 19:56；margin_transactions#融券今日餘額.pickle mtime = 2026-05-19 19:27；price#收盤價.pickle mtime = 2026-05-19 19:05；broker_transactions.pickle mtime = 2026-05-19 19:05",
         "verdict": "alive",
-        "note": "連續第四次心跳確認。5/18 盤後完整 ETL：expiry + price#收盤價 + broker_transactions 更新。ETL pipeline 穩定日更，無任何異常。"
+        "note": "連續第五次心跳確認。5/19 盤後完整 ETL：expiry + 投信買賣超 + 融券餘額 + price#收盤價 + broker_transactions 全部更新。ETL pipeline 穩定日更，無任何異常。"
       },
       "idea_signals": [
         {
@@ -135,6 +135,14 @@
           "relevance": "槓桿 200 萬注入 WSLFinLab 計畫 — Asher 計畫 5/19 完成所有銀行詢問，從『研究完成待執行』走向『實際行動』",
           "status": "logged-only",
           "note": "高壓週中 Asher 自主推進，AlchPlan 不 nudge；記錄留存，等 Asher 主動回報利率"
+        },
+        {
+          "date": "2026-05-20",
+          "channel": "diary-5/19-§1.1",
+          "content": "貸款第一步：玉山銀行主動聯絡，可以往下進行",
+          "relevance": "槓桿 200 萬計畫推進 — 玉山銀行已主動回電並確認可以進行，從『待回電』變為『收到正面聯絡、可推進申請』",
+          "status": "logged-only",
+          "note": "Asher 高壓週中自主推進貸款，AlchPlan 不 nudge；記錄留存，等 Asher 主動回報利率細節或申請進展"
         }
       ],
       "signals_to_track": [
@@ -258,6 +266,20 @@
         "13 不跨界：本 cycle 無跨 Career 部長動作",
         "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；高壓週 + LifeCoach 已有 diary 和生日問題 open，不疊壓力）",
         "背景：生日 5/22 倒數 3 天，工廠 Mini Factory 5/22 起至 6/4。Asher 演員框架撐住，演得很好"
+      ]
+    },
+    {
+      "circle_id": "20260520_C001",
+      "timestamp": "2026-05-20T08:05:50Z",
+      "action": "生日前 2 天觀察 cycle：14 心跳第五次連續確認 + 玉山貸款進入下一階段、15 無新訊號、04 dormant clock D9 更新。",
+      "details": [
+        "14 心跳：expiry.pkl 5/19 19:56 + 投信買賣超 5/19 19:56 + 融券餘額 5/19 19:27 + price#收盤價 5/19 19:05 + broker_transactions 5/19 19:05 → alive。連續第五次心跳，ETL pipeline 穩定日更，無任何異常",
+        "14 idea_signal logged：5/19 日記§1.1 確認『玉山銀行主動聯絡，可以往下進行』— 槓桿計畫從『待回電』推進到『收到正面聯絡、可申請』。記入 idea_signals，不 nudge（Asher 自主推進）",
+        "15 無新訊號：Obsidian BobOS FM 資料夾空白，voice-inbox 無相關 mention，5/19 日記無提及。高壓週工廠期開始，正常",
+        "04 dormant clock D9/30：0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）。下次檢查 5/26（D15 中點），如期",
+        "13 不跨界：本 cycle 無跨 Career 部長動作",
+        "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；生日 5/22 明天、Mini Factory 5/22 開始，不疊壓力）",
+        "背景：生日 5/22 倒數 2 天，Mini Factory 5/22–6/4 開始（工廠期）。5/19 日記精力 3，電池低電量但演員框架在"
       ]
     }
   ]
