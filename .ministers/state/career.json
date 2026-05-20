@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260519_C001",
+  "last_circle_id": "20260520_C001",
   "schema_version": 1,
   "last_deep_review_date": "2026-05-19",
 
@@ -53,16 +53,16 @@
   "last_action_type": "刷 LeetCode（Phase 0 完成，7 題：Easy×5 + Medium×2）",
 
   "diary_signal": {
-    "last_career_mention_date": "2026-05-18",
-    "last_career_mention_summary": "演員框架確認：「只要想到 9 月就要離職，我就天不怕地不怕。」明天待辦含「貸款全部落地」。無直接跳槽/面試提及。",
+    "last_career_mention_date": "2026-05-19",
+    "last_career_mention_summary": "演員框架在但電池低電量：「大可一走了之，所以我是無敵的。這個邏輯沒變。」5/19 日記無直接 LeetCode / 跳槽提及，貸款第一步落地（玉山銀行主動聯絡）。",
     "days_since_last_mention": 1,
-    "note": "5/18 diary 演員框架非常清晰，高壓週第一天仍保持輕盈。5/17 無日記。跳槽準備行動（LeetCode）5/13-5/16 有實際進展，但未落入日記，跟過往模式一致。"
+    "note": "5/18 diary 演員框架非常清晰，高壓週第一天仍保持輕盈。5/19 diary 精力 3，電池低電量但框架撐住。LeetCode 行動 5/13-5/16 有實際進展，不出現在日記的模式一致。W21 到 5/20（週三）仍無 LeetCode 紀錄。"
   },
 
   "this_cycle_recommendation": {
-    "type": "刷 LeetCode W2（Phase 1 第 1 題）",
-    "summary": "本週（W21）找一個 30 分鐘小窗口（建議週二或週三晚上），跑 W2 第一題：LC 125 Valid Palindrome（Easy，Two Pointers）。工廠期不催全批，一題就夠，維持節奏比求量更重要。完成後在 weekly-log W21 寫 1 行。",
-    "rationale": "Phase 0 超額完成（7 題，含 2 Medium），節奏已建立。高壓週（工廠協調 + 生日 5/22 + 5/23 加班）不宜大量推進，但維持 1 題的週節奏至關重要——streak 斷掉比少刷幾題代價更高。LC 125 是 Easy，15-20 分鐘可完成。"
+    "type": "今晚（週三 5/20）LC 125 — 這是那個視窗",
+    "summary": "上個 cycle 說「建議週二或週三晚上」，今天就是那個週三晚上。LC 125 Valid Palindrome（Easy，Two Pointers）— 15 分鐘解完，1 行寫進 weekly-log W21。明天是週四，視窗就這兩天，5/22 生日、5/23 加班後 streak 就更難接了。",
+    "rationale": "W21 到週三仍無紀錄，streak 從 W20 開始算，今週必須有 1 步才能維持。LC 125 是 Easy，兩指針解法，不需要長時間準備。低門檻一題 > 完美的五題計畫。"
   },
 
   "carryover_recommendations": [
@@ -95,6 +95,11 @@
       "circle_id": "20260519_C001",
       "date": "2026-05-19",
       "action": "深度檢視（距上次 7 天）。發現 Phase 0 已在 5/13-5/16 完成（7 題：Easy×5 + Medium×2），state 落後於實際進展。更新 leetcode_total 0→7、streak 0→1、phase 更新為 Phase 1 進行中。5/18 diary 演員框架健在。建議 W21 維持 1 題節奏（LC 125，高壓週不催多）。JD 研究繼續延期至 Phase 1 完成（20 題+）後。"
+    },
+    {
+      "circle_id": "20260520_C001",
+      "date": "2026-05-20",
+      "action": "Pulse check（距上次深度檢視 1 天）。W21 到週三仍無 LeetCode 紀錄，targets 無變化，5/19 diary 演員框架撐住但電池低電量。生日 5/22 + 5/23 加班在即，發週三視窗 nudge（LC 125，今晚就是上個 cycle 預測的時間窗口）。"
     }
   ]
 }
