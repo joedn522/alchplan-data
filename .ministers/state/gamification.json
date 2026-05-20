@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-05-11T19:45:00Z",
+  "last_updated": "2026-05-20T08:12:00Z",
   "player": {
     "name": "Asher",
     "total_level": 24,
@@ -11,9 +11,9 @@
       "name": "🧠 Engineering",
       "description": "LeetCode、System Design、技術閱讀、coding 練習",
       "level": 5,
-      "xp": 0,
+      "xp": 100,
       "xp_to_next": 600,
-      "lifetime_xp": 0
+      "lifetime_xp": 100
     },
     "career_move": {
       "name": "🚀 Career Move",
@@ -47,9 +47,9 @@
       "name": "🧘 Mind",
       "description": "日記、反思、語音 inbox、心情追蹤",
       "level": 0,
-      "xp": 10,
+      "xp": 90,
       "xp_to_next": 100,
-      "lifetime_xp": 10
+      "lifetime_xp": 90
     },
     "body": {
       "name": "💪 Body",
@@ -110,11 +110,46 @@
   ],
   "recent_xp_log": [
     {
+      "date": "2026-05-19",
+      "tree": "mind",
+      "xp": 25,
+      "reason": "5/19 diary 確認有實質內容（精力 3，演員框架在：'大可一走了之，所以我是無敵的'，貸款第一步落地，≥3 sections）",
+      "added_by": "pm-20260520_C001"
+    },
+    {
       "date": "2026-05-11",
       "tree": "mind",
       "xp": 10,
       "reason": "日記新規則達標（voice memo 整合進 5/11 日記，1 格以上）",
       "added_by": "session-pm"
+    },
+    {
+      "date": "2026-05-16",
+      "tree": "engineering",
+      "xp": 100,
+      "reason": "LeetCode 7 題補錄（5/13: LC1 Easy +10, LC100 Easy +10; 5/16: LC121 Easy +10, LC217 Easy +10, LC242 Easy +10, LC53 Medium +25, LC238 Medium +25）",
+      "added_by": "knowledge-20260519_C001"
+    },
+    {
+      "date": "2026-05-16",
+      "tree": "mind",
+      "xp": 25,
+      "reason": "5/16 diary 完整（Top 3, Events, Notes, §6 均有內容，≥3 sections）",
+      "added_by": "knowledge-20260519_C001"
+    },
+    {
+      "date": "2026-05-18",
+      "tree": "mind",
+      "xp": 25,
+      "reason": "5/18 diary 完整（Top 3 全達成、演員框架確認在線、§6 有感謝，≥3 sections）",
+      "added_by": "knowledge-20260519_C001"
+    },
+    {
+      "date": "2026-05-18",
+      "tree": "mind",
+      "xp": 5,
+      "reason": "語音 inbox 轉錄成功（5/18 RMA 工廠語音）",
+      "added_by": "knowledge-20260519_C001"
     }
   ]
 }

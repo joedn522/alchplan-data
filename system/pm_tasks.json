@@ -93,14 +93,16 @@
     "minister_default": "維持 TBD，3 個方向都各物色 1 家",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-19T00:00:00Z",
-    "status": "consumed",
+    "status": "archived",
     "asher_answer": "custom: 完整鎖定 — (1) 路徑策略：Tier 1 Google 內部跳轉（優先，免外部面試）；Tier 2 Microsoft 外部面試（前公司，WLB 佳，需面試）。(2) 地點:台北市 / 新北市 / 全 remote（不考慮海外搬遷）。(3) 最低年薪：350 萬 TWD（hard floor）。targets.md 背景區已同步更新，請 Career 部長下個 cycle 用新約束重新盤點物色清單。",
     "answered_at": "2026-05-14T13:08:05Z",
     "consumed_by": "career_20260516_C001",
     "consumed_at": "2026-05-16T11:18:00Z",
     "consume_note": "Career C001 pulse check 確認 5/14 回覆已完整內化進 state.context（path_strategy / location_preference / min_annual_salary_twd）+ targets.md 背景區更新 + pipeline 從 1 家擴為 2 家。PM 本 cycle 正式關票。",
     "created_at": "2026-05-12T22:15:29Z",
-    "circle_id": "20260512_C001"
+    "circle_id": "20260512_C001",
+    "archived_at": "2026-05-20T08:12:00Z",
+    "archive_reason": "consumed + 建立超過 7 天（8 天），PM 20260520_C001 封存"
   },
   {
     "id": "lc-20260516-diary-today-nudge",
