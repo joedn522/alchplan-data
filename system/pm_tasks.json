@@ -147,9 +147,25 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-20T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-19T08:00:01Z",
-    "circle_id": "20260519_C001"
+    "circle_id": "20260519_C001",
+    "consumed_by": "lifecoach_20260520_C001",
+    "consumed_at": "2026-05-20T08:00:02Z",
+    "consume_note": "5/19 diary 確認有實質內容（精力 3，開會被耗乾，演員框架在：'大可一走了之，所以我是無敵的'，貸款第一步落地）。系統自動關閉。"
+  },
+  {
+    "id": "lc-20260520-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "連兩天了！（5/18 + 5/19 都接住）今天（5/20）也試試嗎？貸款進展值得記一筆，或是「電池充好了嗎」也算一句話。生日快到了，今天的日記說不定有特別的東西可以寫。不想寫也 shelve 就好。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-21T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-20T08:00:02Z",
+    "circle_id": "20260520_C001"
   },
   {
     "id": "lc-20260519-birthday-evening",
