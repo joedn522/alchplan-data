@@ -1,24 +1,24 @@
 {
-  "last_circle_id": "20260516_C001",
-  "total_circles": 7,
+  "last_circle_id": "20260520_C001",
+  "total_circles": 9,
   "consecutive_missing_ministers": {
     "lifecoach": 0,
     "alchemy": 0,
     "pm": 0,
     "career": 0
   },
-  "last_report_path": ".ministers/circles/circle_20260516_C001.md",
+  "last_report_path": ".ministers/circles/circle_20260520_C001.md",
   "last_report_stats": {
     "ministers_reported": 5,
     "ministers_total": 5,
-    "asher_inbox_questions": 1,
+    "asher_inbox_questions": 2,
     "destructive_proposals": 0,
-    "files_changed": 14,
+    "files_changed": 13,
     "alchemy_newsletter_present": true,
     "career_newsletter_present": true,
     "inbox_zeroed": false,
     "in_flight_handoffs": 0,
-    "system_idle_days_since_last_cycle": 5,
+    "system_idle_days_since_last_cycle": 1,
     "system_recoverability_verified": true
   },
   "notes": {
@@ -27,6 +27,8 @@
     "20260511_C003": "集體安靜 cycle — LifeCoach/PM/Alchemy 三位同步採『不加新問題』策略，因 inbox 已 3 題待回。Alchemy 完整跑完（state + 2 artifacts 更新）但漏掉 newsletter 檔，Knowledge 代為 commit state + artifacts。PM commit step 修復確認（PM 自己 commit 9d174d3），但 Alchemy 換成同樣模式漏 commit — 看起來是所有非 Knowledge 部長共通的 step 順序問題。consecutive_missing 全部歸零（三位都有實質產出，即使 Alchemy 缺 newsletter）。",
     "20260511_C004": "首次完整 close-loop cycle — Asher 早上 10:27 30 秒回 3 題 → LifeCoach 18:35 consume + handoff → Alchemy 18:40 提前建立 slot 13 README → PM 18:43 close-loop。4/4 部長全到齊，全部自己 commit（aa43146/bbd9aae/3d09594）；Knowledge 只補 commit Alchemy 後續創建的 alchemy/13-microsoft-pivot/ untracked 目錄。Inbox 從 3 題 pending 真正歸零，0 新 Asher-facing 問題。觀察：Alchemy 提前完成 handoff 是好事，但 alchemy.json project_status 未寫入 '13'（執行完整、輸出半套，同 C003 模式）— 下 cycle 觀察是否補上。系統首次達到『球完全回到 Asher 手上、無 default-deadline 壓力』狀態。",
     "20260511_C005": "Alchemy v2 schema 上線首正式 cycle — 三大新概念全部生效：active-prod(observed) 14/15、dormant_clock 04（5/11→6/10）、absorbed 01/02/03/05/06/09。Inbox 史上最乾淨歸零（C004 還有 1 in-flight handoff，C005 連這個都清掉，4 條 cross_minister_followups 全部不在 in_flight）。三位部長全部自己 commit（c1a6519/caa21d0/45780bf），Knowledge 無需代為 commit — 非 Knowledge 部長 commit step 連 2 cycle 穩定。集體安靜策略連續 4 cycle（C002/C003/C004/C005）但性質不同：C002/C003 是『等回答』的安靜，C005 是『不亂找事做』的安靜。LifeCoach 把 no_finance_tracking gap 從 candidate 升級為 ready_to_propose，C006 可能提案。Voice daemon 第 4 個連續 unverified cycle（28.3h，5/13 18:00 升級臨界，還有 44h 緩衝）。新觀察：Alchemy 提的 14/15 observed-not-managed 概念被 PM 採納寫入 pm.json — 部長之間互相 reference 的服務品質首次被點名為下 cycle 觀察重點。",
-    "20260516_C001": "系統首次大規模 idle 後乾淨恢復 — 距上次 cycle 5 天 0 動作。4 部長無痛接力，無 state 損壞、無 error、無資料遺失。章程鐵律 2 的工程含意被驗證：『停了能無痛恢復』> 『絕對不能停』。Career 部長首次出現於 cycle（C001=第 2 次跑），執行完整但 commit step 未觸發（同 C003 Alchemy 模式）— Knowledge 補 commit Career 一套（state/newsletter/targets/weekly-log）+ Asher 5/14 自製 2 份 leetcode prep 文件（共 6 個檔）。Voice daemon 從 unverified streak 4 升 healthy（PM 完整驗證 protocol v0.1）。Inbox: career-20260512 端到端閉環關票、lifecoach 開 1 張低門檻 diary nudge（default=shelve）。**首次有 5 個部長同時 cycle 報到**（含 Career），ministers_total 從 4 升 5。新觀察 pattern：Asher 5 天 diary 空白但 5/14 高品質回 career inbox + 同晚自建完整 leetcode-prep — 『clear small question > diary modal』被 LifeCoach 記為候選實驗。"
+    "20260516_C001": "系統首次大規模 idle 後乾淨恢復 — 距上次 cycle 5 天 0 動作。4 部長無痛接力，無 state 損壞、無 error、無資料遺失。章程鐵律 2 的工程含意被驗證：『停了能無痛恢復』> 『絕對不能停』。Career 部長首次出現於 cycle（C001=第 2 次跑），執行完整但 commit step 未觸發（同 C003 Alchemy 模式）— Knowledge 補 commit Career 一套（state/newsletter/targets/weekly-log）+ Asher 5/14 自製 2 份 leetcode prep 文件（共 6 個檔）。Voice daemon 從 unverified streak 4 升 healthy（PM 完整驗證 protocol v0.1）。Inbox: career-20260512 端到端閉環關票、lifecoach 開 1 張低門檻 diary nudge（default=shelve）。**首次有 5 個部長同時 cycle 報到**（含 Career），ministers_total 從 4 升 5。新觀察 pattern：Asher 5 天 diary 空白但 5/14 高品質回 career inbox + 同晚自建完整 leetcode-prep — 『clear small question > diary modal』被 LifeCoach 記為候選實驗。",
+    "20260519_C001": "5/18 反直覺大突破 — 高壓週第一天 Asher 反而寫了最完整的日記，演員框架在壓力下反向給力。Phase 0 超額完成（7 LeetCode 含 2 Medium，5/13-5/16）。WSLFinLab 第四次連續心跳。槓桿 200 萬出現行動訊號（Asher 5/18 diary 把貸款詢問列為 5/19 重點任務）。5/5 部長全到齊，4 部長全部自己 commit（a37c790/7e0daca/b811a9e/ba1ea25）。**Knowledge 代為補錄 gamification XP（+155 XP：+100 Engineering LeetCode + +55 Mind）— 系統性問題：部長未主動更新 gamification.json，建議在部長 SOP 加強此步驟**。Asher 行動在前系統在後追蹤模式第二次確認（Phase 0 實際 5/13 完成，系統 5/19 才追到）。演員框架確認為系統健康 leading indicator（PM 提出：日記空白先問框架是否在，不直接催）。",
+    "20260520_C001": "生日倒數 2 天，系統全綠。WSLFinLab 第五次連續 ETL 心跳。玉山貸款第一步真正落地（玉山主動來電）。連兩天 diary streak（5/18+5/19）。PM 補錄 Mind +25 XP → 90/100，距 Level 1 僅差 10 XP，今天一篇日記就到。5/5 部長全到齊，5 部長全部自己 commit（c9d2215/b1a787e/3aa49ac/c7d477e）。Inbox 2 題均 shelve-friendly，deadline 5/21。Mini Factory 明天（5/22）開始，系統進入工廠保護期模式。"
   }
 }

@@ -15,4 +15,5 @@ if [ -z "${1:-}" ]; then
     exit 1
 fi
 
+export PATH="/root/.local/bin:/home/alchemist/.local/bin:$PATH"
 exec claude -p "$1" --max-turns "$MAX_TURNS"

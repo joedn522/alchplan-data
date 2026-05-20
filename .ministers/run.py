@@ -55,13 +55,13 @@ MINISTER_CONFIG = {
         'sop': 'minister_pm.md',
         'state': 'pm.json',
         'min_cadence_hours': 0,
-        'max_turns': 15,
+        'max_turns': 25,
     },
     'knowledge': {
         'sop': 'minister_knowledge.md',
         'state': 'knowledge.json',
         'min_cadence_hours': 0,
-        'max_turns': 15,
+        'max_turns': 25,
     },
 }
 
@@ -136,6 +136,22 @@ def build_prompt(minister_name, circle_id):
         parts.append('# === PM Inbox 現況 ===\n')
         parts.append('```json\n')
         parts.append(inbox_path.read_text(encoding='utf-8'))
+        parts.append('\n```\n\n')
+
+    # 4b. Finance inbox (Gmail 財務信件掃描結果)
+    finance_inbox_path = BASE_DIR / 'system' / 'finance_inbox.json'
+    if finance_inbox_path.exists():
+        parts.append('# === 財務信件待辦（Gmail 掃描） ===\n')
+        parts.append('```json\n')
+        parts.append(finance_inbox_path.read_text(encoding='utf-8'))
+        parts.append('\n```\n\n')
+
+    # 4c. Asher 當前生活狀態（工作處境、心理狀態）
+    current_state_path = BASE_DIR / 'system' / 'asher_current_state.json'
+    if current_state_path.exists():
+        parts.append('# === Asher 當前處境（重要背景，所有部長必讀） ===\n')
+        parts.append('```json\n')
+        parts.append(current_state_path.read_text(encoding='utf-8'))
         parts.append('\n```\n\n')
 
     # 5. 執行指令
@@ -220,7 +236,7 @@ def run_minister(minister_name, circle_id, args):
         return True
 
     # File lock to prevent duplicate runs
-    lock_path = STATE_DIR / f'.{minister_name}.lock'
+    lock_path = STATE_DIR / f'_lock_{minister_name}'
     lock_file = open(lock_path, 'w')
     try:
         fcntl.flock(lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)

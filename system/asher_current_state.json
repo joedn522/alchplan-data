@@ -1,0 +1,118 @@
+{
+  "last_updated": "2026-05-17",
+  "updated_by": "Claude Code session (Asher 親口描述)",
+  "birthday": "2026-05-22",
+  "work": {
+    "company": "Google",
+    "start_date": "2025-10",
+    "months_in": 7,
+    "level": "L4",
+    "salary_vs_prev": "比 Microsoft 少 NT$50萬/年",
+    "pain_points": [
+      "7am 跨時區英文會議，佔用整個早上",
+      "下午 3-4 點才能開始做工程工作",
+      "幾乎每天加班到 7-8 點",
+      "職責範圍不清楚：team 被賦予全新職責，無前例，無人指引",
+      "Manager 無法畫清邊界（Google 是 peer-driven scope 文化）"
+    ],
+    "current_month_stress": {
+      "context": "5月下旬硬體新機器進入第二階段趕工，Asher 是工廠窗口",
+      "items": [
+        "工廠協調：大量事務湧入，不確定性高",
+        "網路工作移交：deadline 5/18-5/19 這週，需交給新同事並幫忙引介借機器的關係",
+        "5/23（週六）被要求加班，5/22 是生日"
+      ]
+    },
+    "subjective_state": "高壓但有出口感，已與 manager sync 過離開意願",
+    "cp_value_assessment": "低（比 Microsoft 工時更長、薪水更低），但已有清楚的退出計畫"
+  },
+  "exit_plan": {
+    "track_a": {
+      "name": "Google 內部轉調",
+      "action_start": "2026-09",
+      "target_date": "2026-10",
+      "strategy": "9 月開始主動聯絡其他 team，10 月正式申請",
+      "target_teams": ["Pixel 相關", "Silicon 相關"],
+      "advantage": "在另一個 office 已有認識的人",
+      "months_remaining": 4
+    },
+    "track_b": {
+      "name": "Microsoft 外部面試（保險）",
+      "status": "主動備戰中",
+      "action": "目前已開始刷題（Nicole/演算法準備）",
+      "rationale": "若 Google 內部轉調不成，Microsoft 是 CP 值最高的選項",
+      "advantage": "前公司，文化熟悉，WLB 已知"
+    }
+  },
+  "mindset_framework": {
+    "name": "演員框架",
+    "description": "Asher 把自己定位為演員，Google 是他在演的一齣戲。演員知道戲會結束，所以可以全力演好眼前的場景，不會被劇情淹沒。",
+    "anchor": "9月就走了，現在只是把這場戲演完",
+    "physical_anchor": "手機鎖屏換成『9月』提醒（Asher 自行設定）",
+    "daily_ritual": "每晚錄一段語音日記，最後一句說：『9月我就走了，今天又過了一天』"
+  },
+  "leverage_plan": {
+    "goal": "借 NT$200 萬注入 WSLFinLab，擴大量化交易本金",
+    "status": "研究完成，待執行 — 尚未申請",
+    "detail_file": "finance/開槓桿200萬攻略.md",
+    "monthly_cost": "約 NT$57,530–58,162（依利率 2.28–3%，36 期）",
+    "options": [
+      {
+        "rank": 1,
+        "name": "玉山銀行信貸",
+        "rate": "待回電",
+        "risk": "無追繳風險",
+        "status": "已留資料，等行員回電",
+        "action": "收到電話後確認利率，目標 ≤ 3%"
+      },
+      {
+        "rank": 2,
+        "name": "台新銀行信貸",
+        "rate": "待回電",
+        "risk": "無追繳風險",
+        "status": "已留資料，等行員回電",
+        "action": "收到電話後確認利率，目標 ≤ 3%"
+      },
+      {
+        "rank": 3,
+        "name": "Line Bank 分期信貸",
+        "rate": "2.28% 起",
+        "risk": "無追繳風險",
+        "status": "尚未申請，可隨時線上送件作為保底",
+        "note": "玉山/台新利率不理想時啟動"
+      },
+      {
+        "rank": 4,
+        "name": "台積電股票質押",
+        "rate": "2.89–4%",
+        "risk": "低",
+        "status": "❌ 暫時關閉 — 股市過熱，目前券商無額度"
+      }
+    ],
+    "inject_plan": "分三批：80萬→觀察2週→80萬→觀察2週→40萬",
+    "_instructions_for_ministers": {
+      "alchemy": "Asher 有一個開槓桿 200 萬的計畫，要注入 WSLFinLab。首選是 Line Bank 信貸（還未申請）。每個 cycle 問一下進度：有沒有去申請？拿到什麼利率？",
+      "lifecoach": "開槓桿計畫存在，但 Asher 工作壓力大，不要在他最忙的時候催這件事。等他主動提或工作壓力稍降才跟進。"
+    }
+  },
+  "_instructions_for_ministers": {
+    "lifecoach": [
+      "每個 cycle 必須檢查：Asher 的演員框架還在撐著嗎？直接問他，不要假設。",
+      "如果日記出現『焦慮』、『排山倒海』、『不想去』等關鍵字，提醒他回到演員框架。",
+      "不要把撐過這 4 個月當心態問題，要當有限期演出任務。",
+      "5/22 是 Asher 生日，如果 cycle 在 5/22 前後跑，記得提一下。",
+      "保護副業時間（WSLFinLab、Bobo's FM），這是他的自主感來源。"
+    ],
+    "career": [
+      "Track A（Google 內部轉調）：9 月前幫 Asher 持續建立 Pixel/Silicon team 的內部人脈。",
+      "Track B（Microsoft）：Asher 已開始主動刷題備戰，Career 每個 cycle 要問刷題進度。",
+      "兩條線同時追蹤，不要讓任何一條自然消失。",
+      "Google 另一個 office 已有認識的人，這是轉調的重要資產。"
+    ],
+    "alchemy": [
+      "保護副業時間。Google 加班不能把 WSLFinLab 和 Bobo's FM 完全壓縮。",
+      "Asher 正在備戰面試（刷題）+ 副業，時間管理是關鍵，Alchemy 要幫他看整體配置。"
+    ],
+    "all": "Asher 現在是高壓但有出口感的狀態。給他小勝利和方向感，不要再加新的待辦壓力。"
+  }
+}

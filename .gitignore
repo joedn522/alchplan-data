@@ -1,6 +1,12 @@
 # Minister 執行鎖（執行期間存在，cycle 結束自動刪除）
 .ministers/state/.*.lock
 
+# Daemon 執行 log（runtime，不入庫）
+*.log
+
+# Knowledge lock（runtime artifact）
+.ministers/state/_lock_knowledge
+
 # 本機暫存
 *.swp
 *.swo
