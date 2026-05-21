@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260520_C001",
+  "last_circle_id": "20260521_C001",
   "streak_rules": {
     "min_threshold": "1.1 任一行有實質內容 OR Section 6 任一句有實質內容 = 該日算寫了",
     "effective_from": "2026-05-11_C004",
@@ -7,18 +7,25 @@
     "note": "空 checkbox '- [ ]' 或空 '- ' 不算；要有實際文字"
   },
   "streak": {
-    "bujo_days": 2,
-    "last_bujo_date_any_file": "2026-05-19",
-    "last_bujo_date_meets_threshold": "2026-05-19",
+    "bujo_days": 3,
+    "last_bujo_date_any_file": "2026-05-20",
+    "last_bujo_date_meets_threshold": "2026-05-20",
     "current_streak_breakdown_under_new_rule": {
       "2026-05-17": "missing (週日，無 bujo diary，只有 Obsidian 散步隨記)",
       "2026-05-18": "count ✅ (精力 4, 踏實, Top 3 全 ✅, 演員框架在)",
       "2026-05-19": "count ✅ (精力 3, 電池低但框架在, 貸款第一步落地 ✅)",
-      "2026-05-20": "TBD (今天，08:00)"
+      "2026-05-20": "count ✅ (精力 2, 知道但入戲了, 分工第一步落地 ✅ — 精力最低仍然寫了)",
+      "2026-05-21": "TBD (今天，08:00)"
     },
-    "note": "連續兩天：5/18 精力 4 寫了，5/19 精力 3（被開會耗乾）也寫了。演員框架在低能量時依然有效 — '大可一走了之，所以我是無敵的。' 這個邏輯沒變。"
+    "note": "三連天：5/18 精力 4，5/19 精力 3，5/20 精力 2（本追蹤期最低）。精力再低也寫了。假設升級：不只是框架撐著，更像是習慣在成形。演員框架在低電量時從『距離感』變成『自我察覺』— 知道自己入戲了，寫出來，這就是框架在用的方式。"
   },
   "engagement_signals_outside_diary": [
+    {
+      "date": "2026-05-20",
+      "type": "diary_delegation_milestone",
+      "topic": "work_delegation_first_step",
+      "summary": "5/20 diary: 第一次真實把工作發包給 partner，嚐到分工的甜頭。'把東西塞給 partner 這個動作，是分工思維的起點，不是單打獨鬥。' 精力 2 但心態沒垮，待辦移轉隔天繼續。"
+    },
     {
       "date": "2026-05-19",
       "type": "diary_loan_milestone",
@@ -38,12 +45,6 @@
       "summary": "5/18 語音：工廠交接（RMA、BMC、BIOS 升降版）+ 5/22 Mini Factory Start，工廠期到 6/4。Asher 扮演工廠窗口角色，在做組織知識交接。"
     },
     {
-      "date": "2026-05-16",
-      "type": "voice_notes_plural",
-      "topic": "relaxation_day_book_browsing",
-      "summary": "5/16 共 5 條語音：晶片戰爭、思辨賽局、放鬆的衣袖、治軍量三千、拍照記錄生活。書店/逛街時錄。"
-    },
-    {
       "date": "2026-05-14",
       "type": "inbox_answer",
       "id": "career-20260512-location-preference",
@@ -52,6 +53,12 @@
     }
   ],
   "recent_mood_keywords": [
+    {
+      "date": "2026-05-20",
+      "keywords": ["知道但入戲了", "電池快沒電", "沒有熄火"],
+      "energy": 2,
+      "summary": "精力最低點（2分）：七點開到五點，加班不必要但當下沒有力氣切換。知道自己是演員，但入戲了——這是框架在低電量時的型態。分工第一步踏出，心態沒垮。一句話：電池快沒電，但沒有熄火。"
+    },
     {
       "date": "2026-05-19",
       "keywords": ["保持平常節奏", "電池低電量", "演員框架在"],
@@ -72,7 +79,7 @@
       "reason": "5/17 散步隨記 Asher 自己想到『7分鐘寫日記』微習慣 — 高壓週不提，等生日後再正式提案",
       "deferred_at": "20260519_C001",
       "next_window": "2026-05-26 之後（生日+工廠第一週結束後）",
-      "note": "Asher 已自發有這個想法，提案時機成熟度：高。等他喘一口氣後推。"
+      "note": "Asher 已自發有這個想法，提案時機成熟度：高。等他喘一口氣後推。三連日記可能讓他更有意願正式化這個習慣。"
     },
     {
       "id": "lc-deferred-exercise-tracking",
@@ -85,7 +92,7 @@
       "reason": "高壓週不加新負擔。5/18 diary 確認房貸+信用卡已處理，剩車麻吉 NT$86",
       "deferred_at": "20260518_C001",
       "next_window": "2026-05-26 之後（生日週過後）",
-      "note": "5/18 diary §6 確認：房貸已自動扣款確認，信用卡帳單已處理。車麻吉 NT$86 仍未解決。貸款推進中（玉山聯絡完成），不主動催，Asher 已在自驅推進。"
+      "note": "5/18 diary §6 確認：房貸已自動扣款確認，信用卡帳單已處理。車麻吉 NT$86 仍未解決。貸款推進中（玉山聯絡完成，借貸推進 5/20 日記標『→ 明天』）— Asher 自驅，不催。"
     }
   ],
   "completed_proposals": [
@@ -105,31 +112,31 @@
       "answered_at": "2026-05-11T10:27:12Z",
       "asher_answer": "改最低門檻",
       "consumed_at_circle": "20260511_C004",
-      "follow_up": "streak_rules 已寫入 state；即日生效。5/18 + 5/19 連兩天工作日有效接住。"
+      "follow_up": "streak_rules 已寫入 state；即日生效。5/18 + 5/19 + 5/20 連三天工作日有效接住。精力 2 的 5/20 是最有力的驗證。"
     }
   ],
   "service_gaps_identified": [
     {
       "gap": "diary_completion_rate_low",
-      "evidence": "5/13-5/19 的 7 天：5/16 ✅、5/18 ✅、5/19 ✅（3/7 = 43%）。前一週 2/7 = 29%，進步中。5/18 + 5/19 首次連兩天工作日接住。",
+      "evidence": "5/14-5/20 的 7 天：5/16 ✅、5/18 ✅、5/19 ✅、5/20 ✅（4/7 = 57%）。前一週 3/7 = 43%，再前一週 2/7 = 29%。三週連續進步。5/20 精力 2 仍寫 = 臨界點突破。",
       "since": "2026-05-11",
       "status": "active_observation",
-      "review_after": "2026-05-25 (重新評估，工廠週後)",
-      "note": "5/19 新數據：精力 3（被開會耗乾）仍然寫了。演員框架在低能量時也能撐住日記節奏。假設升級：不是『有空才寫』，是『框架在就寫』。"
+      "review_after": "2026-05-25 (工廠週後重新評估)",
+      "note": "三連天（5/18-5/20）是追蹤以來最長連續。精力 4 → 3 → 2，每次都寫。假設：習慣成形中，不只靠框架撐。"
     },
     {
       "gap": "high_friction_diary_in_busy_periods",
-      "evidence": "5/18（高壓 deadline）✅；5/19（開會密集，精力 3）✅",
+      "evidence": "5/18（高壓 deadline）✅；5/19（開會密集，精力 3）✅；5/20（精力 2，七點開到五點）✅",
       "since": "2026-05-11_C005",
-      "status": "hypothesis_strengthening",
-      "note": "假設持續強化：演員框架強 → 壓力高/電池低時仍寫日記。5/19 diary §6：'框架在，但電池低電量。今天的提醒是：我來這裡是為了變強。' 這是演員框架自我校正的直接證據。"
+      "status": "hypothesis_confirmed",
+      "note": "假設升級為『已確認』：高壓 + 低電量時仍寫日記。5/20 是強度最高的反例驗證（精力 2）。演員框架在低電量時從距離感轉為自我察覺（'知道但入戲了'）— 框架本身在進化。"
     },
     {
       "gap": "social_compression_by_work",
       "evidence": "5/16 錯過死黨聚會；5/22 生日 = Mini Factory Start 第一天；工廠期 5/22-6/4（2 週）",
       "since": "20260518_C001",
       "status": "escalating",
-      "note": "5/22 (2 天後) 是關鍵節點：生日 + 工廠第一天。lc-20260519-birthday-evening 仍 open，deadline 5/21。持續關注。"
+      "note": "5/22（明天）是最關鍵節點：生日 + 工廠第一天。lc-20260519-birthday-evening 仍 open，deadline 5/21。今天（5/21）是 Asher 回應的最後視窗。"
     },
     {
       "gap": "no_exercise_tracking",
@@ -140,21 +147,30 @@
     },
     {
       "gap": "no_finance_tracking",
-      "evidence": "車麻吉停車費 NT$86 仍未解決（ADC-8038，需重設付款方式）",
+      "evidence": "車麻吉停車費 NT$86 仍未解決（ADC-8038，需重設付款方式）；中信/聯邦 5月帳單狀態待確認",
       "since": "2026-05-11",
       "status": "partially_resolved",
       "next_window": "2026-05-26 之後（系統化提案）",
-      "note": "5/18 diary 確認：房貸已扣款確認 + 信用卡帳單已處理。車麻吉 NT$86 未解。貸款推進中（玉山聯絡完成）— Asher 自驅，不催。"
+      "note": "5/18 diary 確認：房貸已扣款確認 + 信用卡帳單已處理（具體指哪家待下次 Gmail 掃描確認）。車麻吉 NT$86 未解。貸款推進中（玉山聯絡完成，5/20 diary 標借貸→明天）。"
     }
   ],
   "nudge_history": [
+    {
+      "date": "2026-05-21",
+      "type": "diary_today_birthday_eve",
+      "channel": "pm_inbox",
+      "tone": "celebratory_streak_birthday_eve",
+      "circle_id": "20260521_C001",
+      "reason": "三連天（5/18-5/20）創紀錄。明天是生日。今天的日記可能是高壓期最值得留的一頁。低壓語氣，celebratory tone。"
+    },
     {
       "date": "2026-05-20",
       "type": "diary_today_morning_streak",
       "channel": "pm_inbox",
       "tone": "celebrate_momentum_low_pressure",
       "circle_id": "20260520_C001",
-      "reason": "5/18 + 5/19 連兩天。今天（5/20）順勢推，語氣慶祝連streak而非施壓。"
+      "reason": "5/18 + 5/19 連兩天。今天（5/20）順勢推，語氣慶祝連streak而非施壓。",
+      "result": "✅ 5/20 diary 確認有實質內容（精力 2，知道但入戲了，分工第一步落地）"
     },
     {
       "date": "2026-05-19",
@@ -198,30 +214,6 @@
       "tone": "friendly",
       "circle_id": "20260511_C001",
       "resolved": "Asher shelved"
-    },
-    {
-      "date": "2026-05-11",
-      "type": "intentional_quiet_cycle",
-      "channel": "newsletter_only",
-      "tone": "minimal",
-      "circle_id": "20260511_C003",
-      "reason": "C001 已下 1 nudge + 2 proposal，Asher 尚未回應；本 cycle 不再加 inbox 噪音"
-    },
-    {
-      "date": "2026-05-11",
-      "type": "close_loop_cycle",
-      "channel": "newsletter_only",
-      "tone": "minimal",
-      "circle_id": "20260511_C004",
-      "reason": "Asher 10:27 回了 3 題；本 cycle 重點是把 yes 轉成系統行動"
-    },
-    {
-      "date": "2026-05-11",
-      "type": "post_close_loop_breather",
-      "channel": "newsletter_only",
-      "tone": "minimal_with_gentle_evening_reminder",
-      "circle_id": "20260511_C005",
-      "reason": "Asher 早上 shelve 過今天的 diary nudge + 才剛拍板 2 個提案；尊重節奏"
     }
   ]
 }
