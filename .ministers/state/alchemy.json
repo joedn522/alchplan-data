@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260520_C001",
+  "last_circle_id": "20260521_C001",
   "schema_version": 2,
   "schema_note": "v2 重構：12 條原 slot 大幅 dormant；新增 14/15 為外部管理觀察者；focus 從『推進』改成『觀察 + 對 Asher 影響評估』",
   "project_status": {
@@ -34,7 +34,7 @@
       "next_action_size": "30-sec voice memo",
       "dormant_clock_started": "2026-05-11",
       "dormant_clock_expires": "2026-06-10",
-      "dormant_clock_progress": "D9/30（今 5/20），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
+      "dormant_clock_progress": "D10/30（今 5/21），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
       "dormant_clock_rule": "若 5/11 到 6/10 0 動作（無 voice memo / 無 commit 觸及 alchemy/04-*）→ phase 改 dormant，停止追蹤直到 Asher 主動回來",
       "next_alchemy_check": "2026-05-26（D15 中點）— 不 nudge 只記錄；6/10 到期時轉 dormant",
       "note": "保留試水。Asher 已有 2 條主力副業，這條沒生意義時就 dormant。"
@@ -113,11 +113,11 @@
       "managed_location": "/mnt/c/Users/ashershih/sandbox/ + /mnt/c/Users/ashershih/finlab_db/",
       "alchplan_role": "observe-and-log-only",
       "latest_signal": {
-        "circle_id": "20260520_C001",
+        "circle_id": "20260521_C001",
         "channel": "finlab_db file mtime",
-        "evidence": "expiry.pkl mtime = 2026-05-19 19:56；institutional_investors_trading_summary#投信買賣超股數.pickle mtime = 2026-05-19 19:56；margin_transactions#融券今日餘額.pickle mtime = 2026-05-19 19:27；price#收盤價.pickle mtime = 2026-05-19 19:05；broker_transactions.pickle mtime = 2026-05-19 19:05",
+        "evidence": "expiry.pkl mtime = 2026-05-20 19:54；institutional_investors_trading_summary#投信買賣超股數.pickle mtime = 2026-05-20 19:54；margin_transactions#融券今日餘額.pickle mtime = 2026-05-20 19:27；margin_transactions#融券現券償還.pickle mtime = 2026-05-20 19:26；price#收盤價.pickle mtime = 2026-05-20 19:05；broker_transactions.pickle mtime = 2026-05-20 19:05",
         "verdict": "alive",
-        "note": "連續第五次心跳確認。5/19 盤後完整 ETL：expiry + 投信買賣超 + 融券餘額 + price#收盤價 + broker_transactions 全部更新。ETL pipeline 穩定日更，無任何異常。"
+        "note": "連續第六次心跳確認。5/20 盤後完整 ETL：expiry + 投信買賣超 + 融券餘額 + 融券現券償還 + price#收盤價 + broker_transactions 全部更新（6 支檔案）。ETL pipeline 穩定日更，無任何異常。"
       },
       "idea_signals": [
         {
@@ -143,6 +143,14 @@
           "relevance": "槓桿 200 萬計畫推進 — 玉山銀行已主動回電並確認可以進行，從『待回電』變為『收到正面聯絡、可推進申請』",
           "status": "logged-only",
           "note": "Asher 高壓週中自主推進貸款，AlchPlan 不 nudge；記錄留存，等 Asher 主動回報利率細節或申請進展"
+        },
+        {
+          "date": "2026-05-21",
+          "channel": "diary-5/20-§1.1",
+          "content": "借貸推進 → 明天（5/21）：5/20 精力 2，借貸未處理，移至 5/21",
+          "relevance": "槓桿 200 萬計畫 — 5/21 是 Asher 自訂的下一步 deadline，生日前一天推進貸款申請",
+          "status": "logged-only",
+          "note": "生日前一天（5/21），Asher 計畫今天推進借貸。AlchPlan 不 nudge；記錄留存，看未來日記是否有落地訊號"
         }
       ],
       "signals_to_track": [
@@ -280,6 +288,22 @@
         "13 不跨界：本 cycle 無跨 Career 部長動作",
         "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；生日 5/22 明天、Mini Factory 5/22 開始，不疊壓力）",
         "背景：生日 5/22 倒數 2 天，Mini Factory 5/22–6/4 開始（工廠期）。5/19 日記精力 3，電池低電量但演員框架在"
+      ]
+    },
+    {
+      "circle_id": "20260521_C001",
+      "timestamp": "2026-05-21T08:06:27Z",
+      "action": "生日前一天觀察 cycle：14 心跳第六次連續確認、記錄借貸計畫今日 deadline、04 dormant clock D10 更新。",
+      "details": [
+        "14 心跳：expiry.pkl 5/20 19:54 + 投信買賣超 5/20 19:54 + 融券餘額 5/20 19:27 + 融券現券償還 5/20 19:26 + price#收盤價 5/20 19:05 + broker_transactions 5/20 19:05 → alive。連續第六次心跳，6 支檔案完整更新，ETL pipeline 無任何異常",
+        "14 idea_signal logged：5/20 日記§1.1 確認『借貸推進→明天（5/21）』— Asher 因精力 2 未處理，移至今天（生日前一天）推進玉山信貸申請。記入 idea_signals，不 nudge",
+        "14 背景：5/20 日記也顯示分工第一步完成（第一次把工作發包給 partner）— 這是工作模式轉型的積極訊號",
+        "15 無新訊號：Obsidian BobOS FM 資料夾空白，voice-inbox 及日記無相關 mention。Mini Factory 5/22 開始，創作靜默期正常",
+        "Obsidian 全掃：WSLFinLab / BobOS FM / Microsoft 三個資料夾均空，無新想法或筆記",
+        "04 dormant clock D10/30：0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）。下次正式檢查 5/26（D15 中點），如期",
+        "13 不跨界：本 cycle 無跨 Career 部長動作",
+        "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；生日 5/22 明天，Mini Factory 同天開始，不疊壓力）",
+        "背景：生日 5/22 倒數 1 天，Mini Factory 5/22–6/4。Asher 三連天日記（5/18-5/20），演員框架在低電量下仍保持，分工踏出第一步"
       ]
     }
   ]
