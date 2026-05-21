@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-05-20T08:12:00Z",
+  "last_updated": "2026-05-21T08:30:00Z",
   "player": {
     "name": "Asher",
-    "total_level": 24,
-    "total_xp": 1500
+    "total_level": 25,
+    "total_xp": 1525
   },
   "skill_trees": {
     "engineering": {
@@ -46,10 +46,10 @@
     "mind": {
       "name": "🧘 Mind",
       "description": "日記、反思、語音 inbox、心情追蹤",
-      "level": 0,
-      "xp": 90,
-      "xp_to_next": 100,
-      "lifetime_xp": 90
+      "level": 1,
+      "xp": 15,
+      "xp_to_next": 200,
+      "lifetime_xp": 115
     },
     "body": {
       "name": "💪 Body",
@@ -96,6 +96,13 @@
       "tree": "engineering",
       "unlocked_at": "2026-05-11",
       "description": "Asher 早上 10:27 的 30 秒回應 → 同日 18:43 4 部長接力推完，inbox 從 3 題清空"
+    },
+    {
+      "id": "mind-level-1",
+      "name": "🧘 Mind Level 1 達成",
+      "tree": "mind",
+      "unlocked_at": "2026-05-21",
+      "description": "系統上線首次 Level Up。追蹤 10 天，高壓週三連天（5/18-5/20），精力 2 也寫了。習慣比感覺更可靠。"
     }
   ],
   "achievements_locked_preview": [
@@ -109,6 +116,13 @@
     { "id": "exercise-week", "name": "🏃 一週動 3 次", "tree": "body", "unlock_when": "尚未啟用（待 body tree 啟用）" }
   ],
   "recent_xp_log": [
+    {
+      "date": "2026-05-20",
+      "tree": "mind",
+      "xp": 25,
+      "reason": "5/20 diary 三連天確認（精力 2 仍接住，分工第一步踏出，≥3 sections）→ 觸發 Mind Level 0→1 Level Up",
+      "added_by": "knowledge-20260521_C001"
+    },
     {
       "date": "2026-05-19",
       "tree": "mind",
