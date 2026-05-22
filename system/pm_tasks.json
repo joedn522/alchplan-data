@@ -181,9 +181,12 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-21T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-19T08:00:01Z",
-    "circle_id": "20260519_C001"
+    "circle_id": "20260519_C001",
+    "consumed_by": "lifecoach_20260522_C001",
+    "consumed_at": "2026-05-22T08:00:02Z",
+    "consume_note": "Deadline 5/21 已過，Asher 未直接回應。但 5/21 diary 有生日前夕三個願望（找到適合工作型態/找到可生根領域/找回更多朋友）—— Asher 在生日前夕做了最深的自我對話，這本身就是一種慶祝。今天（5/22，生日當天）另開新的 birthday nudge 接棒。"
   },
   {
     "id": "lc-20260521-diary-today-nudge",
@@ -194,8 +197,24 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-22T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-21T08:00:02Z",
-    "circle_id": "20260521_C001"
+    "circle_id": "20260521_C001",
+    "consumed_by": "lifecoach_20260522_C001",
+    "consumed_at": "2026-05-22T08:00:02Z",
+    "consume_note": "5/21 diary 確認有實質內容（精力 3，被同理，演員框架在，生日前夕三個願望）。四連天（5/18-5/21）達成，追蹤以來最長紀錄。系統自動關閉。"
+  },
+  {
+    "id": "lc-20260522-birthday-diary-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "生日快樂！四連天了（5/18-5/21）。今天是 5/22，你的生日，也是工廠第一天。不管今天順不順，哪怕一句話記下這一天——這種「生日 + 工廠開工」的組合一輩子可能就這一次。不想寫也 shelve 就好。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-23T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-22T08:00:02Z",
+    "circle_id": "20260522_C001"
   }
 ]
