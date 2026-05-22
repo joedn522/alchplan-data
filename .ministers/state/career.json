@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260521_C001",
+  "last_circle_id": "20260522_C001",
   "schema_version": 1,
   "last_deep_review_date": "2026-05-19",
 
@@ -53,16 +53,16 @@
   "last_action_type": "刷 LeetCode（Phase 0 完成，7 題：Easy×5 + Medium×2）",
 
   "diary_signal": {
-    "last_career_mention_date": "2026-05-19",
-    "last_career_mention_summary": "演員框架在但電池低電量：「大可一走了之，所以我是無敵的。這個邏輯沒變。」5/19 日記無直接 LeetCode / 跳槽提及，貸款第一步落地（玉山銀行主動聯絡）。",
-    "days_since_last_mention": 2,
-    "note": "5/20 diary 精力 2（追蹤期最低），開會從七點到五點，演員框架低電量但沒有擊垮。5/21 diary 尚未寫（今天上午）。LeetCode 行動 5/13-5/16 有實際進展，不出現在日記的模式一致。W21 到週四仍無 LeetCode 紀錄。"
+    "last_career_mention_date": "2026-05-21",
+    "last_career_mention_summary": "生日前夕三個願望：①找到適合的工作型態（不每天加班）②找到可生根的領域 ③找回更多朋友。第一個願望直接呼應跳槽計畫目標。演員框架健在：「熱誠不在這裡，不代表熱誠不在。只是還沒找到下一個放的地方。」",
+    "days_since_last_mention": 1,
+    "note": "5/21 diary 精力 3，被 team 同理，演員框架在。W21 確認 streak break（無 LeetCode）。工廠期 5/22-6/4 開始。"
   },
 
   "this_cycle_recommendation": {
-    "type": "W21 最後視窗（5/21 今晚）或接受 streak break，W22 工廠穩定後接回",
-    "summary": "今晚（週四 5/21）是 W21 的最後有效視窗，明天生日（5/22）+ 工廠期開始 + 週六加班。若有 15 分鐘：LC 125 Valid Palindrome（Easy）接住 streak。若精力太低：接受 W21 streak break，W22（5/25 起）工廠節奏穩定後設新 streak 起點。",
-    "rationale": "跳槽是馬拉松。精力 2 連兩天（5/19-5/20），強迫刷題反而壞事。WLB 優先原則在準備期本身也適用——生日前一天不適合硬催。"
+    "type": "W21 streak break 確認，W22 重新起跑",
+    "summary": "W21 streak break 確認（無 LeetCode）。今天生日（5/22）+ 工廠第一天，不催。W22 起點：5/25（週一）下班後，LC 125 Valid Palindrome（Easy，15分鐘）— 重啟 streak。工廠期節奏目標：1 題/週，不多不少，6 週 6 題，Phase 1（20 題）到手。",
+    "rationale": "馬拉松節奏。生日 + 工廠開工不能再加壓力。W22 的最小步是最好的步。"
   },
 
   "carryover_recommendations": [
@@ -105,6 +105,11 @@
       "circle_id": "20260521_C001",
       "date": "2026-05-21",
       "action": "Pulse check（距上次深度檢視 2 天）。W21 週四仍無 LeetCode 紀錄。5/20 diary 精力 2（追蹤期最低），分工第一步落地但電池低電量。今天生日前一天，明天 5/22 生日 + 工廠期開始，5/23 加班。發 W21 最後視窗 nudge（LC 125 or 接受 streak break，W22 接回）。"
+    },
+    {
+      "circle_id": "20260522_C001",
+      "date": "2026-05-22",
+      "action": "Pulse check（距上次深度檢視 3 天）。今天生日（5/22）+ 工廠期第一天。W21 streak break 確認（無 LeetCode，接受）。5/21 diary 生日前夕三個願望，第一個直接呼應跳槽目標。不發催促 nudge，給 W22 重啟框架：5/25 LC 125，工廠期節奏 1 題/週。"
     }
   ]
 }
