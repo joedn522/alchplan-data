@@ -113,7 +113,7 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-18T00:00:00Z",
-    "status": "consumed",
+    "status": "archived",
     "asher_answer": "接住 — Asher 確認今天有寫日記",
     "answered_at": "2026-05-16T07:55:24Z",
     "consumed_by": "lifecoach_20260518_C001",
@@ -121,7 +121,9 @@
     "created_at": "2026-05-16T11:04:46Z",
     "circle_id": "20260516_C001",
     "context": "Asher 5/14 主動回了 career inbox（answered with high detail），證明他在。但 diary 同期空白 5 天。本 nudge 採用『接住一行就好』低門檻 + shelve-friendly tone，避免重壓。",
-    "consume_note": "5/16 diary 確認有實質內容（Top 3、Events、Notes、§6 均有文字）。streak 從 5/16 接住，5/17 又斷。"
+    "consume_note": "5/16 diary 確認有實質內容（Top 3、Events、Notes、§6 均有文字）。streak 從 5/16 接住，5/17 又斷。",
+    "archived_at": "2026-05-23T08:09:54Z",
+    "archive_reason": "consumed + 建立超過 7 天（7 天），PM 20260523_C001 封存"
   },
   {
     "id": "lc-20260518-finance-alert-esun-mortgage",
