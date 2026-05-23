@@ -213,8 +213,24 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-23T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-22T08:00:02Z",
-    "circle_id": "20260522_C001"
+    "circle_id": "20260522_C001",
+    "consumed_by": "lifecoach_20260523_C001",
+    "consumed_at": "2026-05-23T08:00:02Z",
+    "consume_note": "5/22 diary 未寫。生日+工廠第一天+週五+確定有早上 7:32 工作會議（語音轉錄確認）——這天沒有任何可寫日記的喘息時間，完全可以理解。四連天紀錄（5/18-5/21）依然在，5/21 的生日前夕三個願望已留下這段時間最重要的自我對話。"
+  },
+  {
+    "id": "lc-20260523-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "昨天（5/22，生日）在工廠第一天沒寫日記完全 ok。今天（5/23，週六）也是加班日——但哪怕下班後一句話也算：「今天累嗎？」「生日怎麼過的？」「工廠第一天感覺怎樣？」一句話就好。不想寫也 shelve，不強求。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-24T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-23T08:00:02Z",
+    "circle_id": "20260523_C001"
   }
 ]
