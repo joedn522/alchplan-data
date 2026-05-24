@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260523_C001",
+  "last_circle_id": "20260524_C001",
   "schema_version": 1,
   "last_deep_review_date": "2026-05-19",
 
@@ -12,13 +12,13 @@
     "location_preference": "台北市 / 新北市 / 全 remote（2026-05-14 Asher 鎖定，不考慮海外搬遷）",
     "min_annual_salary_twd": 3500000,
     "path_strategy": {
-      "tier_1": "Google 內部跳轉（優先）— 免外部面試、保留現有 TC/福利/年資。鎖 Google Taipei team 或 remote-friendly team",
-      "tier_2": "Microsoft 外部面試 — 前公司、WLB 聲譽佳。鎖 Microsoft Taipei 或 remote-friendly team"
+      "tier_1": "Google 內部跳轉（優先）— 免外部面試、保留現有 TC/福利/年資。【新選項 5/22】主管提議幫 Asher 換一個 Google 內部職位，先做三個月觀察期，再決定是否正式轉組。此路徑比原 Track A（9 月自主申請）更快，但目標 team 由主管決定，需先確認新 team 的 WLB。",
+      "tier_2": "Microsoft 外部面試（保險）— 前公司、WLB 聲譽佳。鎖 Microsoft Taipei 或 remote-friendly team。觀察期間進入低維護模式。"
     },
-    "timeline": "無硬截止，穩中求進。9月啟動 Google 內轉，Track B Microsoft 面試備戰進行中"
+    "timeline": "主管觀察期方案：即將開始 → 三個月觀察 → ~8月決定。原 Track A（自主申請）：9月申請，10月轉調。Track B：工廠期後擇機啟動面試備戰。"
   },
 
-  "phase": "準備期 — Phase 1 進行中",
+  "phase": "準備期 — Phase 1 進行中（同時等待主管提案落地）",
 
   "prep_status": {
     "leetcode_total": 7,
@@ -33,7 +33,7 @@
     "prep_plan_exists": true,
     "prep_plan_file": "alchemy/13-job-pivot/leetcode-prep-plan.md",
     "ai_workflow_file": "alchemy/13-job-pivot/leetcode-ai-workflow.md",
-    "notes": "Phase 0 完成（W1 5/13-5/16，7 題）。Phase 1 正式開始，W2 待刷 8 題（見 leetcode.md 待刷第二批）。環境 + AI 教練流程已跑通。歷史帳號共 630 題（E151/M399/H80），本次復健另起計算。"
+    "notes": "Phase 0 完成（W1 5/13-5/16，7 題）。Phase 1 正式開始，W2 待刷 8 題（見 leetcode.md 待刷第二批）。環境 + AI 教練流程已跑通。歷史帳號共 630 題（E151/M399/H80），本次復健另起計算。W21 streak break（工廠期接受），W22（5/25 起）重啟。"
   },
 
   "pipeline_summary": {
@@ -42,27 +42,27 @@
     "recruiter_call_or_above": 0,
     "offer": 0,
     "breakdown": {
-      "Google_internal": "物色（尚未鎖定具體 Taipei / remote team）",
-      "Microsoft_external": "物色（尚未鎖定 Taipei / remote team + role）"
+      "Google_internal": "物色 + 【主管提案 5/22】換職位 + 三個月觀察期，待確認新 team 及 WLB",
+      "Microsoft_external": "物色（低維護模式，待觀察期結束後評估重啟）"
     }
   },
 
-  "weekly_streak": 1,
+  "weekly_streak": 0,
   "longest_streak": 1,
   "last_action_date": "2026-05-16",
   "last_action_type": "刷 LeetCode（Phase 0 完成，7 題：Easy×5 + Medium×2）",
 
   "diary_signal": {
-    "last_career_mention_date": "2026-05-21",
-    "last_career_mention_summary": "生日前夕三個願望：①找到適合的工作型態（不每天加班）②找到可生根的領域 ③找回更多朋友。第一個願望直接呼應跳槽計畫目標。演員框架健在：「熱誠不在這裡，不代表熱誠不在。只是還沒找到下一個放的地方。」",
+    "last_career_mention_date": "2026-05-22",
+    "last_career_mention_summary": "5/22 生日日記（精力 4，放鬆）：Asher 前一天主動告訴主管想離職，主管回「再給我一次機會」——提議幫 Asher 換一個 Google 內部職位，先做三個月，再決定是否正式轉組。Asher 反應：「也許可以鬆一點了... 也許不是走，而是換一個能呼吸的位置。先別急著下結論——三個月，給自己一個誠實觀察的窗口。」",
     "days_since_last_mention": 2,
-    "note": "5/21 diary 精力 3，被 team 同理，演員框架在。W21 確認 streak break（無 LeetCode，接受）。工廠期 5/22-6/4 進行中。5/22 生日+加班無日記，5/23 加班週六。"
+    "note": "5/22 diary 是本追蹤期最重要的 career 訊號。主管提案改變了 Track A 路徑（從 9 月自主申請，提前到現在由主管協助）。5/23 diary 未寫（加班週六）。"
   },
 
   "this_cycle_recommendation": {
-    "type": "W22 啟動確認",
-    "summary": "W21 streak break 已接受。今天 5/23 加班週六，不催。W22 起點：5/25（週一）下班後，LC 125 Valid Palindrome（Easy，15分鐘）— 重啟 streak。工廠期節奏：1 題/週，6 週 6 題，Phase 1 到手。",
-    "rationale": "馬拉松節奏。W22 從 5/25 重啟是最好的步。"
+    "type": "主管提案確認 + W22 LC 重啟",
+    "summary": "本週找機會問主管：「你說的新職位，是哪個 team？我可以先了解一下嗎？」一旦知道是哪個 team，Career 下個 cycle 就能幫你評估 WLB / TC / 文化。同時：5/25（週一）下班後 LC 125（15 分鐘）重啟 W22 streak。",
+    "rationale": "主管提案是 Track A 的加速捷徑，但目標 team 由主管決定 — 確認 team 是否符合 WLB 期望是最關鍵的一步。LeetCode 不停是保險費。"
   },
 
   "carryover_recommendations": [
@@ -71,7 +71,7 @@
       "type": "看 JD",
       "summary": "讀 1 個 Microsoft Taipei JD + 1 頁筆記",
       "status": "deferred",
-      "reason": "LeetCode < 20 題門檻，prep 優先。工廠高壓期（到 6/4）不適合分心做 JD 研究。建議 Phase 1 完成（20 題+）後再排 JD 研究，約 6 月初。"
+      "reason": "主管觀察期方案進行中，Track B 進入低維護模式。JD 研究延到觀察期結束（~8 月）或工廠期後（6/4+）視情況重新評估。"
     }
   ],
 
@@ -115,6 +115,11 @@
       "circle_id": "20260523_C001",
       "date": "2026-05-23",
       "action": "Pulse check（距上次深度檢視 4 天）。今天加班週六（工廠期第 2 天）。W21 streak break 維持確認，5/22 生日當天無日記（合理）。Targets / Pipeline 無變化。再次確認 W22 起點框架：5/25 LC 125，不催今天。"
+    },
+    {
+      "circle_id": "20260524_C001",
+      "date": "2026-05-24",
+      "action": "Pulse check（距上次深度檢視 5 天）。消費 LifeCoach → Career 重大 handoff：5/22 diary 確認 Asher 主動告訴主管想離職，主管提「換職位 + 三個月觀察期」新選項（精力 4，放鬆）。Career 完成三點分析：① Track A 對比（加速捷徑但目標 team 由主管決定）② 時程（接受方案可提前 2 個月至 8 月解決）③ 備案維護（LeetCode 1 題/週不停，成功標準提前設定）。W21 streak=0 確認。建議：本週問主管新 team 是哪個，5/25 LC 125 重啟。"
     }
   ]
 }

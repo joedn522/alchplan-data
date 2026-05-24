@@ -248,9 +248,12 @@
     "options": [],
     "minister_default": "analyze_and_report",
     "default_action": "execute",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-24T08:00:01Z",
-    "circle_id": "20260524_C001"
+    "circle_id": "20260524_C001",
+    "consumed_by": "career_20260524_C001",
+    "consumed_at": "2026-05-24T08:10:02Z",
+    "consume_note": "Career 完成三點分析：① 主管提案 vs. 原 Track A（加速捷徑但目標 team 由主管決定，關鍵差異）② 三個月觀察期對時程影響（若接受，最快 8 月解決，比原計畫提前 2 個月）③ 備案動作（LeetCode 1 題/週不停 + 觀察期前設定成功標準）。Newsletter career_20260524_C001.md 已輸出。"
   },
   {
     "id": "lc-20260524-diary-today-nudge",
