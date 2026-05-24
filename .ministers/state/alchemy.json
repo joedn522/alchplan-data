@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260523_C001",
+  "last_circle_id": "20260524_C001",
   "schema_version": 2,
   "schema_note": "v2 重構：12 條原 slot 大幅 dormant；新增 14/15 為外部管理觀察者；focus 從『推進』改成『觀察 + 對 Asher 影響評估』",
   "project_status": {
@@ -34,7 +34,7 @@
       "next_action_size": "30-sec voice memo",
       "dormant_clock_started": "2026-05-11",
       "dormant_clock_expires": "2026-06-10",
-      "dormant_clock_progress": "D12/30（今 5/23），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
+      "dormant_clock_progress": "D13/30（今 5/24），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
       "dormant_clock_rule": "若 5/11 到 6/10 0 動作（無 voice memo / 無 commit 觸及 alchemy/04-*）→ phase 改 dormant，停止追蹤直到 Asher 主動回來",
       "next_alchemy_check": "2026-05-26（D15 中點）— 不 nudge 只記錄；6/10 到期時轉 dormant",
       "note": "保留試水。Asher 已有 2 條主力副業，這條沒生意義時就 dormant。"
@@ -113,11 +113,11 @@
       "managed_location": "/mnt/c/Users/ashershih/sandbox/ + /mnt/c/Users/ashershih/finlab_db/",
       "alchplan_role": "observe-and-log-only",
       "latest_signal": {
-        "circle_id": "20260523_C001",
+        "circle_id": "20260524_C001",
         "channel": "finlab_db file mtime",
-        "evidence": "expiry.pkl mtime = 2026-05-22 19:53；institutional_investors_trading_summary#投信買賣超股數.pickle mtime = 2026-05-22 19:53；margin_transactions#融券今日餘額.pickle mtime = 2026-05-22 19:25；margin_transactions#融券現券償還.pickle mtime = 2026-05-22 19:25；price#收盤價.pickle mtime = 2026-05-22 19:05；broker_transactions.pickle mtime = 2026-05-22 19:05",
+        "evidence": "expiry.pkl mtime = 2026-05-23 19:56；institutional_investors_trading_summary#投信買賣超股數.pickle mtime = 2026-05-23 19:56；margin_transactions#融券今日餘額.pickle mtime = 2026-05-23 19:26；price#收盤價.pickle mtime = 2026-05-23 19:05；broker_transactions.pickle mtime = 2026-05-23 19:05",
         "verdict": "alive",
-        "note": "連續第八次心跳確認。5/22 盤後完整 ETL：expiry + 投信買賣超 + 融券餘額 + 融券現券償還 + price#收盤價 + broker_transactions 全部更新（6 支檔案）。ETL pipeline 穩定日更，無任何異常。貸款進度：5/22 voice-inbox 三筆全為噪音（中文媒體 spam），5/21 日記無借貸 mention（願望導向），借貸推進仍未確認，繼續觀察。"
+        "note": "連續第九次心跳確認。5/23 盤後 ETL：expiry + 投信買賣超 + 融券餘額 + price#收盤價 + broker_transactions 全部更新（5 支檔案）。ETL pipeline 穩定日更，無任何異常。環境重大變化：5/22 Asher 主動告知主管想離職，主管提「換工作 + 三個月觀察期」新選項。若換組成功，未來工作壓力降低可能間接改善副業時間——但 Mini Factory 期（5/22-6/4）仍為高壓，短期觀察不變。貸款進度：5/22 日記未提借貸（生日當天，焦點在主管對話 + 女友），仍未確認，繼續 passive 觀察。"
       },
       "idea_signals": [
         {
@@ -151,6 +151,14 @@
           "relevance": "槓桿 200 萬計畫 — 5/21 是 Asher 自訂的下一步 deadline，生日前一天推進貸款申請",
           "status": "logged-only",
           "note": "生日前一天（5/21），Asher 計畫今天推進借貸。AlchPlan 不 nudge；記錄留存，看未來日記是否有落地訊號"
+        },
+        {
+          "date": "2026-05-22",
+          "channel": "diary-5/22-§1.3+§6",
+          "content": "主管提出「換工作 + 三個月觀察期」新選項：Asher 主動坦承不想做這份工作，主管回應幫他換一個 Google 內部職位，先做三個月再決定是否正式轉組。Asher：『也許可以鬆一點了... 三個月，給自己一個誠實觀察的窗口。』",
+          "relevance": "副業環境重大變化 — 若三個月後換組成功，工作壓力可能降低，間接改善 WSLFinLab 副業時間。目前仍在觀察窗口，不確定性高。",
+          "status": "logged-only",
+          "note": "這是工作狀態轉折點，對副業環境是積極長期訊號，但短期（Mini Factory 5/22-6/4）不變。AlchPlan 不 nudge；Career 部長已接手評估主管新選項（handoff: lc-to-career-20260524-manager-new-option）。"
         }
       ],
       "signals_to_track": [
@@ -338,6 +346,23 @@
         "13 不跨界：本 cycle 無跨 Career 部長動作",
         "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；Mini Factory Day 2 + 週六加班，不疊壓力）",
         "背景：Mini Factory 5/22–6/4。Asher 今天週六加班。演員框架昨日日記確認在位（9 月就走了，不孤單感支撐住）。"
+      ]
+    },
+    {
+      "circle_id": "20260524_C001",
+      "timestamp": "2026-05-24T08:06:44Z",
+      "action": "Mini Factory Day 3（週日）觀察 cycle：14 心跳第九次連續確認、記錄主管新選項重大環境變化、04 dormant clock D13 更新。",
+      "details": [
+        "14 心跳：expiry.pkl 5/23 19:56 + 投信買賣超 5/23 19:56 + 融券餘額 5/23 19:26 + price#收盤價 5/23 19:05 + broker_transactions 5/23 19:05 → alive。連續第九次心跳，5 支檔案更新，ETL pipeline 穩定日更，無任何異常",
+        "14 環境重大訊號 logged：5/22 生日日記確認 Asher 主動告訴主管想離職，主管回應『換工作 + 三個月觀察期』。若成功換組，工作壓力可能降低，副業時間可能長期改善。記入 idea_signals，不 nudge（Career 部長已接手評估）",
+        "14 貸款進度：5/22 日記無借貸相關 mention（生日當天焦點在主管對話 + 女友逛書店）。借貸推進仍未確認，繼續 passive 觀察",
+        "15 無新訊號：voice-inbox 及日記無 Bobo's FM 相關 mention。Mini Factory 工廠期，創作靜默正常",
+        "Obsidian 全掃：iCloud 路徑仍不可存取（同步問題，與過去 cycle 一致），無新想法或筆記",
+        "voice-inbox 掃描：5/22 三筆（計數 + 中文媒體 spam × 2），無 5/23-5/24 新檔案。無副業訊號",
+        "04 dormant clock D13/30：0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）。下次正式檢查 5/26（D15 中點），如期",
+        "13 不跨界：本 cycle 無跨 Career 部長動作",
+        "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；LifeCoach 同 cycle 已有 diary nudge open + career handoff open，不疊問題）",
+        "背景：Mini Factory Day 3（週日），Asher 第一個稍微能喘口氣的早晨。主管新選項帶來思維轉折，演員框架從『9月就走』開始軟化為三個月觀察窗口。"
       ]
     }
   ]
