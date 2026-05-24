@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-05-22T08:20:00Z",
+  "last_updated": "2026-05-24T08:22:37Z",
   "player": {
     "name": "Asher",
     "total_level": 25,
@@ -47,9 +47,9 @@
       "name": "🧘 Mind",
       "description": "日記、反思、語音 inbox、心情追蹤",
       "level": 1,
-      "xp": 40,
+      "xp": 65,
       "xp_to_next": 200,
-      "lifetime_xp": 140
+      "lifetime_xp": 165
     },
     "body": {
       "name": "💪 Body",
@@ -116,6 +116,13 @@
     { "id": "exercise-week", "name": "🏃 一週動 3 次", "tree": "body", "unlock_when": "尚未啟用（待 body tree 啟用）" }
   ],
   "recent_xp_log": [
+    {
+      "date": "2026-05-22",
+      "tree": "mind",
+      "xp": 25,
+      "reason": "5/22 生日日記補寫確認（LifeCoach 20260524_C001 發現 untracked file）：精力 4，和女友逛書店，主動告訴主管想離職 → 主管提三個月觀察期，≥3 sections → 五連天（5/18-5/22）追蹤以來最長紀錄最終確認",
+      "added_by": "knowledge-20260524_C001"
+    },
     {
       "date": "2026-05-21",
       "tree": "mind",

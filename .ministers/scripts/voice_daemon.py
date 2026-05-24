@@ -22,7 +22,7 @@ from pathlib import Path
 
 # === Config ===
 ICLOUD_DIR = r"C:\Users\ashershih\iCloudDrive\iCloud~com~openplanetsoftware~just-press-record"
-ALCHPLAN_DATA = r"C:\Users\ashershih\Documents\alchplan-data"
+ALCHPLAN_DATA = r"C:\Users\ashershih\Documents\alchplan\alchplan-data"
 VOICE_INBOX = os.path.join(ALCHPLAN_DATA, "bujo", "voice-inbox")
 STATE_FILE = os.path.join(ALCHPLAN_DATA, ".ministers", "state", "voice.json")
 START_DATE = "2026-03-12"

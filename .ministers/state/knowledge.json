@@ -1,19 +1,19 @@
 {
-  "last_circle_id": "20260523_C001",
-  "total_circles": 12,
+  "last_circle_id": "20260524_C001",
+  "total_circles": 13,
   "consecutive_missing_ministers": {
     "lifecoach": 0,
     "alchemy": 0,
     "pm": 0,
     "career": 0
   },
-  "last_report_path": ".ministers/circles/circle_20260523_C001.md",
+  "last_report_path": ".ministers/circles/circle_20260524_C001.md",
   "last_report_stats": {
     "ministers_reported": 5,
     "ministers_total": 5,
     "asher_inbox_questions": 1,
     "destructive_proposals": 0,
-    "files_changed": 17,
+    "files_changed": 24,
     "alchemy_newsletter_present": true,
     "career_newsletter_present": true,
     "inbox_zeroed": false,
@@ -32,6 +32,7 @@
     "20260520_C001": "生日倒數 2 天，系統全綠。WSLFinLab 第五次連續 ETL 心跳。玉山貸款第一步真正落地（玉山主動來電）。連兩天 diary streak（5/18+5/19）。PM 補錄 Mind +25 XP → 90/100，距 Level 1 僅差 10 XP，今天一篇日記就到。5/5 部長全到齊，5 部長全部自己 commit（c9d2215/b1a787e/3aa49ac/c7d477e）。Inbox 2 題均 shelve-friendly，deadline 5/21。Mini Factory 明天（5/22）開始，系統進入工廠保護期模式。",
     "20260521_C001": "生日前一天，系統全綠，**Mind Level 1 首次 Level Up**（系統上線 10 天首次）。5/20 diary 三連天（5/18-5/20）確認 → Mind XP 90+25=115 → Level 1 解鎖，carry over 15 XP。5/5 部長全到齊，4 部長全部自己 commit（ba05453/6f781e6/6e9d01d/fad6c76）。WSLFinLab 連六次心跳。分工第一步（5/20 精力 2 仍發包 partner）被 LC + Alchemy 雙部長標為思維轉型里程碑。Inbox 2 題（birthday-evening 今晚截止 + diary nudge 明天截止），均 shelve-friendly。5/22 生日 + Mini Factory Day 1 明天開始，系統進入工廠保護模式。",
     "20260522_C001": "生日當天，全員在線，Voice Daemon 恢復健康。四連天（5/18-5/21）追蹤最長紀錄。演員框架從防衛→察覺→主動定義三層次進化（LifeCoach 首次完整分析）。Career W21 streak break 接受（工廠期 + 生日），W22 計畫 LC 125（5/25 週一）。5/5 部長全到齊，4 部長自己 commit + Knowledge 補錄 5/21 diary +25 Mind XP（cumulative 9315→9340）。Inbox 1 題（birthday diary nudge，5/23 deadline，shelve-friendly）。財務三件凍結到 5/26 解凍。系統連 11 次 cycle 穩定運作。",
-    "20260523_C001": "工廠期第二天（週六加班）。四連天（5/18-5/21）紀錄正式結案，5/22 diary 未寫（生日+工廠第一天+早上 7:32 工作會議，完全理解），streak 歸零。5/5 部長全到齊，4 部長自己 commit，Knowledge 補 commit Voice Daemon 未 commit 的 voice-inbox 修改（4 個檔）。WSLFinLab 第八次連續心跳穩定。W22 LC 125 框架 5/25 重啟確認。Inbox 1 題（diary nudge，deadline 5/24，shelve-friendly）。gamification +0 XP（工廠期，符合預期）。系統第 12 個 cycle 穩定運作。"
+    "20260523_C001": "工廠期第二天（週六加班）。四連天（5/18-5/21）紀錄正式結案，5/22 diary 未寫（生日+工廠第一天+早上 7:32 工作會議，完全理解），streak 歸零。5/5 部長全到齊，4 部長自己 commit，Knowledge 補 commit Voice Daemon 未 commit 的 voice-inbox 修改（4 個檔）。WSLFinLab 第八次連續心跳穩定。W22 LC 125 框架 5/25 重啟確認。Inbox 1 題（diary nudge，deadline 5/24，shelve-friendly）。gamification +0 XP（工廠期，符合預期）。系統第 12 個 cycle 穩定運作。",
+    "20260524_C001": "生日補寫日記大翻轉 — 5/22 diary 發現為 untracked file（先前誤判未寫），五連天（5/18-5/22）最長紀錄確認更正。重大發現：Asher 主動告訴主管想離職 → 主管提換工作+三個月觀察期。LifeCoach handoff → Career 同 cycle 三點評估，C004 之後第二次同 cycle 完整 handoff 閉環。5/5 部長全到齊，4 部長自己 commit。Knowledge 補錄 5/22 diary +25 Mind XP（cumulative 9340→9365）+ Voice Daemon scripts 路徑修復 8 支（alchplan-data → alchplan\\alchplan-data）+ voice-inbox 5/17 補 commit。**Voice.json 發現 processed_files 大量重複 bug（路徑錯誤導致，現已修正），本 cycle 不 commit 汙染的 state，PM 下個 cycle 評估 dedup**。Inbox 1 題（diary nudge，5/25 deadline，shelve-friendly）。系統第 13 個 cycle 穩定運作。"
   }
 }

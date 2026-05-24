@@ -175,7 +175,7 @@ def run_pre_scripts(minister_name, circle_id):
 
     print('📼 Voice 前置：執行 Whisper 轉錄腳本...')
     # 必須用 Windows 路徑給 powershell.exe
-    win_script = r'C:\Users\ashershih\Documents\alchplan-data\.ministers\scripts\voice_transcribe.py'
+    win_script = r'C:\Users\ashershih\Documents\alchplan\alchplan-data\.ministers\scripts\voice_transcribe.py'
     try:
         result = subprocess.run(
             ['powershell.exe', '-Command', f'python "{win_script}"'],

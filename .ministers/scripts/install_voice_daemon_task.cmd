@@ -1,6 +1,6 @@
 @echo off
 REM Run this once as normal user (no admin needed for ONLOGON + current user)
-set WRAPPER=C:\Users\ashershih\Documents\alchplan-data\.ministers\scripts\start_voice_daemon.cmd
+set WRAPPER=C:\Users\ashershih\Documents\alchplan\alchplan-data\.ministers\scripts\start_voice_daemon.cmd
 
 schtasks /Create ^
   /TN "AlchPlan Voice Daemon" ^

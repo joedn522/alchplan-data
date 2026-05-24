@@ -13,8 +13,8 @@ import whisper
 from datetime import datetime
 
 ICLOUD_DIR = r"C:\Users\ashershih\iCloudDrive\iCloud~com~openplanetsoftware~just-press-record"
-VOICE_INBOX = r"C:\Users\ashershih\Documents\alchplan-data\bujo\voice-inbox"
-STATE_FILE = r"C:\Users\ashershih\Documents\alchplan-data\.ministers\state\voice.json"
+VOICE_INBOX = r"C:\Users\ashershih\Documents\alchplan\alchplan-data\bujo\voice-inbox"
+STATE_FILE = r"C:\Users\ashershih\Documents\alchplan\alchplan-data\.ministers\state\voice.json"
 START_DATE = "2026-03-12"
 
 
