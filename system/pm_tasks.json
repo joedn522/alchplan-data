@@ -231,8 +231,38 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-24T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-23T08:00:02Z",
-    "circle_id": "20260523_C001"
+    "circle_id": "20260523_C001",
+    "consumed_by": "lifecoach_20260524_C001",
+    "consumed_at": "2026-05-24T08:00:01Z",
+    "consume_note": "5/23 diary 未寫確認（無檔案）。重要發現：5/22 diary 已補寫（git untracked file），含重大內容：Asher 主動告訴主管想離職 → 主管提換工作+三個月觀察期。精力 4，放鬆，和女友逛書店。五連天（5/18-5/22）實際達成，先前 state 誤判 5/22 未寫。"
+  },
+  {
+    "id": "lc-to-career-20260524-manager-new-option",
+    "type": "handoff",
+    "from_minister": "lifecoach",
+    "to_minister": "career",
+    "subject": "請評估主管提出的「換工作 + 三個月觀察期」新選項",
+    "question": "5/22 Asher 在生日日記中記錄：他主動告訴主管想離職（不是被問的，是自己說的）。主管回應「再給我一次機會」——提議幫 Asher 換一個 Google 內部職位，先做三個月，再決定是否正式轉組。Asher 的反應：「也許可以鬆一點了... 先別急著下結論——三個月，給自己一個誠實觀察的窗口」。這個新選項尚未被 Career 評估。請 Career 部長在下個 cycle：(1) 評估主管提案 vs. 原 Track A（主動申請轉調 Pixel/Silicon team）有何差異——是同一件事還是不同路徑？(2) 三個月觀察期對 9 月目標時程有何影響？(3) 建議 Asher 在三個月觀察期間應維持哪些備案動作（刷題、人脈建立等）不能鬆懈。",
+    "options": [],
+    "minister_default": "analyze_and_report",
+    "default_action": "execute",
+    "status": "open",
+    "created_at": "2026-05-24T08:00:01Z",
+    "circle_id": "20260524_C001"
+  },
+  {
+    "id": "lc-20260524-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "系統剛發現你補寫了 5/22 的生日日記——謝謝你留下那一天。那句「你願意說真話，所以世界給了你一個新的選項。生日快樂。」很有力量。\n\n五連天（5/18-5/22）達成，追蹤以來最長紀錄。\n\n今天是週日，工廠週第一個稍微能喘口氣的早晨。有沒有想法想記下來？主管的新選項要怎麼想，或是單純記下這週的感受都算。不寫也 shelve，不強求。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-25T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-24T08:00:01Z",
+    "circle_id": "20260524_C001"
   }
 ]
