@@ -134,13 +134,15 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-18T23:59:59Z",
-    "status": "consumed",
+    "status": "archived",
     "created_at": "2026-05-18T09:13:39Z",
     "circle_id": "20260518_C001",
     "urgency": "high",
     "consumed_by": "lifecoach_20260519_C001",
     "consumed_at": "2026-05-19T08:00:01Z",
-    "consume_note": "5/18 diary §6 確認：'房貸已自動扣款確認，信用卡帳單已處理' → 已完成，自動關閉。"
+    "consume_note": "5/18 diary §6 確認：'房貸已自動扣款確認，信用卡帳單已處理' → 已完成，自動關閉。",
+    "archived_at": "2026-05-25T08:13:00Z",
+    "archive_reason": "consumed + 建立滿 7 天，PM 20260525_C001 封存"
   },
   {
     "id": "lc-20260519-diary-today-nudge",
