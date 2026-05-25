@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260524_C001",
+  "last_circle_id": "20260525_C001",
   "streak_rules": {
     "min_threshold": "1.1 任一行有實質內容 OR Section 6 任一句有實質內容 = 該日算寫了",
     "effective_from": "2026-05-11_C004",
@@ -17,9 +17,10 @@
       "2026-05-21": "count ✅ (精力 3, 被同理, 演員框架在進階版, 生日前夕三個願望)",
       "2026-05-22": "count ✅ (精力 4, 放鬆, 和女友逛書店 + 主動跟主管說想離職 → 主管提換工作+三個月觀察選項 — 生日日記於 5/24 補寫，git untracked file。五連天達成！)",
       "2026-05-23": "count ❌ (週六加班日，未寫)",
-      "2026-05-24": "TBD (今天，週日)"
+      "2026-05-24": "count ❌ (週日，未寫確認)",
+      "2026-05-25": "TBD (今天，週一，工廠第二週)"
     },
-    "note": "五連天（5/18-5/22）達成 — 追蹤以來最長紀錄。先前 state 誤判 5/22 未寫，因日記是補寫的 untracked file。5/22 日記有重大內容（告別主管對話、生日和女友一起）。5/23（週六加班）streak 中斷，bujo_days 歸零。5/24（週日）TBD。"
+    "note": "五連天（5/18-5/22）達成 — 追蹤以來最長紀錄。5/23、5/24 連續空白（工廠期週末）。今天 5/25（週一）TBD。"
   },
   "engagement_signals_outside_diary": [
     {
@@ -132,11 +133,11 @@
   "service_gaps_identified": [
     {
       "gap": "diary_completion_rate_low",
-      "evidence": "5/18-5/24 的 7 天：5/18 ✅、5/19 ✅、5/20 ✅、5/21 ✅、5/22 ✅（補寫）、5/23 ❌、5/24 TBD（5+/7 = 71%+）。五連天（5/18-5/22）是追蹤以來最長紀錄，超越先前誤計的四連天。",
+      "evidence": "5/19-5/25 的 7 天：5/19 ✅、5/20 ✅、5/21 ✅、5/22 ✅（補寫）、5/23 ❌、5/24 ❌、5/25 TBD（4/7 = 57%+）。工廠期週末（5/23-5/24）連續空白，工廠第二週（5/25–）繼續觀察。",
       "since": "2026-05-11",
       "status": "active_observation",
       "review_after": "2026-05-29（工廠第一週後重新評估）",
-      "note": "5/22 diary 補寫發現讓追蹤期最長紀錄從四連天升級為五連天。工廠期（5/22-6/4）的日記率觀察繼續：5/22 有寫（補寫），5/23 未寫。5/29 評估工廠週整體日記率。"
+      "note": "工廠第一週（5/22-5/24）：只有 5/22（生日，補寫）有實質內容。5/23、5/24 空白。工廠期高摩擦預期內，5/29 評估是否需要提案微調記錄方式。"
     },
     {
       "gap": "high_friction_diary_in_busy_periods",
@@ -169,20 +170,29 @@
     },
     {
       "gap": "exit_plan_new_variable",
-      "evidence": "5/22 Asher 向主管坦承想離職，主管提出「換工作 + 三個月觀察期」新選項。這個選項尚未被 Career 部長評估。",
+      "evidence": "5/22 Asher 向主管坦承想離職，主管提出「換工作 + 三個月觀察期」新選項。Career 部長已於 20260524_C001 完成三點分析。",
       "since": "2026-05-24",
       "status": "active_observation",
-      "note": "Career 部長 handoff 已建立（lc-to-career-20260524-manager-new-option）。三個月觀察期可能影響 Track A/B 的時程。需要 Career 部長分析。Asher 說：「先別急著下結論——三個月，給自己一個誠實觀察的窗口」——LifeCoach 角色是支持這個清醒，不催他決定。"
+      "note": "Career 部長分析已完成（career_20260524_C001.md）：主管提案 ≠ Track A，而是加速捷徑但目標 team 由主管決定。LifeCoach 角色：支持 Asher 清醒觀察，不催他決定。等 Asher 有空讀 Career 報告再跟進。"
     }
   ],
   "nudge_history": [
+    {
+      "date": "2026-05-25",
+      "type": "diary_monday_factory_week2",
+      "channel": "pm_inbox",
+      "tone": "low_pressure_fresh_start",
+      "circle_id": "20260525_C001",
+      "reason": "工廠第二週週一。5/23-5/24 連續空白（週末工廠期），不責備，低壓邀請今天接住一句話。提及 Career 部長主管分析已完成。"
+    },
     {
       "date": "2026-05-24",
       "type": "diary_sunday_after_big_week",
       "channel": "pm_inbox",
       "tone": "celebratory_light_touch",
       "circle_id": "20260524_C001",
-      "reason": "5/22 diary 補寫發現（五連天！）+ 工廠週第一個週日。語氣：慶祝補寫、慶祝五連天、提及主管對話的重量，低壓邀請今天也留點什麼。"
+      "reason": "5/22 diary 補寫發現（五連天！）+ 工廠週第一個週日。語氣：慶祝補寫、慶祝五連天、提及主管對話的重量，低壓邀請今天也留點什麼。",
+      "result": "❌ 5/24 diary 未寫確認（週日無檔案）。"
     },
     {
       "date": "2026-05-23",

@@ -264,8 +264,24 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-25T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-24T08:00:01Z",
-    "circle_id": "20260524_C001"
+    "circle_id": "20260524_C001",
+    "consumed_by": "lifecoach_20260525_C001",
+    "consumed_at": "2026-05-25T08:00:01Z",
+    "consume_note": "5/24（週日）diary 未寫確認（無檔案）。工廠期週末空白，理解。"
+  },
+  {
+    "id": "lc-20260525-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "工廠第二週開始了（週一）。週末沒寫沒關係。今天工廠那邊怎麼樣？身體還撐著嗎？哪怕一句話就算接住了。不寫也 shelve，不強求。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-26T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-25T08:00:01Z",
+    "circle_id": "20260525_C001"
   }
 ]
