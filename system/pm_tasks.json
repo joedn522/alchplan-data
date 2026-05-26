@@ -282,8 +282,24 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-26T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-25T08:00:01Z",
-    "circle_id": "20260525_C001"
+    "circle_id": "20260525_C001",
+    "consumed_by": "lifecoach_20260526_C001",
+    "consumed_at": "2026-05-26T08:00:02Z",
+    "consume_note": "5/25（週一）diary 未寫確認（無檔案）。工廠第二週第一天，空白預期內。"
+  },
+  {
+    "id": "lc-20260526-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "工廠第二週第二天了（週二）。5/23 到今天已經四天沒寫日記——工廠期很累，完全可以理解。上次你寫的那句「也許可以換一個能呼吸的位置」還在心裡翻騰嗎？工廠這邊身體還撐著嗎？一句話就算接住了。不寫也 shelve，不強求。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-27T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-26T08:00:02Z",
+    "circle_id": "20260526_C001"
   }
 ]
