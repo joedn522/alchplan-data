@@ -153,12 +153,14 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-20T23:59:59Z",
-    "status": "consumed",
+    "status": "archived",
     "created_at": "2026-05-19T08:00:01Z",
     "circle_id": "20260519_C001",
     "consumed_by": "lifecoach_20260520_C001",
     "consumed_at": "2026-05-20T08:00:02Z",
-    "consume_note": "5/19 diary 確認有實質內容（精力 3，開會被耗乾，演員框架在：'大可一走了之，所以我是無敵的'，貸款第一步落地）。系統自動關閉。"
+    "consume_note": "5/19 diary 確認有實質內容（精力 3，開會被耗乾，演員框架在：'大可一走了之，所以我是無敵的'，貸款第一步落地）。系統自動關閉。",
+    "archived_at": "2026-05-26T08:10:12Z",
+    "archive_reason": "consumed + 建立滿 7 天，PM 20260526_C001 封存"
   },
   {
     "id": "lc-20260520-diary-today-nudge",
@@ -185,12 +187,14 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-21T23:59:59Z",
-    "status": "consumed",
+    "status": "archived",
     "created_at": "2026-05-19T08:00:01Z",
     "circle_id": "20260519_C001",
     "consumed_by": "lifecoach_20260522_C001",
     "consumed_at": "2026-05-22T08:00:02Z",
-    "consume_note": "Deadline 5/21 已過，Asher 未直接回應。但 5/21 diary 有生日前夕三個願望（找到適合工作型態/找到可生根領域/找回更多朋友）—— Asher 在生日前夕做了最深的自我對話，這本身就是一種慶祝。今天（5/22，生日當天）另開新的 birthday nudge 接棒。"
+    "consume_note": "Deadline 5/21 已過，Asher 未直接回應。但 5/21 diary 有生日前夕三個願望（找到適合工作型態/找到可生根領域/找回更多朋友）—— Asher 在生日前夕做了最深的自我對話，這本身就是一種慶祝。今天（5/22，生日當天）另開新的 birthday nudge 接棒。",
+    "archived_at": "2026-05-26T08:10:12Z",
+    "archive_reason": "consumed + 建立滿 7 天，PM 20260526_C001 封存"
   },
   {
     "id": "lc-20260521-diary-today-nudge",
@@ -300,6 +304,21 @@
     "default_deadline": "2026-05-27T23:59:59Z",
     "status": "open",
     "created_at": "2026-05-26T08:00:02Z",
+    "circle_id": "20260526_C001"
+  },
+  {
+    "id": "pm-20260526-voice-daemon-status",
+    "type": "open",
+    "minister": "pm",
+    "question": "Voice Daemon 已約 70h 無新轉錄檔（最後活動：5/23 10:16，散步隨記處理完畢後無新檔）。今天（5/26）早晨已達 suspicious 閾值，請確認：Mac 端的 Voice Daemon 還在跑嗎？iCloud 錄音有沒有新檔案等待處理？（工廠期少錄音完全 ok，主要是確認 daemon 本身沒 crash）",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-28T23:59:59Z",
+    "status": "open",
+    "asher_answer": null,
+    "consumed_by": null,
+    "created_at": "2026-05-26T08:10:12Z",
     "circle_id": "20260526_C001"
   }
 ]
