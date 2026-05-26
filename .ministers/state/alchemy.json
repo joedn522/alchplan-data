@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260525_C001",
+  "last_circle_id": "20260526_C001",
   "schema_version": 2,
   "schema_note": "v2 重構：12 條原 slot 大幅 dormant；新增 14/15 為外部管理觀察者；focus 從『推進』改成『觀察 + 對 Asher 影響評估』",
   "project_status": {
@@ -34,9 +34,9 @@
       "next_action_size": "30-sec voice memo",
       "dormant_clock_started": "2026-05-11",
       "dormant_clock_expires": "2026-06-10",
-      "dormant_clock_progress": "D14/30（今 5/25），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
+      "dormant_clock_progress": "D15/30（今 5/26，中點確認），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
       "dormant_clock_rule": "若 5/11 到 6/10 0 動作（無 voice memo / 無 commit 觸及 alchemy/04-*）→ phase 改 dormant，停止追蹤直到 Asher 主動回來",
-      "next_alchemy_check": "2026-05-26（D15 中點）— 不 nudge 只記錄；6/10 到期時轉 dormant",
+      "next_alchemy_check": "2026-06-10（D30 到期日）— 到期若仍 0 動作 → 轉 dormant",
       "note": "保留試水。Asher 已有 2 條主力副業，這條沒生意義時就 dormant。"
     },
     "05": {
@@ -113,11 +113,11 @@
       "managed_location": "/mnt/c/Users/ashershih/sandbox/ + /mnt/c/Users/ashershih/finlab_db/",
       "alchplan_role": "observe-and-log-only",
       "latest_signal": {
-        "circle_id": "20260525_C001",
+        "circle_id": "20260526_C001",
         "channel": "finlab_db file mtime",
-        "evidence": "expiry.pkl mtime = 2026-05-24 19:54；broker_transactions.pickle mtime = 2026-05-24 19:05（週日部分 ETL）；price#收盤價.pickle mtime = 2026-05-23 19:05（週末停盤不更新，正常）；margin_transactions#融券今日餘額.pickle mtime = 2026-05-23 19:26（同上）；投信買賣超 mtime = 2026-05-23 19:56（同上）",
+        "evidence": "expiry.pkl mtime = 2026-05-25 19:59；institutional_investors_trading_summary#投信買賣超股數 mtime = 2026-05-25 19:59；price#收盤價.pickle mtime = 2026-05-25 19:05；broker_transactions.pickle mtime = 2026-05-25 19:05。margin_transactions（融券今日餘額/融券現券償還）停在 2026-05-23 19:26，5/25 交易日未更新（微異常，下 cycle 繼續觀察）。",
         "verdict": "alive",
-        "note": "連續第十次心跳確認。5/24（週日）ETL：expiry + broker_transactions 2 支更新；price/margin/institutional 跟隨交易日節奏（週末停盤不更新，正常行為）。ETL pipeline 週日仍在運作，無異常。Mini Factory Day 4（週一），工廠進入第二週。貸款進度：5/22 日記無提及，5/23-5/24 無新日記，繼續 passive 觀察。Obsidian iCloud 路徑持續不可存取（已知同步問題）。"
+        "note": "連續第十一次心跳確認。5/25（週一，交易日）ETL：expiry / 投信 / price / broker 4 支正常更新；margin_transactions 未隨交易日更新（異常但次要，主要 pipeline 健康）。5/23-5/25 無新日記（工廠期週末），無新貸款訊號。Obsidian iCloud 路徑持續不可存取（已知同步問題）。Mini Factory 第二週 Day 2。"
       },
       "idea_signals": [
         {
@@ -363,6 +363,23 @@
         "13 不跨界：本 cycle 無跨 Career 部長動作",
         "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；LifeCoach 同 cycle 已有 diary nudge open + career handoff open，不疊問題）",
         "背景：Mini Factory Day 3（週日），Asher 第一個稍微能喘口氣的早晨。主管新選項帶來思維轉折，演員框架從『9月就走』開始軟化為三個月觀察窗口。"
+      ]
+    },
+    {
+      "circle_id": "20260526_C001",
+      "timestamp": "2026-05-26T08:05:35Z",
+      "action": "Mini Factory Day 5（週二）觀察 cycle：14 心跳第十一次連續確認（5/25 交易日全面 ETL，margin 微異常待觀察）、15 無新訊號、04 dormant clock D15 中點確認（0 動作）。",
+      "details": [
+        "14 心跳：expiry.pkl 5/25 19:59 + 投信買賣超 5/25 19:59 + price#收盤價 5/25 19:05 + broker_transactions 5/25 19:05 → alive。連續第十一次心跳，主要指標全部正常",
+        "14 微異常觀察：margin_transactions（融券今日餘額/融券現券償還）停在 5/23 19:26，5/25 交易日未更新。5/20-5/23 連日均有更新，今日出現 lag。不升級為警報，下 cycle 繼續觀察是否跟上",
+        "14 貸款進度：5/23-5/25 無新日記（工廠期週末），無借貸新訊號。繼續 passive 觀察",
+        "15 無新訊號：voice-inbox 最後為 5/22（噪音），Obsidian BobOS FM 資料夾不可存取，5/22 日記無提及。Mini Factory 靜默正常",
+        "Obsidian 全掃：WSLFinLab / BobOS FM / Microsoft 三個資料夾均不可存取（持續多 cycle，已知 iCloud 同步問題）",
+        "voice-inbox 掃描：最後檔案 5/22（全噪音：中文媒體 spam / 計數），5/23 後無新檔案。無副業訊號",
+        "04 dormant clock D15/30：中點確認，0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）。下次正式紀錄 6/10（到期日）",
+        "13 不跨界：本 cycle 無跨 Career 部長動作",
+        "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；LifeCoach diary nudge 仍 open，Mini Factory 工廠期不疊壓力）",
+        "背景：Mini Factory Day 5（週二）。5/22 五連天後工廠期週末空白（5/23-5/25），理解。一切穩定觀察中。"
       ]
     },
     {
