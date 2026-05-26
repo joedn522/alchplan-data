@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260525_C001",
+  "last_circle_id": "20260526_C001",
   "schema_version": 1,
   "last_deep_review_date": "2026-05-25",
 
@@ -60,9 +60,9 @@
   },
 
   "this_cycle_recommendation": {
-    "type": "W22 正式起點：LC 125 + 問主管 team 名",
-    "summary": "今晚下班後：LC 125 Valid Palindrome（Easy，15 分鐘），W22 streak 從今天開始。本週內找機會問主管：「你說的新職位，是哪個 team？我可以先了解一下嗎？」一旦知道 team 名，下個 cycle 幫你評估 WLB / TC / 文化。",
-    "rationale": "W22 是 LC 復健的正式重啟週。LeetCode 是保險費，不管主管提案結果如何都不能停。問 team 名是主管提案路徑唯一待確認的關鍵步驟。"
+    "type": "W22 Day 2：LC 125 今晚或明晚 + 問主管 team 名",
+    "summary": "今天是 W22 第二天，還有整週時間。LC 125 Valid Palindrome（Easy，15 分鐘）——今晚或明晚找一個下班後的 15 分鐘窗口做掉它。主管 team 名問題還沒問——這週找個自然的接話時機問。",
+    "rationale": "兩件事都是從昨天 carry 過來的待辦。W22 仍然有充裕窗口，不催，但不能讓這兩件事再往後拖到週四週五。"
   },
 
   "carryover_recommendations": [
@@ -125,6 +125,11 @@
       "circle_id": "20260525_C001",
       "date": "2026-05-25",
       "action": "深度檢視（距上次 6 天）。W21 結束無任何行動，streak break 正式關帳。W22 今天（週一）正式起點。主管提案狀態：5/22 已確認，但新 team 名稱仍未知（上個 cycle 建議去問，待執行）。LeetCode 仍 7 題（Phase 1 待推），System Design 0 topic。Career Move XP +0。W22 建議：今晚 LC 125 + 本週問主管 team 名。"
+    },
+    {
+      "circle_id": "20260526_C001",
+      "date": "2026-05-26",
+      "action": "Pulse check（距上次深度檢視 1 天，W22 Day 2）。Weekly-log W22 仍無紀錄（LC 125 待做）。Targets / Pipeline 無變化。5/26 diary 尚未寫。主管 team 名仍未知。LeetCode 仍 7 題。兩件待辦（LC 125 + 問主管 team 名）carry 到今晚 / 明晚，W22 還有充裕窗口。"
     }
   ]
 }
