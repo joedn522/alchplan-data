@@ -1,6 +1,6 @@
 # LeetCode 刷題紀錄
 
-> 最後更新：2026-05-17（由 Session PM 同步 LeetCode API）
+> 最後更新：2026-05-27（由 Session PM 同步 LeetCode API）
 > 完整計畫：[leetcode-prep-plan.md](./leetcode-prep-plan.md) ｜ AI 協作：[leetcode-ai-workflow.md](./leetcode-ai-workflow.md)
 
 ---
@@ -15,7 +15,7 @@
 | **總計** | **630** |
 
 **本次復健起算**：2026-05-13
-**本次復健新增**：7 題
+**本次復健新增**：19 題（Easy ×10 / Medium ×9 / Hard ×0）
 
 ---
 
@@ -30,21 +30,30 @@
 | 5/16 | LC 242 | Valid Anagram | Easy | Hash / Counter | |
 | 5/16 | LC 53 | Maximum Subarray | Medium | Kadane's / DP | |
 | 5/16 | LC 238 | Product of Array Except Self | Medium | Prefix / Suffix | |
+| 5/17 | LC 125 | Valid Palindrome | Easy | Two Pointers | |
+| 5/17 | LC 3 | Longest Substring Without Repeating Chars | Medium | Sliding Window | |
+| 5/18 | LC 152 | Maximum Product Subarray | Medium | DP | |
+| 5/18 | LC 278 | First Bad Version | Easy | Binary Search | 計畫外自刷 |
+| 5/19 | LC 153 | Find Minimum in Rotated Sorted Array | Medium | Binary Search | 比 hi 模板 |
+| 5/21 | LC 20 | Valid Parentheses | Easy | Stack | |
+| 5/21 | LC 155 | Min Stack | Medium | Stack | |
+| 5/21 | LC 104 | Maximum Depth of Binary Tree | Easy | DFS | |
+| 5/21 | LC 226 | Invert Binary Tree | Easy | DFS | |
+| 5/27 | LC 15 | 3Sum | Medium | Sort + Two Pointers | |
+| 5/27 | LC 11 | Container With Most Water | Medium | Two Pointers + Greedy | |
+| 5/27 | LC 739 | Daily Temperatures | Medium | Monotonic Stack | |
 
 ---
 
-## 🔲 待刷（第二批 — W2）
+## 🔲 待刷（剩餘）
 
 | # | 題名 | 難度 | Pattern | 重點追問 |
 |---|---|---|---|---|
-| LC 125 | Valid Palindrome | Easy | Two Pointers | built-in vs in-place；Unicode |
-| LC 3 | Longest Substring Without Repeating Chars | Medium | Sliding Window | dict vs set；window 縮法 |
-| LC 152 | Maximum Product Subarray | Medium | DP | 為什麼要同時追 max 和 min |
-| LC 153 | Find Minimum in Rotated Sorted Array | Medium | Binary Search | mid vs right 比較邏輯 |
-| LC 33 | Search in Rotated Sorted Array | Medium | Binary Search | 接 LC 153，決策樹 |
-| LC 15 | 3Sum | Medium | Sort + Two Pointers | duplicate 跳法 |
-| LC 11 | Container With Most Water | Medium | Two Pointers + Greedy | greedy 選擇的 proof |
-| LC 76 | Minimum Window Substring | Hard | Sliding Window | 難，做不完放明天 |
+| LC 76 | Minimum Window Substring | Hard | Sliding Window | 難，思考完畢待 AC |
+| LC 33 | Search in Rotated Sorted Array | Medium | Binary Search | 接 LC 153，決策樹，待 AC |
+| LC 102 | Binary Tree Level Order Traversal | Medium | BFS | |
+| LC 543 | Diameter of Binary Tree | Medium | DFS | |
+| LC 235 | Lowest Common Ancestor of BST | Medium | BST | |
 
 ---
 
