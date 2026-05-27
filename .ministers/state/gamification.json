@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-05-24T08:22:37Z",
+  "last_updated": "2026-05-27T08:20:00Z",
   "player": {
     "name": "Asher",
     "total_level": 25,
-    "total_xp": 1550
+    "total_xp": 1575
   },
   "skill_trees": {
     "engineering": {
@@ -47,9 +47,9 @@
       "name": "🧘 Mind",
       "description": "日記、反思、語音 inbox、心情追蹤",
       "level": 1,
-      "xp": 65,
+      "xp": 90,
       "xp_to_next": 200,
-      "lifetime_xp": 165
+      "lifetime_xp": 190
     },
     "body": {
       "name": "💪 Body",
@@ -116,6 +116,13 @@
     { "id": "exercise-week", "name": "🏃 一週動 3 次", "tree": "body", "unlock_when": "尚未啟用（待 body tree 啟用）" }
   ],
   "recent_xp_log": [
+    {
+      "date": "2026-05-25",
+      "tree": "mind",
+      "xp": 25,
+      "reason": "5/25 diary 更正補錄（PM 20260527_C001 發現上 cycle 誤判為「無檔案」，直接驗證確認存在：精力 3，一人公司想法，演員框架升級為「已不需要」，≥3 sections）",
+      "added_by": "knowledge-20260527_C001"
+    },
     {
       "date": "2026-05-22",
       "tree": "mind",
