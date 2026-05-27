@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260526_C001",
+  "last_circle_id": "20260527_C001",
   "schema_version": 1,
   "last_deep_review_date": "2026-05-25",
 
@@ -53,16 +53,16 @@
   "last_action_type": "刷 LeetCode（Phase 0 完成，7 題：Easy×5 + Medium×2）",
 
   "diary_signal": {
-    "last_career_mention_date": "2026-05-22",
-    "last_career_mention_summary": "5/22 生日日記（精力 4，放鬆）：Asher 前一天主動告訴主管想離職，主管回「再給我一次機會」——提議幫 Asher 換一個 Google 內部職位，先做三個月，再決定是否正式轉組。Asher 反應：「也許可以鬆一點了... 也許不是走，而是換一個能呼吸的位置。先別急著下結論——三個月，給自己一個誠實觀察的窗口。」",
-    "days_since_last_mention": 3,
-    "note": "5/22 diary 是本追蹤期最重要的 career 訊號。主管提案改變了 Track A 路徑（從 9 月自主申請，提前到現在由主管協助）。5/23-5/25 日記未寫（工廠期）。"
+    "last_career_mention_date": "2026-05-25",
+    "last_career_mention_summary": "5/25 日記（精力 3，平穩）：「有了新選項，工廠事件結束後會開始找最適合自己的工作。這讓心態很棒。」演員框架已轉化為有出口感，心態穩定。5/22 生日日記仍是最重要的訊號（主管提案確認）。",
+    "days_since_last_mention": 2,
+    "note": "5/22 diary 是本追蹤期最重要的 career 訊號（主管提案）。5/25 diary 間接 career 提及，心態正向。5/26 diary 未寫（工廠期）。"
   },
 
   "this_cycle_recommendation": {
-    "type": "W22 Day 2：LC 125 今晚或明晚 + 問主管 team 名",
-    "summary": "今天是 W22 第二天，還有整週時間。LC 125 Valid Palindrome（Easy，15 分鐘）——今晚或明晚找一個下班後的 15 分鐘窗口做掉它。主管 team 名問題還沒問——這週找個自然的接話時機問。",
-    "rationale": "兩件事都是從昨天 carry 過來的待辦。W22 仍然有充裕窗口，不催，但不能讓這兩件事再往後拖到週四週五。"
+    "type": "W22 Day 3：今晚 LC 125（明天週四就觸發 nudge 升級）",
+    "summary": "W22 第三天，兩件事仍然 carry：LC 125 Valid Palindrome（Easy，15 分鐘）+ 問主管 team 名。今晚是 W22 沒有工廠壓力的最後平日晚上，LC 125 今晚做掉 W22 就活了。問主管 team 名找本週自然接話時機即可。",
+    "rationale": "明天（5/28，週四）是 SOP 溫柔 nudge 升級的觸發日。今晚還有機會讓兩件事在 nudge 升級前完成，不需要週四被催。"
   },
 
   "carryover_recommendations": [
@@ -130,6 +130,11 @@
       "circle_id": "20260526_C001",
       "date": "2026-05-26",
       "action": "Pulse check（距上次深度檢視 1 天，W22 Day 2）。Weekly-log W22 仍無紀錄（LC 125 待做）。Targets / Pipeline 無變化。5/26 diary 尚未寫。主管 team 名仍未知。LeetCode 仍 7 題。兩件待辦（LC 125 + 問主管 team 名）carry 到今晚 / 明晚，W22 還有充裕窗口。"
+    },
+    {
+      "circle_id": "20260527_C001",
+      "date": "2026-05-27",
+      "action": "Pulse check（距上次深度檢視 2 天，W22 Day 3）。Weekly-log W22 仍無紀錄（LC 125 待做）。Targets / Pipeline 無變化。5/26 diary 未寫確認。5/25 diary 有間接 career 訊號：「有了新選項，工廠事件結束後會開始找最適合自己的工作」，心態正向。主管 team 名仍未知。LeetCode 仍 7 題。今晚是 W22 最後一個無工廠壓力的平日晚上，LC 125 今晚做 W22 即活。明天（5/28，週四）觸發 SOP nudge 升級。"
     }
   ]
 }
