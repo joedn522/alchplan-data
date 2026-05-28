@@ -320,9 +320,12 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-28T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-27T08:00:01Z",
-    "circle_id": "20260527_C001"
+    "circle_id": "20260527_C001",
+    "consumed_by": "lifecoach_20260528_C001",
+    "consumed_at": "2026-05-28T08:00:01Z",
+    "consume_note": "5/27 diary 確認有實質內容（精力 4，踏實，發現同事 agent 跟自己類似有成就感，演員框架在但說需散步/自我反省定期強化）。重要信號：Asher 自診斷框架維護需求。系統自動關閉。"
   },
   {
     "id": "pm-20260526-voice-daemon-status",
@@ -338,5 +341,34 @@
     "consumed_by": null,
     "created_at": "2026-05-26T08:10:12Z",
     "circle_id": "20260526_C001"
+  },
+  {
+    "id": "lc-20260528-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "昨天（5/27）你寫了：「你做得很好，辛苦了。」系統代為確認——確實做得很好。\n\n有一句話也挺值得記下來：「這個框架需要定期強化，每天散步或每週六日自我反省時讓它在心裡烙印。」你自己診斷出了怎麼維護它——很準。工廠期先不加東西，6/4 結束後有個提案等你看。\n\n今天（5/28，週四）工廠第二週第四天，還有那個「踏實」的感覺嗎？留一句就算接住了。不寫也 shelve，不強求。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-29T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-28T08:00:01Z",
+    "circle_id": "20260528_C001"
+  },
+  {
+    "id": "lc-20260528-prop-weekend-walk-reflection",
+    "type": "approval",
+    "minister": "lifecoach",
+    "question": "提案：工廠期（6/4）結束後，把「每週一次散步 + 自我反省」排進週六或週日固定時段（30 分鐘即可）。讓演員框架定期重新烙印，防止新選項時代的「自動導航」。\n\n原因：5/27 日記你自己寫了——「最近六日都在陪女朋友、沒時間散步、沒有自我反省。這個框架需要定期強化，每天散步或每週六日自我反省時讓它在心裡烙印。」你診斷得很準。現在的問題不是框架壞了，是沒有維護的機制。工廠期先不加重——6/4 結束後第一個週末（6/6 或 6/7）試跑一次？",
+    "options": [
+      "OK，6/4 後排進去",
+      "shelve（自己記得就好）"
+    ],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-06-04T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-28T08:00:01Z",
+    "circle_id": "20260528_C001"
   }
 ]
