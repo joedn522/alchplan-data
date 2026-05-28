@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260527_C001",
+  "last_circle_id": "20260528_C001",
   "schema_version": 1,
   "last_deep_review_date": "2026-05-25",
 
@@ -55,14 +55,14 @@
   "diary_signal": {
     "last_career_mention_date": "2026-05-25",
     "last_career_mention_summary": "5/25 日記（精力 3，平穩）：「有了新選項，工廠事件結束後會開始找最適合自己的工作。這讓心態很棒。」演員框架已轉化為有出口感，心態穩定。5/22 生日日記仍是最重要的訊號（主管提案確認）。",
-    "days_since_last_mention": 2,
-    "note": "5/22 diary 是本追蹤期最重要的 career 訊號（主管提案）。5/25 diary 間接 career 提及，心態正向。5/26 diary 未寫（工廠期）。"
+    "days_since_last_mention": 3,
+    "note": "5/22 diary 是本追蹤期最重要的 career 訊號（主管提案）。5/25 diary 間接 career 提及，心態正向。5/27 diary 精力 4 踏實，無直接 career 提及，但結尾「一切應該會好轉」有間接 career 出口感。5/26 diary 未寫（工廠期）。"
   },
 
   "this_cycle_recommendation": {
-    "type": "W22 Day 3：今晚 LC 125（明天週四就觸發 nudge 升級）",
-    "summary": "W22 第三天，兩件事仍然 carry：LC 125 Valid Palindrome（Easy，15 分鐘）+ 問主管 team 名。今晚是 W22 沒有工廠壓力的最後平日晚上，LC 125 今晚做掉 W22 就活了。問主管 team 名找本週自然接話時機即可。",
-    "rationale": "明天（5/28，週四）是 SOP 溫柔 nudge 升級的觸發日。今晚還有機會讓兩件事在 nudge 升級前完成，不需要週四被催。"
+    "type": "W22 Day 4（週四）nudge：今晚 LC 125",
+    "summary": "週四 nudge 觸發。W22 仍 0 行動，明天（週五）工廠忙，週末陪女友節奏。今晚（週四）是本週最後乾淨窗口。LC 125 Valid Palindrome（Easy，15 分鐘）做完 W22 就活了，streak=1 接回來。問主管 team 名繼續 carry 到本週找自然時機。",
+    "rationale": "SOP 規定：本週還沒推 1 步 + 現在週四 → 發溫柔 nudge。W22 連四天 0 行動，今晚是剩餘窗口裡最無工廠壓力的一個。"
   },
 
   "carryover_recommendations": [
@@ -135,6 +135,11 @@
       "circle_id": "20260527_C001",
       "date": "2026-05-27",
       "action": "Pulse check（距上次深度檢視 2 天，W22 Day 3）。Weekly-log W22 仍無紀錄（LC 125 待做）。Targets / Pipeline 無變化。5/26 diary 未寫確認。5/25 diary 有間接 career 訊號：「有了新選項，工廠事件結束後會開始找最適合自己的工作」，心態正向。主管 team 名仍未知。LeetCode 仍 7 題。今晚是 W22 最後一個無工廠壓力的平日晚上，LC 125 今晚做 W22 即活。明天（5/28，週四）觸發 SOP nudge 升級。"
+    },
+    {
+      "circle_id": "20260528_C001",
+      "date": "2026-05-28",
+      "action": "Pulse check（距上次深度檢視 3 天，W22 Day 4）。Weekly-log W22 仍無紀錄（LC 125 待做，連續 carry 4 天）。Targets / Pipeline 無變化。5/27 diary 精力 4 踏實，無直接 career 提及，明天（週五）工廠再度忙碌。SOP 週四 nudge 觸發：今晚 LC 125（15 分鐘），今晚是本週最後乾淨窗口。主管 team 名仍未知，繼續 carry 到本週找自然接話時機。"
     }
   ]
 }
