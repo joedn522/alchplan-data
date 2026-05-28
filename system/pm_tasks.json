@@ -207,12 +207,14 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-22T23:59:59Z",
-    "status": "consumed",
+    "status": "archived",
     "created_at": "2026-05-21T08:00:02Z",
     "circle_id": "20260521_C001",
     "consumed_by": "lifecoach_20260522_C001",
     "consumed_at": "2026-05-22T08:00:02Z",
-    "consume_note": "5/21 diary 確認有實質內容（精力 3，被同理，演員框架在，生日前夕三個願望）。四連天（5/18-5/21）達成，追蹤以來最長紀錄。系統自動關閉。"
+    "consume_note": "5/21 diary 確認有實質內容（精力 3，被同理，演員框架在，生日前夕三個願望）。四連天（5/18-5/21）達成，追蹤以來最長紀錄。系統自動關閉。",
+    "archived_at": "2026-05-28T08:15:00Z",
+    "archive_reason": "consumed + 建立超過 7 天，PM 20260528_C001 封存"
   },
   {
     "id": "lc-20260522-birthday-diary-nudge",
