@@ -1,22 +1,22 @@
 {
-  "last_circle_id": "20260527_C001",
-  "total_circles": 16,
+  "last_circle_id": "20260529_C001",
+  "total_circles": 18,
   "consecutive_missing_ministers": {
     "lifecoach": 0,
     "alchemy": 0,
     "pm": 0,
     "career": 0
   },
-  "last_report_path": ".ministers/circles/circle_20260527_C001.md",
+  "last_report_path": ".ministers/circles/circle_20260529_C001.md",
   "last_report_stats": {
     "ministers_reported": 4,
-    "ministers_total": 5,
-    "asher_inbox_questions": 2,
+    "ministers_total": 4,
+    "asher_inbox_questions": 3,
     "destructive_proposals": 0,
-    "files_changed": 14,
+    "files_changed": 15,
     "alchemy_newsletter_present": true,
     "career_newsletter_present": true,
-    "lifecoach_newsletter_present": false,
+    "lifecoach_newsletter_present": true,
     "lifecoach_had_activity": true,
     "inbox_zeroed": false,
     "in_flight_handoffs": 0,
@@ -39,6 +39,8 @@
     "20260524_C001": "生日補寫日記大翻轉 — 5/22 diary 發現為 untracked file（先前誤判未寫），五連天（5/18-5/22）最長紀錄確認更正。重大發現：Asher 主動告訴主管想離職 → 主管提換工作+三個月觀察期。LifeCoach handoff → Career 同 cycle 三點評估，C004 之後第二次同 cycle 完整 handoff 閉環。5/5 部長全到齊，4 部長自己 commit。Knowledge 補錄 5/22 diary +25 Mind XP（cumulative 9340→9365）+ Voice Daemon scripts 路徑修復 8 支（alchplan-data → alchplan\\alchplan-data）+ voice-inbox 5/17 補 commit。**Voice.json 發現 processed_files 大量重複 bug（路徑錯誤導致，現已修正），本 cycle 不 commit 汙染的 state，PM 下個 cycle 評估 dedup**。Inbox 1 題（diary nudge，5/25 deadline，shelve-friendly）。系統第 13 個 cycle 穩定運作。",
     "20260525_C001": "工廠第四天（週一），5/5 部長全員到齊，+0 XP 安靜觀察 cycle。WSLFinLab 達成連十次心跳里程碑（5/11 起兩週無間斷，週日也在跑）。Voice Daemon unverified 55.5h，明天（5/26）00:38 進入 suspicious 閾值，PM 下個 cycle 評估。LifeCoach、Alchemy、Career 均採觀察模式，不加壓。voice.json 重複 entries bug 仍未 commit（待 dedup 後處理，沿用 20260524 決策）。sharing/book/解讀巴菲特.md 未 commit（Asher 個人文件，非 cycle 產出）。LifeCoach 隨 Alchemy commit 帶出（32e91c3）；Career/PM 各自 commit（44f80f4/e900f4a）——4 部長產出全到，commit 模式正常。Inbox 1 題（diary nudge，5/26 deadline，shelve-friendly）。系統第 14 個 cycle 穩定運作。",
     "20260526_C001": "工廠第二週第二天（週二），5/5 部長全員到齊，+0 XP 安靜觀察 cycle。WSLFinLab 連十一次心跳穩定，margin_transactions 3 天未更新（微異常，下 cycle 繼續觀察）。Voice Daemon 今晨達 suspicious 閾值，PM 已發 inbox 問題確認（pm-20260526-voice-daemon-status）。LifeCoach 觀察到演員框架正向進化（從「9月撐著」→「也許可以換一個能呼吸的位置」）。Slot 04 D15/30 中點確認（0 動作）。Inbox 2 題（diary nudge + Voice Daemon 確認），均 shelve-friendly。PM staged files 未 commit 由 Knowledge 一併 commit。voice.json 重複 entries bug 仍未 commit（沿用 20260524 決策）。sharing/book/解讀巴菲特.md 未 commit（Asher 個人文件）。系統第 15 個 cycle 穩定運作。",
-    "20260527_C001": "工廠第二週第三天（週三），4.5/5 部長產出（LifeCoach 無獨立 newsletter 但有活動，state 由 PM 同步），+25 Mind XP 補錄（5/25 diary 更正）。WSLFinLab 第十二次心跳穩定，margin 微異常恢復確認。**重要更正：5/25 diary PM 本 cycle 驗證確認存在（精力 3，一人公司概念，演員框架進化為「已不需要」）**，Knowledge 補錄 +25 XP（cumulative 9,365→9,390）。Inbox 2 題（diary nudge + Voice Daemon 確認），deadline 5/28，均 shelve-friendly。voice.json 修改未 commit（沿用 20260524 決策）。sharing/book/解讀巴菲特.md 未 commit（Asher 個人文件）。5/29 為 LC deferred proposals 評估點（7 分鐘日記微習慣、財務追蹤、運動追蹤）。系統第 16 個 cycle 穩定運作。"
+    "20260527_C001": "工廠第二週第三天（週三），4.5/5 部長產出（LifeCoach 無獨立 newsletter 但有活動，state 由 PM 同步），+25 Mind XP 補錄（5/25 diary 更正）。WSLFinLab 第十二次心跳穩定，margin 微異常恢復確認。**重要更正：5/25 diary PM 本 cycle 驗證確認存在（精力 3，一人公司概念，演員框架進化為「已不需要」）**，Knowledge 補錄 +25 XP（cumulative 9,365→9,390）。Inbox 2 題（diary nudge + Voice Daemon 確認），deadline 5/28，均 shelve-friendly。voice.json 修改未 commit（沿用 20260524 決策）。sharing/book/解讀巴菲特.md 未 commit（Asher 個人文件）。5/29 為 LC deferred proposals 評估點（7 分鐘日記微習慣、財務追蹤、運動追蹤）。系統第 16 個 cycle 穩定運作。",
+    "20260528_C001": "**部分 commit cycle** — circle_20260528_C001.md 產出但未 commit（PM 20260529 確認），knowledge.json 未更新（本 cycle 補齊）。gamification.json 成功更新（+250 XP：Engineering +225 LC 12 題補錄 + Mind +25 5/27 diary）。LeetCode 累積 10 題成就解鎖（19 題 AC）。5/5 部長全到齊，4 部長自己 commit（newsletters + states）。Voice Daemon 今晚到期（pm-20260526-voice-daemon-status 5/28 23:59）。系統第 17 個 cycle 有產出但 Knowledge partial commit 需本 cycle 補齊。",
+    "20260529_C001": "工廠第二週最後一個工作日（週五，Mini Factory Day 8）。4/4 部長全員到齊，各自 commit（newsletters + states）。補齊 20260528 未 commit circle file（Knowledge 補 commit）。Voice Daemon 正式進入 shelved 狀態（inbox 到期自動結案，6/4 後重啟追蹤）。5/28 diary +25 Mind XP（mind 115→140，cumulative 9,640→9,665）。3 題 inbox 待回（微日記提案 + 週末散步提案 + 今日 diary nudge，全 shelve-friendly，deadline 5/30/6/4/6/4）。系統第 18 個 cycle 穩定運作。"
   }
 }

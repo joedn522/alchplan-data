@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-05-28T08:22:00Z",
+  "last_updated": "2026-05-29T08:20:00Z",
   "player": {
     "name": "Asher",
     "total_level": 25,
-    "total_xp": 1825
+    "total_xp": 1850
   },
   "skill_trees": {
     "engineering": {
@@ -47,9 +47,9 @@
       "name": "🧘 Mind",
       "description": "日記、反思、語音 inbox、心情追蹤",
       "level": 1,
-      "xp": 115,
+      "xp": 140,
       "xp_to_next": 200,
-      "lifetime_xp": 215
+      "lifetime_xp": 240
     },
     "body": {
       "name": "💪 Body",
@@ -122,6 +122,13 @@
     { "id": "exercise-week", "name": "🏃 一週動 3 次", "tree": "body", "unlock_when": "尚未啟用（待 body tree 啟用）" }
   ],
   "recent_xp_log": [
+    {
+      "date": "2026-05-28",
+      "tree": "mind",
+      "xp": 25,
+      "reason": "5/28 diary 確認有實質內容（精力 4，網路回環測試成功跑一輪，積極主動不等別人，效率好無噪音，§1.1 有實質內容達門檻，連兩天精力 4）",
+      "added_by": "knowledge-20260529_C001"
+    },
     {
       "date": "2026-05-27",
       "tree": "mind",
