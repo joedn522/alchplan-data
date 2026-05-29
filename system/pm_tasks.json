@@ -353,9 +353,41 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-29T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-28T08:00:01Z",
-    "circle_id": "20260528_C001"
+    "circle_id": "20260528_C001",
+    "consumed_by": "lifecoach_20260529_C001",
+    "consumed_at": "2026-05-29T08:00:02Z",
+    "consume_note": "5/28 diary 確認有實質內容（精力 4，忙得有目標，網路回環測試成功跑一輪掌握指令，積極主動不等別人，效率好無噪音，§6 空白但 §1.1 有實質內容達門檻）。連兩天精力 4（5/27+5/28）。系統自動關閉。"
+  },
+  {
+    "id": "lc-20260529-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "連兩天了（5/27 + 5/28 都接住）！今天（5/29，週五）是工廠第二週最後一個工作日——loopback 測試昨天摸清楚了，今天去把它談妥。\n\n工廠期快到尾聲了（還有下週一），這段時間值得留個印記。哪怕一句話：「今天感覺怎麼樣？」「loopback 順利嗎？」就算接住了。不寫也 shelve，不強求。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-30T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-29T08:00:02Z",
+    "circle_id": "20260529_C001"
+  },
+  {
+    "id": "lc-20260529-prop-micro-diary-7min",
+    "type": "approval",
+    "minister": "lifecoach",
+    "question": "提案：工廠期結束後（6/5 起），試試「微日記 7 分鐘」——每天只寫兩個格子：**§1.1 一個今天做的任務 + §6 一句今天的感受**，7 分鐘以內完成就算。\n\n原因：5/17 散步時你自己就想到了「7 分鐘日記」這個想法。5/25（出貨延遲有空）、5/27（踏實日）、5/28（有目標日）三天驗證了同一件事——「有一點餘裕就自然寫」。微日記的邏輯是讓「開始」的門檻消失，不是縮短內容，是讓每天都有一個最小啟動點。工廠期先不動，6/4 結束後第一週試跑？",
+    "options": [
+      "試試，6/5 開始",
+      "shelve（原版日記繼續）"
+    ],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-06-04T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-29T08:00:02Z",
+    "circle_id": "20260529_C001"
   },
   {
     "id": "lc-20260528-prop-weekend-walk-reflection",
