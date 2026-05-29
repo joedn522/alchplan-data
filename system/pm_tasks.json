@@ -225,12 +225,14 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-23T23:59:59Z",
-    "status": "consumed",
+    "status": "archived",
     "created_at": "2026-05-22T08:00:02Z",
     "circle_id": "20260522_C001",
     "consumed_by": "lifecoach_20260523_C001",
     "consumed_at": "2026-05-23T08:00:02Z",
-    "consume_note": "5/22 diary 未寫。生日+工廠第一天+週五+確定有早上 7:32 工作會議（語音轉錄確認）——這天沒有任何可寫日記的喘息時間，完全可以理解。四連天紀錄（5/18-5/21）依然在，5/21 的生日前夕三個願望已留下這段時間最重要的自我對話。"
+    "consume_note": "5/22 diary 未寫。生日+工廠第一天+週五+確定有早上 7:32 工作會議（語音轉錄確認）——這天沒有任何可寫日記的喘息時間，完全可以理解。四連天紀錄（5/18-5/21）依然在，5/21 的生日前夕三個願望已留下這段時間最重要的自我對話。",
+    "archived_at": "2026-05-29T08:12:00Z",
+    "archive_reason": "consumed + 建立超過 7 天（7 天），PM 20260529_C001 封存"
   },
   {
     "id": "lc-20260523-diary-today-nudge",
@@ -338,11 +340,14 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-28T23:59:59Z",
-    "status": "open",
+    "status": "expired",
     "asher_answer": null,
     "consumed_by": null,
     "created_at": "2026-05-26T08:10:12Z",
-    "circle_id": "20260526_C001"
+    "circle_id": "20260526_C001",
+    "expired_at": "2026-05-29T08:12:00Z",
+    "expired_action": "apply_minister_default = shelve（Asher 5/28 23:59 deadline 到期無回應，工廠期少錄音為可接受解釋，Voice Daemon 健康追蹤暫時擱置。PM 20260529_C001 執行 shelve）",
+    "note": "連續 6 個 cycle suspicious（5/24 起 ~166h 無活動），但工廠期（5/22-6/4）靜默屬預期情形。6/4 工廠結束後如 daemon 仍無輸出，重啟追蹤並提新 inbox 問題。"
   },
   {
     "id": "lc-20260528-diary-today-nudge",

@@ -1,34 +1,43 @@
 {
-  "last_circle_id": "20260528_C001",
-  "previous_circle_id": "20260527_C001",
-  "system_alerts": [],
+  "last_circle_id": "20260529_C001",
+  "previous_circle_id": "20260528_C001",
+  "system_alerts": [
+    {
+      "level": "yellow",
+      "minister": "knowledge",
+      "issue": "Knowledge 部長 20260528_C001 部分執行未 commit：gamification.json 已更新（+250 XP）但 knowledge.json 仍顯示 last_circle_id=20260527_C001，circle_20260528_C001.md 為 untracked 未 commit 狀態。連續 2 cycle 未完整 commit（20260528+20260529）。",
+      "action": "Knowledge 本 cycle（20260529_C001）執行時需補 commit circle_20260528_C001.md 並更新 knowledge.json，同時產出 circle_20260529_C001.md。",
+      "auto_resolve": "Knowledge 20260529_C001 完成後解除"
+    }
+  ],
   "inbox_stats": {
-    "total": 21,
+    "total": 23,
     "pending": 3,
     "answered": 0,
     "consumed_this_cycle": 1,
-    "consumed_cumulative": 18,
+    "consumed_cumulative": 19,
     "archived_this_cycle": 1,
-    "archived_cumulative": 11,
+    "archived_cumulative": 12,
+    "expired_this_cycle": 1,
     "pending_handoff": 0,
     "expired": 0,
-    "note": "Open：pm-20260526-voice-daemon-status（deadline 今晚 23:59，無回應 → shelve）+ lc-20260528-diary-today-nudge（deadline 5/29）+ lc-20260528-prop-weekend-walk-reflection（散步提案，deadline 6/4）。本 cycle 消費：lc-20260527-diary-today-nudge（LC 20260528_C001 consume，5/27 diary ✅ 精力 4，踏實，演員框架自診需散步維護）。封存：lc-20260521-diary-today-nudge（建立 5/21，今日滿 7 天）。Voice Daemon ~142h 無活動，今晚 deadline，無回應 → shelve。5/29 財務待辦解凍點 + deferred proposals 評估點（微日記 / 財務 / 運動）。"
+    "note": "Open（3 題）：lc-20260529-diary-today-nudge（deadline 5/30）+ lc-20260529-prop-micro-diary-7min（6/4，微日記提案）+ lc-20260528-prop-weekend-walk-reflection（6/4，週末散步提案）。本 cycle 消費：lc-20260528-diary-today-nudge（LC 20260529_C001 consume，5/28 diary ✅ 精力 4，loopback 測試摸清楚，效率好），consumed_cumulative 升為 19。封存：lc-20260522-birthday-diary-nudge（建立 5/22，今日滿 7 天，archived_cumulative 升為 12）。過期：pm-20260526-voice-daemon-status（deadline 5/28 23:59 無 Asher 回應 → apply_minister_default = shelve，Voice Daemon 健康追蹤暫擱置）。新增 2 則（LC 20260529_C001 新增：diary-today-nudge + micro-diary-7min 提案），total 21→23。"
   },
   "minister_health": {
-    "voice_daemon": "suspicious",
+    "voice_daemon": "shelved",
     "lifecoach": "healthy",
     "alchemy": "healthy",
     "career": "healthy",
-    "knowledge": "pending_this_cycle",
+    "knowledge": "partial_commit_warning",
     "pm": "healthy"
   },
   "minister_health_detail": {
-    "voice_daemon": "最後活動 5/23 10:16（散步隨記 mtime）。距本 cycle 執行 ~142h，大幅超過 suspicious 閾值（72h）。inbox 問題 pm-20260526-voice-daemon-status 今晚 23:59 到期（Asher 仍未回覆）。無回應 → apply_minister_default = shelve（工廠期少錄音 = 可接受解釋）。若 Asher 今天回覆 daemon 正常 → 下個 cycle 降為 unverified 繼續追蹤。",
-    "lifecoach": "C001 完成 — 5/27 diary nudge consume（精力 4，踏實，演員框架在但自診需散步/自我反省定期強化）。新增：5/28 diary nudge（lc-20260528-diary-today-nudge）+ 演員框架週末散步提案（lc-20260528-prop-weekend-walk-reflection，deadline 6/4）。",
-    "alchemy": "C001 完成 — WSLFinLab 第十三次心跳確認（5/27 交易日 6 支全面更新，ETL 穩定）。15 無新訊號。04 dormant clock D17/30（0 動作）。",
-    "career": "C001 完成 — W22 Day 4 週四 nudge（今晚 LC 125 是本週最後窗口），主管 team 名繼續 carry forward 至本週自然時機。",
-    "knowledge": "排在 PM 之後執行；預期產出 Circle Report 20260528_C001 並 commit。上個 cycle last_circle_id = 20260527_C001（1 cycle 落後，正常範圍）。",
-    "pm": "本 cycle：1 則消費確認（lc-20260527-diary-today-nudge，5/27 diary ✅ 精力 4），1 項封存（lc-20260521-diary-today-nudge，滿 7 天），Voice Daemon deadline 今晚，1 更新 voice 讀數（~142h）。系統整體 🟢（voice_daemon 黃色警示有追蹤機制，今晚自動 shelve）。"
+    "voice_daemon": "最後活動 5/23 10:16（散步隨記 mtime）。距本 cycle 執行 ~166h（第 6 個 cycle suspicious）。inbox 問題 pm-20260526-voice-daemon-status 已於 5/28 23:59 到期，Asher 無回應 → apply_minister_default = shelve 執行完畢。Voice Daemon 健康追蹤進入 shelved 狀態（工廠期少錄音為可接受解釋）。6/4 工廠結束後如 voice-inbox 仍無新檔，重新啟動追蹤並提新 inbox 問題。",
+    "lifecoach": "20260529_C001 完成 — 5/28 diary nudge consume（精力 4，loopback 成功，效率好）。新增：5/29 diary nudge（lc-20260529-diary-today-nudge，W22 最後工作日）+ 微日記 7min 提案（lc-20260529-prop-micro-diary-7min，deadline 6/4）。兩個 deferred proposals 本 cycle 均已提出。",
+    "alchemy": "20260529_C001 完成 — WSLFinLab 第十四次心跳確認（5/28 交易日 6 支全面更新，ETL 穩定）。Slot 04 D18/30（0 動作）。貸款靜默觀察。",
+    "career": "20260529_C001 完成 — W22 Day 5（週五）週末窗口 nudge（5/30 LC 125），LC 數量差異標注（gamification 19 題 vs career state 7 題，下次深度檢視對齊）。主管 team 名 carry forward 至工廠結束後（6/4+）。",
+    "knowledge": "20260528_C001 部分執行：gamification 已更新（+250 XP）但 knowledge.json 未更新、circle_20260528_C001.md 未 commit。本 cycle（20260529_C001）執行時需先補齊。這不是連續 2 cycle 完全無產出（gamification 有實質更新），但 state 不一致需修正。",
+    "pm": "本 cycle：1 則消費確認（lc-20260528-diary-today-nudge，LC 20260529 consume，5/28 diary ✅ 精力 4，loopback 成功），1 項封存（lc-20260522-birthday-diary-nudge，滿 7 天），1 項過期處理（pm-20260526-voice-daemon-status → shelve），+2 新增（LC 提案）。系統整體 🟡（Knowledge partial commit warning，其餘部長 🟢）。"
   },
   "pm_cadence_gap_note": {
     "gap_observed": "PM 在 5/18 LC+Alchemy cycle 時未執行（gap = 1 cycle）",
@@ -42,7 +51,7 @@
     "projects": ["14", "15"],
     "since": "20260511_C005",
     "current_signals": {
-      "14": "alive (WSLFinLab ETL 第十三次心跳 5/27 確認；6 支全面更新，ETL 穩定；貸款進度 passive 觀察；5/25 diary 一人公司心態訊號；5/29 貸款評估點解凍)",
+      "14": "alive (WSLFinLab ETL 第十四次心跳 5/28 確認；6 支全面更新，ETL 穩定；貸款進度 passive 觀察；5/29 為工廠倒數第 2 天，loopback 談妥後輕鬆收工)",
       "15": "unknown (工廠期靜默，Alchemy 確認 unknown ≠ unhealthy)"
     },
     "implication_for_pm": "minister_health 不為 14/15 設條目；它們不影響系統健康判定"
@@ -65,12 +74,12 @@
     "action_on_suspicious": "PM 提交 inbox 問題給 Asher：『Voice Daemon 已 72h 無新檔，請確認 mac 端是否還活著』",
     "action_on_down": "Newsletter 紅字標示 + 提 destructive_proposal 升級為緊急事件",
     "current_reading": {
-      "circle_id": "20260528_C001",
+      "circle_id": "20260529_C001",
       "latest_mtime": "2026-05-23T10:16:48+0800",
-      "hours_since": 142,
-      "verdict": "suspicious",
-      "consecutive_cycles_in_band": "5（20260524_C001 first 31.5h unverified，20260525_C001 second 55.5h unverified，20260526_C001 third 69.9h approaching_suspicious，20260527_C001 fourth 93.9h suspicious，20260528_C001 fifth ~142h suspicious）",
-      "note": "持續超過 72h suspicious 閾值。inbox 問題 pm-20260526-voice-daemon-status 今晚 23:59:59Z 到期，Asher 尚未回覆。若今晚無回應 → apply_minister_default = shelve（工廠期少錄音 = 可接受解釋，daemon 健康暫時擱置追蹤）。若 Asher 回覆 daemon 正常 → 下個 cycle 降為 unverified 繼續追蹤。"
+      "hours_since": 166,
+      "verdict": "shelved",
+      "consecutive_cycles_in_band": "6（20260524_C001 first 31.5h unverified，20260525_C001 second 55.5h unverified，20260526_C001 third 69.9h approaching_suspicious，20260527_C001 fourth 93.9h suspicious，20260528_C001 fifth ~142h suspicious，20260529_C001 sixth ~166h → shelved）",
+      "note": "inbox 問題 pm-20260526-voice-daemon-status 已到期（5/28 23:59），無 Asher 回應，apply_minister_default = shelve 已執行。Voice Daemon 追蹤進入 shelved 狀態。工廠期（至 6/4）少錄音為可接受解釋。6/4 後若 voice-inbox 仍無新非噪音檔 → 重新設定 suspicious 追蹤並提新 inbox 問題。"
     }
   },
   "cross_minister_followups": [
@@ -101,7 +110,7 @@
       "topic": "Voice daemon 健康檢測 protocol",
       "circle_id": "20260511_C001",
       "status": "designed_and_verified",
-      "resolution": "C003 完成 v0.1 protocol 設計；第 5 cycle 進入 suspicious（~142h），inbox 問題 pm-20260526-voice-daemon-status 今晚 deadline，無回應 → shelve。",
+      "resolution": "C003 完成 v0.1 protocol 設計；6 個 cycle 後進入 shelved 狀態（inbox 問題到期 Asher 無回應，apply default=shelve）。6/4 後重啟追蹤。",
       "resolved_at": "2026-05-16T11:19:40Z"
     },
     {
@@ -133,16 +142,25 @@
       "status": "resolved",
       "resolved_at": "2026-05-24T08:10:02Z",
       "resolution": "Career 20260524_C001 同 cycle 消費，三點分析：①主管提案 vs Track A 差異（加速捷徑但目標 team 由主管決定，關鍵差異）②時程（接受方案最快 8 月解決，比原計畫提前 2 個月）③備案動作（LC 125 不停，觀察期前設定成功標準）。career.json 已更新 path_strategy + timeline + this_cycle_recommendation。"
+    },
+    {
+      "id": "knowledge-partial-commit-20260528",
+      "from": "knowledge",
+      "to": "knowledge",
+      "topic": "Knowledge 20260528_C001 partial commit：gamification 已更新但 knowledge.json + circle file 未 commit",
+      "circle_id": "20260529_C001",
+      "status": "open",
+      "note": "Knowledge 20260529_C001 執行時需補齊：(1) commit circle_20260528_C001.md；(2) 更新 knowledge.json last_circle_id=20260528_C001（或直接跳到 20260529_C001）；(3) 正常產出 circle_20260529_C001.md"
     }
   ],
   "this_cycle_decisions": [
-    "消費確認：lc-20260527-diary-today-nudge（LC 20260528_C001 consume，5/27 diary ✅ 精力 4，踏實，發現同事 agent 相似有成就感，演員框架在但自診需散步/自我反省定期強化），consumed_cumulative 升為 18",
-    "封存：lc-20260521-diary-today-nudge（建立 5/21，今日滿 7 天，PM 20260528_C001 封存），archived_cumulative 升為 11",
-    "Voice Daemon deadline 今晚 23:59 確認：pm-20260526-voice-daemon-status 仍無 Asher 回覆，今晚到期後自動 shelve（apply_minister_default）。~142h 無活動，suspicious 持續第 5 個 cycle，工廠期接受解釋。",
-    "Bujo 直接驗證：5/27 diary ✅ 確認（精力 4）；5/28 diary TBD（08:15am，正常時間）；工廠期工作日日記率：3/5 已確認工作日（5/25✅, 5/26❌, 5/27✅）",
-    "所有主動部長今日均完成 20260528_C001（LC + Alchemy + Career）：系統第 17 個 cycle 穩定運作。Knowledge 排在 PM 後執行",
-    "5/29 評估點備忘：deferred proposals（微日記 lc-deferred-micro-diary-7min / 財務追蹤 / 運動追蹤）解凍，LC 可正式評估提案",
-    "工廠期 Day 7（週四）：Career W22 Day 4（今晚 LC 125 最後窗口），WSLFinLab 第十三次心跳確認，演員框架維護提案已進入 inbox 待 Asher 6/4 前決定"
+    "消費確認：lc-20260528-diary-today-nudge（LC 20260529_C001 consume，5/28 diary ✅ 精力 4，loopback 測試成功跑一輪摸清楚，積極主動不等別人，效率好無噪音），consumed_cumulative 升為 19",
+    "封存：lc-20260522-birthday-diary-nudge（建立 5/22，今日滿 7 天，PM 20260529_C001 封存），archived_cumulative 升為 12",
+    "Voice Daemon inbox 過期處理：pm-20260526-voice-daemon-status 於 5/28 23:59 到期，Asher 無回應 → apply_minister_default = shelve 執行。Voice Daemon 健康追蹤進入 shelved 狀態，minister_health 更新為 shelved。6/4 工廠結束後重新掃描。",
+    "Bujo 直接驗證：5/28 ✅ 確認（精力 4，loopback 成功，效率好，§6 空白但達最低門檻）；5/29 TBD（今天早上，工廠第二週最後工作日）。工廠期工作日日記率（5/25-5/29）：4/5（5/25✅, 5/26❌, 5/27✅, 5/28✅, 5/29 TBD）",
+    "所有主動部長均完成 20260529_C001（LC + Alchemy + Career）：系統第 18 個 cycle 穩定運作。Knowledge 有 partial commit 警告需本 cycle 修正。",
+    "新增 2 則 LC 提案（LC 20260529_C001 提出）：微日記 7min 提案（lc-20260529-prop-micro-diary-7min，deadline 6/4）+ 5/29 diary nudge（lc-20260529-diary-today-nudge，deadline 5/30）。兩個 deferred proposals（微日記 + 週末散步）均已解凍並進入 inbox。",
+    "系統整體 🟡：Knowledge partial commit warning（可自我修正），Voice Daemon shelved（工廠期預期行為），其餘部長 🟢。"
   ],
   "patterns_observed_meta": [
     {
@@ -164,8 +182,8 @@
       "first_noted_by": "lifecoach_20260519_C001",
       "pm_takeaway": "演員框架是系統健康的核心 leading indicator。工廠期週末空白符合預期，重點觀察工作日日記率。",
       "circle_id": "20260519_C001",
-      "updated_at": "20260528_C001",
-      "updated_note": "5/25 週一 ✅、5/26 週二 ❌、5/27 週三 ✅、5/28 週四 TBD。工廠期工作日日記率：3/5 已確認工作日（5/25✅, 5/26❌, 5/27✅）= 60%。Pattern 浮現：有餘裕的日子（出貨延遲/踏實日）→ 自然寫。5/29 評估點正式開啟。"
+      "updated_at": "20260529_C001",
+      "updated_note": "5/25 週一 ✅、5/26 週二 ❌、5/27 週三 ✅、5/28 週四 ✅、5/29 週五 TBD。工廠期工作日日記率：4/5 已確認工作日（5/25✅, 5/26❌, 5/27✅, 5/28✅）= 75%。5/28 是連兩天精力 4，有具體目標（loopback）→ 自然寫。微日記提案已提出（6/4 後試跑），旨在讓每天都有最小啟動點。"
     },
     {
       "pattern": "Asher 在高壓週傾向自驅推進副業（自主感保護）",
@@ -180,8 +198,8 @@
       "first_noted_by": "lifecoach_20260521_C001",
       "pm_takeaway": "系統可以放鬆日記催促力道。工廠期工作日日記率是新觀察窗口。",
       "circle_id": "20260521_C001",
-      "updated_at": "20260528_C001",
-      "updated_note": "5/25（週一）✅、5/26（週二）❌、5/27（週三）✅。工廠期工作日 3/5 已確認（60%）。Pattern 強化：有餘裕/踏實的工作日 → 不需催，自然寫。5/29 提案評估點開啟。"
+      "updated_at": "20260529_C001",
+      "updated_note": "5/25✅, 5/26❌, 5/27✅, 5/28✅。工廠期後半工作日 3/4（75%）。Pattern 強化：有具體目標（loopback 測試）或踏實的工作日 → 連兩天精力 4 + 自然寫。5/26（週二）是唯一斷點（工廠期最忙的一天？）。微日記提案作為 6/4 後的防漏機制，策略上精準對應此 pattern。"
     },
     {
       "pattern": "補寫行為 = 高壓不等於放棄 — 重要時刻事後記錄",
@@ -196,16 +214,16 @@
       "first_noted_by": "lifecoach_20260524_C001",
       "pm_takeaway": "這是系統追蹤以來最重要的職涯事件。演員框架從「9月就走，撐著演完」升級為「也許不是走，而是換一個能呼吸的位置」——這是框架的成熟，不是放棄。Career 部長已多個 cycle 評估完畢，W22 觀察期正式進行中。",
       "circle_id": "20260524_C001",
-      "updated_at": "20260528_C001",
-      "updated_note": "W22 Day 4（5/28）。LeetCode 仍待本週做（今晚是最後窗口）。主管 team 名待詢問（Career W22 carry forward）。觀察期靜默進行中。5/27 diary 更新：演員框架在但薄（需散步強化），心態「踏實 + 有出口感」穩定。"
+      "updated_at": "20260529_C001",
+      "updated_note": "W22 Day 5（5/29）。LeetCode 連 carry 5 天（LC 125 週末窗口 5/30 是 W22 最後機會）。主管 team 名 carry forward 至工廠結束後（6/4+）。觀察期靜默進行中。5/28 diary：精力 4，效率好，loopback 摸清楚，心態穩（§6 空白）。系統分析：有具體可完成目標 → 精力 4 + 自動寫日記，公式成立。"
     },
     {
       "pattern": "系統偵測誤判需要即時更正 — 直接驗證 > 信任 state",
       "evidence": "20260526_C001 誤判 5/25 diary 為空白，20260527_C001 發現 bujo/daily/2026-05-25.md 確實存在且有實質內容（精力 3，一人公司想法，演員框架升級）。",
       "first_noted_by": "pm_20260527_C001",
-      "pm_takeaway": "每個 cycle 掃描 bujo 狀態時應直接 glob/stat 最近 7 天檔案，不能只信 lifecoach state 的 streak_breakdown（可能沿用前 cycle 記錄）。已在 LC state 20260527_C001 更正。本 cycle（20260528_C001）直接 glob 驗證：5/27 ✅ 確認存在。",
+      "pm_takeaway": "每個 cycle 掃描 bujo 狀態時應直接 glob/stat 最近 7 天檔案，不能只信 lifecoach state 的 streak_breakdown（可能沿用前 cycle 記錄）。已在 LC state 20260527_C001 更正。本 cycle（20260529_C001）直接 glob 驗證：5/28 ✅ 確認存在。",
       "circle_id": "20260527_C001",
-      "updated_at": "20260528_C001"
+      "updated_at": "20260529_C001"
     }
   ]
 }
