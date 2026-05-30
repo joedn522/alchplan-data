@@ -374,9 +374,25 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-30T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-29T08:00:02Z",
-    "circle_id": "20260529_C001"
+    "circle_id": "20260529_C001",
+    "consumed_by": "lifecoach_20260530_C001",
+    "consumed_at": "2026-05-30T08:00:01Z",
+    "consume_note": "5/29 diary 未寫確認（無檔案）。工廠最後衝刺日，loopback 談妥日，可能太忙或太累，完全理解。5/27-5/28 連兩天高精力紀錄依然值得肯定。"
+  },
+  {
+    "id": "lc-20260530-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "昨天（5/29）是工廠第二週最後一個工作日，沒寫沒關係——那天應該很忙。\n\n今天（5/30，週六）是工廠期第一個真正的休息週末（上次週六 5/23 是加班日）。下週一（6/4）工廠就結束了，這段時間快過完了。\n\n如果今天有空，留一句「這兩週工廠期感覺怎麼樣」？或好好休息也算接住了——你這幾週很拚，謝謝你。不寫也 shelve，不強求。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-05-31T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-05-30T08:00:01Z",
+    "circle_id": "20260530_C001"
   },
   {
     "id": "lc-20260529-prop-micro-diary-7min",
