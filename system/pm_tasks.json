@@ -243,12 +243,14 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-24T23:59:59Z",
-    "status": "consumed",
+    "status": "archived",
     "created_at": "2026-05-23T08:00:02Z",
     "circle_id": "20260523_C001",
     "consumed_by": "lifecoach_20260524_C001",
     "consumed_at": "2026-05-24T08:00:01Z",
-    "consume_note": "5/23 diary 未寫確認（無檔案）。重要發現：5/22 diary 已補寫（git untracked file），含重大內容：Asher 主動告訴主管想離職 → 主管提換工作+三個月觀察期。精力 4，放鬆，和女友逛書店。五連天（5/18-5/22）實際達成，先前 state 誤判 5/22 未寫。"
+    "consume_note": "5/23 diary 未寫確認（無檔案）。重要發現：5/22 diary 已補寫（git untracked file），含重大內容：Asher 主動告訴主管想離職 → 主管提換工作+三個月觀察期。精力 4，放鬆，和女友逛書店。五連天（5/18-5/22）實際達成，先前 state 誤判 5/22 未寫。",
+    "archived_at": "2026-05-30T08:08:00Z",
+    "archive_reason": "consumed + 建立超過 7 天（7 天），PM 20260530_C001 封存"
   },
   {
     "id": "lc-to-career-20260524-manager-new-option",
