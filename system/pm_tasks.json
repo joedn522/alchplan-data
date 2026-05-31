@@ -262,12 +262,14 @@
     "options": [],
     "minister_default": "analyze_and_report",
     "default_action": "execute",
-    "status": "consumed",
+    "status": "archived",
     "created_at": "2026-05-24T08:00:01Z",
     "circle_id": "20260524_C001",
     "consumed_by": "career_20260524_C001",
     "consumed_at": "2026-05-24T08:10:02Z",
-    "consume_note": "Career 完成三點分析：① 主管提案 vs. 原 Track A（加速捷徑但目標 team 由主管決定，關鍵差異）② 三個月觀察期對時程影響（若接受，最快 8 月解決，比原計畫提前 2 個月）③ 備案動作（LeetCode 1 題/週不停 + 觀察期前設定成功標準）。Newsletter career_20260524_C001.md 已輸出。"
+    "consume_note": "Career 完成三點分析：① 主管提案 vs. 原 Track A（加速捷徑但目標 team 由主管決定，關鍵差異）② 三個月觀察期對時程影響（若接受，最快 8 月解決，比原計畫提前 2 個月）③ 備案動作（LeetCode 1 題/週不停 + 觀察期前設定成功標準）。Newsletter career_20260524_C001.md 已輸出。",
+    "archived_at": "2026-05-31T08:17:42Z",
+    "archive_reason": "consumed + 建立超過 7 天（7 天），PM 20260531_C001 封存"
   },
   {
     "id": "lc-20260524-diary-today-nudge",
@@ -278,12 +280,14 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-25T23:59:59Z",
-    "status": "consumed",
+    "status": "archived",
     "created_at": "2026-05-24T08:00:01Z",
     "circle_id": "20260524_C001",
     "consumed_by": "lifecoach_20260525_C001",
     "consumed_at": "2026-05-25T08:00:01Z",
-    "consume_note": "5/24（週日）diary 未寫確認（無檔案）。工廠期週末空白，理解。"
+    "consume_note": "5/24（週日）diary 未寫確認（無檔案）。工廠期週末空白，理解。",
+    "archived_at": "2026-05-31T08:17:42Z",
+    "archive_reason": "consumed + 建立超過 7 天（7 天），PM 20260531_C001 封存"
   },
   {
     "id": "lc-20260525-diary-today-nudge",
@@ -392,9 +396,12 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-31T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-05-30T08:00:01Z",
-    "circle_id": "20260530_C001"
+    "circle_id": "20260530_C001",
+    "consumed_by": "lifecoach_20260531_C001",
+    "consumed_at": "2026-05-31T08:17:42Z",
+    "consume_note": "5/30 diary 未寫確認（無檔案）。工廠期第一個真正的休息週末，理解。LC 20260531_C001 newsletter 輸出，提醒 Asher 好好休息並告知 6/4 後有兩個提案待確認。"
   },
   {
     "id": "lc-20260529-prop-micro-diary-7min",
