@@ -1,19 +1,19 @@
 {
-  "last_circle_id": "20260530_C001",
-  "total_circles": 19,
+  "last_circle_id": "20260531_C001",
+  "total_circles": 20,
   "consecutive_missing_ministers": {
     "lifecoach": 0,
     "alchemy": 0,
     "pm": 0,
     "career": 0
   },
-  "last_report_path": ".ministers/circles/circle_20260530_C001.md",
+  "last_report_path": ".ministers/circles/circle_20260531_C001.md",
   "last_report_stats": {
     "ministers_reported": 4,
     "ministers_total": 4,
-    "asher_inbox_questions": 3,
+    "asher_inbox_questions": 2,
     "destructive_proposals": 0,
-    "files_changed": 12,
+    "files_changed": 13,
     "alchemy_newsletter_present": true,
     "career_newsletter_present": true,
     "lifecoach_newsletter_present": true,
@@ -42,6 +42,7 @@
     "20260527_C001": "工廠第二週第三天（週三），4.5/5 部長產出（LifeCoach 無獨立 newsletter 但有活動，state 由 PM 同步），+25 Mind XP 補錄（5/25 diary 更正）。WSLFinLab 第十二次心跳穩定，margin 微異常恢復確認。**重要更正：5/25 diary PM 本 cycle 驗證確認存在（精力 3，一人公司概念，演員框架進化為「已不需要」）**，Knowledge 補錄 +25 XP（cumulative 9,365→9,390）。Inbox 2 題（diary nudge + Voice Daemon 確認），deadline 5/28，均 shelve-friendly。voice.json 修改未 commit（沿用 20260524 決策）。sharing/book/解讀巴菲特.md 未 commit（Asher 個人文件）。5/29 為 LC deferred proposals 評估點（7 分鐘日記微習慣、財務追蹤、運動追蹤）。系統第 16 個 cycle 穩定運作。",
     "20260528_C001": "**部分 commit cycle** — circle_20260528_C001.md 產出但未 commit（PM 20260529 確認），knowledge.json 未更新（本 cycle 補齊）。gamification.json 成功更新（+250 XP：Engineering +225 LC 12 題補錄 + Mind +25 5/27 diary）。LeetCode 累積 10 題成就解鎖（19 題 AC）。5/5 部長全到齊，4 部長自己 commit（newsletters + states）。Voice Daemon 今晚到期（pm-20260526-voice-daemon-status 5/28 23:59）。系統第 17 個 cycle 有產出但 Knowledge partial commit 需本 cycle 補齊。",
     "20260529_C001": "工廠第二週最後一個工作日（週五，Mini Factory Day 8）。4/4 部長全員到齊，各自 commit（newsletters + states）。補齊 20260528 未 commit circle file（Knowledge 補 commit）。Voice Daemon 正式進入 shelved 狀態（inbox 到期自動結案，6/4 後重啟追蹤）。5/28 diary +25 Mind XP（mind 115→140，cumulative 9,640→9,665）。3 題 inbox 待回（微日記提案 + 週末散步提案 + 今日 diary nudge，全 shelve-friendly，deadline 5/30/6/4/6/4）。系統第 18 個 cycle 穩定運作。",
-    "20260530_C001": "工廠期第一個真正休息週末（5/30 週六，Mini Factory Day 9）。4/4 部長全員到齊，各自 commit（e984d50/5fc27e8/99b3c14）。+0 XP 安靜觀察 cycle（5/29 diary 未寫，工廠最後衝刺日 loopback 談妥理解）。WSLFinLab 第十五次心跳確認。Knowledge 警告徹底清零。Inbox 3 題待回（diary nudge deadline 5/31 + 兩個 LC 提案 deadline 6/4，全 shelve-friendly）。voice.json 重複 entries bug 仍未 commit（沿用 20260524 決策）。系統第 19 個 cycle 穩定運作。"
+    "20260530_C001": "工廠期第一個真正休息週末（5/30 週六，Mini Factory Day 9）。4/4 部長全員到齊，各自 commit（e984d50/5fc27e8/99b3c14）。+0 XP 安靜觀察 cycle（5/29 diary 未寫，工廠最後衝刺日 loopback 談妥理解）。WSLFinLab 第十五次心跳確認。Knowledge 警告徹底清零。Inbox 3 題待回（diary nudge deadline 5/31 + 兩個 LC 提案 deadline 6/4，全 shelve-friendly）。voice.json 重複 entries bug 仍未 commit（沿用 20260524 決策）。系統第 19 個 cycle 穩定運作。",
+    "20260531_C001": "工廠最後一個週日（Mini Factory Day 10）。4/4 部長全到齊，Alchemy/Career/PM 自己 commit（5bcc6ab/2a4235c/856d75e），Knowledge 補 commit LifeCoach newsletter + state。+0 XP cycle（5/29-5/31 日記空白，工廠期休息週末）。WSLFinLab 第 16 次連續心跳，確認週六 ETL = 完整 6 支刷新行為。Career W22 正式對齊（19 題 AC，streak=1，weekly-log 補填）。Inbox 2 題（微日記 + 週末散步兩個 LC 提案，deadline 6/4，shelve-friendly）。sharing/book 個人讀書筆記未 commit（Asher 個人文件，非 cycle 產出）。voice.json 重複 entries bug 仍未 commit（沿用 20260524 決策）。系統第 20 個 cycle 穩定運作。"
   }
 }
