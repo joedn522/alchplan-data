@@ -16,16 +16,16 @@
 
 - _（本週無紀錄 — 工廠期高壓週，streak break 接受）_
 
-## 2026 W22（5/25 – 5/31）— current week
+## 2026 W22（5/25 – 5/31）
 
-- _（W22 今天起點，待推）_
+- 5/27 刷 LeetCode：LC 15 3Sum（Medium / Sort + Two Pointers）/ LC 11 Container With Most Water（Medium / Two Pointers + Greedy）/ LC 739 Daily Temperatures（Medium / Monotonic Stack）— W22 有推進 ✅
 
 ---
 
 ## Streak
 
-- 連續週數有推 1 步：**0** 週（W21 streak break）
-- 史上最長 streak：**1** 週（W20）
+- 連續週數有推 1 步：**1** 週（W22）
+- 史上最長 streak：**1** 週（W20 / W22 並列）
 
 ## 累積動作數
 
@@ -34,7 +34,7 @@
 | 投履歷 | 0 |
 | 連絡人 | 0 |
 | 看 JD | 0 |
-| 刷 LeetCode | 1（W20，共 7 題） |
+| 刷 LeetCode | 2（W20 + W22，共 19 題） |
 | System Design | 0 |
 | 模擬面試 | 0 |
 

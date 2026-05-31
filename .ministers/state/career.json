@@ -1,7 +1,7 @@
 {
-  "last_circle_id": "20260530_C001",
+  "last_circle_id": "20260531_C001",
   "schema_version": 1,
-  "last_deep_review_date": "2026-05-25",
+  "last_deep_review_date": "2026-05-31",
 
   "context": {
     "current_employer": "Google",
@@ -21,9 +21,9 @@
   "phase": "準備期 — Phase 1 進行中（同時等待主管提案落地）",
 
   "prep_status": {
-    "leetcode_total": 7,
-    "leetcode_easy": 5,
-    "leetcode_medium": 2,
+    "leetcode_total": 19,
+    "leetcode_easy": 10,
+    "leetcode_medium": 9,
     "leetcode_hard": 0,
     "leetcode_language_locked": "Python 3",
     "leetcode_premium": "TBD",
@@ -33,7 +33,7 @@
     "prep_plan_exists": true,
     "prep_plan_file": "alchemy/13-job-pivot/leetcode-prep-plan.md",
     "ai_workflow_file": "alchemy/13-job-pivot/leetcode-ai-workflow.md",
-    "notes": "Phase 0 完成（W1 5/13-5/16，7 題）。Phase 1 正式開始，W2 待刷 8 題（見 leetcode.md 待刷第二批）。環境 + AI 教練流程已跑通。歷史帳號共 630 題（E151/M399/H80），本次復健另起計算。W21 streak break（工廠期接受），W22（5/25 起）正式重啟。"
+    "notes": "Phase 1 進行中。5/31 deep review 正式對齊：19 題（Easy×10 / Medium×9，含 W22 5/27 三題 Medium）。歷史帳號共 630 題（E151/M399/H80），本次復健另起計算。W22（5/25-5/31）有推進（5/27: 3 Medium），streak 重啟為 1。待刷：LC 33（Binary Search）/ LC 76（Hard，最難那一題）/ LC 102（BFS）/ LC 543 / LC 235。達到 20 題後可考慮開始 System Design 或研究 JD。"
   },
 
   "pipeline_summary": {
@@ -42,27 +42,27 @@
     "recruiter_call_or_above": 0,
     "offer": 0,
     "breakdown": {
-      "Google_internal": "物色 + 【主管提案 5/22】換職位 + 三個月觀察期，待確認新 team 及 WLB",
+      "Google_internal": "物色 + 【主管提案 5/22】換職位 + 三個月觀察期，待工廠結束後（6/4+）確認新 team 名稱及 WLB",
       "Microsoft_external": "物色（低維護模式，待觀察期結束後評估重啟）"
     }
   },
 
-  "weekly_streak": 0,
+  "weekly_streak": 1,
   "longest_streak": 1,
-  "last_action_date": "2026-05-16",
-  "last_action_type": "刷 LeetCode（Phase 0 完成，7 題：Easy×5 + Medium×2）",
+  "last_action_date": "2026-05-27",
+  "last_action_type": "刷 LeetCode W22（5/27: LC 15 3Sum + LC 11 Container With Most Water + LC 739 Daily Temperatures，均 Medium）",
 
   "diary_signal": {
     "last_career_mention_date": "2026-05-25",
-    "last_career_mention_summary": "5/25 日記（精力 3，平穩）：「有了新選項，工廠事件結束後會開始找最適合自己的工作。這讓心態很棒。」演員框架已轉化為有出口感，心態穩定。5/22 生日日記仍是最重要的訊號（主管提案確認）。",
-    "days_since_last_mention": 4,
-    "note": "5/22 diary 是本追蹤期最重要的 career 訊號（主管提案）。5/25 diary 間接 career 提及，心態正向。5/27 diary 精力 4 踏實，無直接 career 提及，但結尾「一切應該會好轉」有間接 career 出口感。5/26 diary 未寫（工廠期）。5/28 diary 精力 4 忙得有目標，loopback 測試成功，完全聚焦工廠，無 career 提及。5/29 diary 未寫（最後衝刺日）。5/30 diary 尚未寫（今天）。"
+    "last_career_mention_summary": "5/25 diary（精力 3，平穩）：「有了新選項，工廠事件結束後會開始找最適合自己的工作。這讓心態很棒。」演員框架已轉化為有出口感，心態穩定。5/22 生日日記仍是最重要的 career 訊號（主管提案確認）。",
+    "days_since_last_mention": 6,
+    "note": "5/22 diary 是本追蹤期最重要的 career 訊號（主管提案）。5/25 diary 間接 career 提及，心態正向。5/27 diary 精力 4 踏實，無直接 career 提及，但有出口感。5/28 diary 精力 4 忙得有目標，完全聚焦工廠，無 career 提及。5/29-5/31 diary 無（工廠最後衝刺期）。"
   },
 
   "this_cycle_recommendation": {
-    "type": "W22 Day 6（週六）→ W22 最後一天窗口：今天做 LC 125",
-    "summary": "今天（5/30，週六）是 W22 最後一個真正自由的窗口。LC 125 已連 carry 6 天，這是今週唯一剩下的機會。Valid Palindrome（Easy，15 分鐘），今天任何一個空檔做完，W22 不是零分週。5/31 是 W22 最後一天但如果今天做了就算 W22 有推進了。主管 team 名 carry 到工廠結束後（6/4+）。",
-    "rationale": "W22 今天（週六）是倒數第一個窗口。LC 125 連續 carry 6 天，今天是實際上最後機會。工廠下週一（6/2）繼續到 6/4，W23 的工廠日仍多，但今天是本週最後一個無加班壓力的半天。"
+    "type": "W23 第一步：LC 33 + 工廠結束後問 team 名",
+    "summary": "W22 以 5/27 三題 Medium 收官（streak = 1）。W23（6/1-6/7）工廠最後三天（6/2-6/4）後恢復正常。建議：W23 做 LC 33（Search in Rotated Sorted Array，Medium，接上 Binary Search 系列，預計 20-30 分鐘）。工廠結束後（6/5+）找自然時機問主管新 team 是哪個，這是目前唯一卡著的 Tier 1 關鍵資訊。",
+    "rationale": "W23 工廠壓力最後一週，6/4 結束。LC 33 難度適中（Binary Search 延伸），不需要特別的環境設置，工廠夜晚或 6/4 後週末都可以做。主管 team 名是 Tier 1 路徑的瓶頸，觀察期要評估 WLB 必須先知道 team。"
   },
 
   "carryover_recommendations": [
@@ -71,7 +71,7 @@
       "type": "看 JD",
       "summary": "讀 1 個 Microsoft Taipei JD + 1 頁筆記",
       "status": "deferred",
-      "reason": "主管觀察期方案進行中，Track B 進入低維護模式。JD 研究延到觀察期結束（~8 月）或工廠期後（6/4+）視情況重新評估。"
+      "reason": "主管觀察期方案進行中，Track B 進入低維護模式。JD 研究延到觀察期結束（~8 月）或 LeetCode 達 20 題後視情況評估。"
     }
   ],
 
@@ -150,6 +150,11 @@
       "circle_id": "20260530_C001",
       "date": "2026-05-30",
       "action": "Pulse check（距上次深度檢視 5 天，W22 Day 6 週六）。Weekly-log W22 仍無紀錄（LC 125 連 carry 6 天）。5/29 diary 未寫（週五工廠衝刺）。5/28 diary 精力 4 最後確認點：loopback 成功，無 career 提及。Targets / Pipeline 無變化。今天（週六 5/30）是 W22 最後一個自由窗口，5/31 週日是 W22 最後一天。LC 125 最後呼叫：今天任何空檔做完，W22 就不是零分週。Gamification 與 career state 的 LC 數量差異（19 vs 7）carry 到下次深度檢視（>= 5/31）對齊。"
+    },
+    {
+      "circle_id": "20260531_C001",
+      "date": "2026-05-31",
+      "action": "深度檢視（距上次 6 天）。正式對齊 prep_status：leetcode.md 顯示 19 題（E×10 / M×9），career.json 舊值 7 → 修正為 19。發現 W22 實際有推進：5/27 LC 15+11+739（3 Medium），此前 pulse check 誤判為「仍無紀錄」（因 LC 在 20260527_C001 當天收盤後才完成，知識部長 5/28 更新 Engineering XP 為 19 題但 career state 未同步）。weekly-log.md W22 補填。streak 0→1（W22 活）。主管 team 名仍未知，工廠 6/2-6/4 最後三天，6/4 後問主管。W23 建議：LC 33（Binary Search，Medium）+ 問 team 名。Career Move XP +0（本次無 Career Move 動作）。"
     }
   ]
 }
