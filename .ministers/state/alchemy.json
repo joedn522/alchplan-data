@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260531_C001",
+  "last_circle_id": "20260601_C001",
   "schema_version": 2,
   "schema_note": "v2 重構：12 條原 slot 大幅 dormant；新增 14/15 為外部管理觀察者；focus 從『推進』改成『觀察 + 對 Asher 影響評估』",
   "project_status": {
@@ -34,7 +34,7 @@
       "next_action_size": "30-sec voice memo",
       "dormant_clock_started": "2026-05-11",
       "dormant_clock_expires": "2026-06-10",
-      "dormant_clock_progress": "D20/30（今 5/31），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
+      "dormant_clock_progress": "D21/30（今 6/1），0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）",
       "dormant_clock_rule": "若 5/11 到 6/10 0 動作（無 voice memo / 無 commit 觸及 alchemy/04-*）→ phase 改 dormant，停止追蹤直到 Asher 主動回來",
       "next_alchemy_check": "2026-06-10（D30 到期日）— 到期若仍 0 動作 → 轉 dormant",
       "note": "保留試水。Asher 已有 2 條主力副業，這條沒生意義時就 dormant。"
@@ -113,11 +113,11 @@
       "managed_location": "/mnt/c/Users/ashershih/sandbox/ + /mnt/c/Users/ashershih/finlab_db/",
       "alchplan_role": "observe-and-log-only",
       "latest_signal": {
-        "circle_id": "20260531_C001",
+        "circle_id": "20260601_C001",
         "channel": "finlab_db file mtime",
-        "evidence": "expiry.pkl mtime = 2026-05-30 19:57；institutional_investors_trading_summary#投信買賣超股數 mtime = 2026-05-30 19:57；margin_transactions#融券今日餘額 mtime = 2026-05-30 19:26；margin_transactions#融券現券償還 mtime = 2026-05-30 19:26；price#收盤價.pickle mtime = 2026-05-30 19:05；broker_transactions.pickle mtime = 2026-05-30 19:05。6 支全部更新。",
+        "evidence": "expiry.pkl mtime = 2026-05-31 19:55；broker_transactions.pickle mtime = 2026-05-31 19:05。price#收盤價 / margin_transactions / institutional_investors 維持 5/30 19:xx（週日停盤不更新，正常 ETL 行為）。",
         "verdict": "alive",
-        "note": "連續第十六次心跳確認。5/30（週六，非交易日）ETL：6 支全面更新，新觀察 — 週六 ETL 完整運作（與 5/23 加班週六相同格局，確認週六 = 完整 ETL 行為；上次 5/24 週日觀察為部分更新：expiry + broker）。5/30 diary 未寫（休息週末）。voice-inbox 最後 5/22（噪音），~216h 空白。Obsidian iCloud 路徑持續不可存取。Mini Factory Day 10（週日，第二個休息日）。工廠期 6/4 結束，倒數 4 天。"
+        "note": "連續第十七次心跳確認。5/31（週日）ETL：expiry + broker 2 支更新，其餘 4 支維持 5/30 — 與 5/24 週日相同格局（部分 ETL），確認週日 = 部分更新行為。5/31 diary 補寫：Asher 深夜人生框架重大澄清（『用時間和自由衡量人生，信槓桿不信工時』），已內化進 asher_current_state.json core_life_thesis。voice-inbox 5/25 轉錄為工作相關（LLDPD 網路除錯），非副業訊號。Obsidian iCloud 路徑持續不可存取。Mini Factory Day 11（今天，週一），6/4（週三）結束，倒數 3 天。今晚（6/1 盤後）預計全 6 支更新（週一交易日）。"
       },
       "idea_signals": [
         {
@@ -453,6 +453,24 @@
         "13 不跨界：本 cycle 無跨 Career 部長動作",
         "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；PM 有 voice daemon open + LifeCoach 有 diary nudge + 演員框架維護提案 open，工廠期不疊加壓力）",
         "背景：Mini Factory Day 7（週四），工廠期進入第二週後段。14 ETL pipeline 第十三次心跳，系統持續健康。Asher 昨日日記精力 4，踏實，演員框架有散步維護需求（框架本身穩）。"
+      ]
+    },
+    {
+      "circle_id": "20260601_C001",
+      "timestamp": "2026-06-01T08:05:25Z",
+      "action": "Mini Factory Day 11（週一，最後一週開始）觀察 cycle：14 心跳第十七次確認（5/31 週日部分 ETL，expiry + broker 2 支），voice-inbox 5/25 工作相關、非副業訊號，04 dormant clock D21/30 更新。",
+      "details": [
+        "14 心跳：expiry.pkl 5/31 19:55 + broker_transactions 5/31 19:05 → alive。週日（非交易日）ETL：2 支更新（expiry + broker），與 5/24 週日觀察完全一致，確認週日部分 ETL 行為規律",
+        "14 週日 ETL 規律小結（已觀察 2 次）：週六 = 全 6 支更新；週日 = 2 支更新（expiry + broker）；交易日平日 = 全 6 支更新。規律穩定，無需升警",
+        "14 副業訊號：5/31 diary 深夜框架澄清（「時間與自由 > 頭銜與薪水；槓桿 > 工時」）— 與 WSLFinLab 長期方向高度吻合。已由 Asher 親口確立並寫入 asher_current_state.json core_life_thesis。Alchemy 不 nudge，純記錄",
+        "14 貸款進度：5/31 diary 無借貸相關 mention。passive 觀察中",
+        "15 無新訊號：voice-inbox 5/25 轉錄為工作相關（LLDPD 網路除錯），無 Bobo's FM 訊號。Obsidian BobOS FM 持續不可存取",
+        "Obsidian 全掃：WSLFinLab / BobOS FM / Microsoft 三個資料夾均不可存取（iCloud 同步問題，持續多 cycle）",
+        "voice-inbox 掃描：最後有效非噪音 5/17 散步隨記；5/25 轉錄（5/31 14:32 寫入）= 工作相關 LLDPD 網路排錯，非副業訊號",
+        "04 dormant clock D21/30：0 動作（無 alchemy/04-* commit、voice-inbox 無相關訊號）。6/10（D30）到期時轉 dormant",
+        "13 不跨界：本 cycle 無跨 Career 部長動作",
+        "本 cycle 不新增 Asher inbox 問題（章程鐵律 7；PM/LC 有兩個提案 deadline 6/4 仍 open；工廠倒數 3 天不疊加壓力）",
+        "背景：Mini Factory Day 11（週一），今天工廠最後一週第一天。6/4（週三）工廠結束，倒數 3 天。6/5+ 後觀察 Bobo's FM 是否回熱。5/31 diary 是工廠期最重要的內省：Asher 清楚說出核心人生框架。"
       ]
     },
     {
