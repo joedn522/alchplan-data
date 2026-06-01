@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-05-29T08:20:00Z",
+  "last_updated": "2026-06-01T08:30:00Z",
   "player": {
     "name": "Asher",
     "total_level": 25,
-    "total_xp": 1850
+    "total_xp": 1875
   },
   "skill_trees": {
     "engineering": {
@@ -47,9 +47,9 @@
       "name": "🧘 Mind",
       "description": "日記、反思、語音 inbox、心情追蹤",
       "level": 1,
-      "xp": 140,
+      "xp": 165,
       "xp_to_next": 200,
-      "lifetime_xp": 240
+      "lifetime_xp": 265
     },
     "body": {
       "name": "💪 Body",
@@ -122,6 +122,13 @@
     { "id": "exercise-week", "name": "🏃 一週動 3 次", "tree": "body", "unlock_when": "尚未啟用（待 body tree 啟用）" }
   ],
   "recent_xp_log": [
+    {
+      "date": "2026-05-31",
+      "tree": "mind",
+      "xp": 25,
+      "reason": "5/31 diary core_life_thesis 突破（「我用『時間和自由』衡量人生，不用『頭銜和薪水』。過時反射，謝謝你保護過我，但你可以退休了。」PM 補 commit 確認，追蹤期最重要的一頁）",
+      "added_by": "knowledge-20260601_C001"
+    },
     {
       "date": "2026-05-28",
       "tree": "mind",

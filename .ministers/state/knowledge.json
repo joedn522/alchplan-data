@@ -1,28 +1,28 @@
 {
-  "last_circle_id": "20260531_C001",
-  "total_circles": 20,
+  "last_circle_id": "20260601_C001",
+  "total_circles": 21,
   "consecutive_missing_ministers": {
     "lifecoach": 0,
     "alchemy": 0,
     "pm": 0,
     "career": 0
   },
-  "last_report_path": ".ministers/circles/circle_20260531_C001.md",
+  "last_report_path": ".ministers/circles/circle_20260601_C001.md",
   "last_report_stats": {
     "ministers_reported": 4,
     "ministers_total": 4,
-    "asher_inbox_questions": 2,
+    "asher_inbox_questions": 3,
     "destructive_proposals": 0,
-    "files_changed": 13,
+    "files_changed": 14,
     "alchemy_newsletter_present": true,
     "career_newsletter_present": true,
-    "lifecoach_newsletter_present": true,
+    "lifecoach_newsletter_present": false,
     "lifecoach_had_activity": true,
     "inbox_zeroed": false,
     "in_flight_handoffs": 0,
     "system_idle_days_since_last_cycle": 0,
     "system_recoverability_verified": true,
-    "gamification_xp_awarded": 0
+    "gamification_xp_awarded": 25
   },
   "notes": {
     "20260511_C001": "PM 部長 commit step 未觸發，由 Knowledge 一併 commit；Voice 改為 daemon 後不計入 cycle 部長計數（4 = LifeCoach + Alchemy + PM + Knowledge）",
@@ -43,6 +43,7 @@
     "20260528_C001": "**部分 commit cycle** — circle_20260528_C001.md 產出但未 commit（PM 20260529 確認），knowledge.json 未更新（本 cycle 補齊）。gamification.json 成功更新（+250 XP：Engineering +225 LC 12 題補錄 + Mind +25 5/27 diary）。LeetCode 累積 10 題成就解鎖（19 題 AC）。5/5 部長全到齊，4 部長自己 commit（newsletters + states）。Voice Daemon 今晚到期（pm-20260526-voice-daemon-status 5/28 23:59）。系統第 17 個 cycle 有產出但 Knowledge partial commit 需本 cycle 補齊。",
     "20260529_C001": "工廠第二週最後一個工作日（週五，Mini Factory Day 8）。4/4 部長全員到齊，各自 commit（newsletters + states）。補齊 20260528 未 commit circle file（Knowledge 補 commit）。Voice Daemon 正式進入 shelved 狀態（inbox 到期自動結案，6/4 後重啟追蹤）。5/28 diary +25 Mind XP（mind 115→140，cumulative 9,640→9,665）。3 題 inbox 待回（微日記提案 + 週末散步提案 + 今日 diary nudge，全 shelve-friendly，deadline 5/30/6/4/6/4）。系統第 18 個 cycle 穩定運作。",
     "20260530_C001": "工廠期第一個真正休息週末（5/30 週六，Mini Factory Day 9）。4/4 部長全員到齊，各自 commit（e984d50/5fc27e8/99b3c14）。+0 XP 安靜觀察 cycle（5/29 diary 未寫，工廠最後衝刺日 loopback 談妥理解）。WSLFinLab 第十五次心跳確認。Knowledge 警告徹底清零。Inbox 3 題待回（diary nudge deadline 5/31 + 兩個 LC 提案 deadline 6/4，全 shelve-friendly）。voice.json 重複 entries bug 仍未 commit（沿用 20260524 決策）。系統第 19 個 cycle 穩定運作。",
-    "20260531_C001": "工廠最後一個週日（Mini Factory Day 10）。4/4 部長全到齊，Alchemy/Career/PM 自己 commit（5bcc6ab/2a4235c/856d75e），Knowledge 補 commit LifeCoach newsletter + state。+0 XP cycle（5/29-5/31 日記空白，工廠期休息週末）。WSLFinLab 第 16 次連續心跳，確認週六 ETL = 完整 6 支刷新行為。Career W22 正式對齊（19 題 AC，streak=1，weekly-log 補填）。Inbox 2 題（微日記 + 週末散步兩個 LC 提案，deadline 6/4，shelve-friendly）。sharing/book 個人讀書筆記未 commit（Asher 個人文件，非 cycle 產出）。voice.json 重複 entries bug 仍未 commit（沿用 20260524 決策）。系統第 20 個 cycle 穩定運作。"
+    "20260531_C001": "工廠最後一個週日（Mini Factory Day 10）。4/4 部長全到齊，Alchemy/Career/PM 自己 commit（5bcc6ab/2a4235c/856d75e），Knowledge 補 commit LifeCoach newsletter + state。+0 XP cycle（5/29-5/31 日記空白，工廠期休息週末）。WSLFinLab 第 16 次連續心跳，確認週六 ETL = 完整 6 支刷新行為。Career W22 正式對齊（19 題 AC，streak=1，weekly-log 補填）。Inbox 2 題（微日記 + 週末散步兩個 LC 提案，deadline 6/4，shelve-friendly）。sharing/book 個人讀書筆記未 commit（Asher 個人文件，非 cycle 產出）。voice.json 重複 entries bug 仍未 commit（沿用 20260524 決策）。系統第 20 個 cycle 穩定運作。",
+    "20260601_C001": "工廠最後一週第一天（Mini Factory Day 11，週一）。3/4 部長有獨立 newsletter（Alchemy/Career/PM），LifeCoach 有活動但無獨立 newsletter（state 由 PM 代 commit），同 20260527 pattern。+25 Mind XP（5/31 diary，core_life_thesis 突破：「我用時間和自由衡量人生，不用頭銜和薪水。過時反射，謝謝你保護過我，但你可以退休了。」cumulative 9,665→9,690，mind 140→165）。WSLFinLab 第 17 次心跳（週日部分 ETL）。Voice Daemon 今日確認仍在運作，先前 crash 擔憂解除。Career W23 Day 1（Streak=1，LC 33 第 20 題 6/5 後窗口）。Inbox 3 題（diary nudge deadline 6/2 + 微日記 + 週末散步 deadline 6/4，均 shelve-friendly）。系統第 21 個 cycle 穩定運作。"
   }
 }
