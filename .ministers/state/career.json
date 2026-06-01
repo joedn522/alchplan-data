@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260531_C001",
+  "last_circle_id": "20260601_C001",
   "schema_version": 1,
   "last_deep_review_date": "2026-05-31",
 
@@ -15,7 +15,7 @@
       "tier_1": "Google 內部跳轉（優先）— 免外部面試、保留現有 TC/福利/年資。【新選項 5/22】主管提議幫 Asher 換一個 Google 內部職位，先做三個月觀察期，再決定是否正式轉組。此路徑比原 Track A（9 月自主申請）更快，但目標 team 由主管決定，需先確認新 team 的 WLB。",
       "tier_2": "Microsoft 外部面試（保險）— 前公司、WLB 聲譽佳。鎖 Microsoft Taipei 或 remote-friendly team。觀察期間進入低維護模式。"
     },
-    "timeline": "主管觀察期方案：即將開始 → 三個月觀察 → ~8月決定。原 Track A（自主申請）：9月申請，10月轉調。Track B：工廠期後擇機啟動面試備戰。"
+    "timeline": "【5/31 更新】主管已同意 7 月中/底「換場」— 工作內容調整，loading 變輕。之後三個月試用期（~8月-9月）用實際數據決定去留。原本「9月確定離」的乾淨錨被更模糊的承諾取代，但 Asher 已重新框架：7月底換場 + 3個月試用期 = 升級版出口，不是退讓。Track B（Microsoft 刷題）7月後壓力降、效率最高，絕對不能停。"
   },
 
   "phase": "準備期 — Phase 1 進行中（同時等待主管提案落地）",
@@ -53,16 +53,16 @@
   "last_action_type": "刷 LeetCode W22（5/27: LC 15 3Sum + LC 11 Container With Most Water + LC 739 Daily Temperatures，均 Medium）",
 
   "diary_signal": {
-    "last_career_mention_date": "2026-05-25",
-    "last_career_mention_summary": "5/25 diary（精力 3，平穩）：「有了新選項，工廠事件結束後會開始找最適合自己的工作。這讓心態很棒。」演員框架已轉化為有出口感，心態穩定。5/22 生日日記仍是最重要的 career 訊號（主管提案確認）。",
-    "days_since_last_mention": 6,
-    "note": "5/22 diary 是本追蹤期最重要的 career 訊號（主管提案）。5/25 diary 間接 career 提及，心態正向。5/27 diary 精力 4 踏實，無直接 career 提及，但有出口感。5/28 diary 精力 4 忙得有目標，完全聚焦工廠，無 career 提及。5/29-5/31 diary 無（工廠最後衝刺期）。"
+    "last_career_mention_date": "2026-05-31",
+    "last_career_mention_summary": "5/31 diary（精力 3，心浮氣躁）：「明明 7 月就想換工作了，卻還是被這種急事弄得很煩。」演員框架有些搖晃（「錨今天有點沒撐住我」）。深聊補充：Asher 已跟主管攤牌 → 主管承諾 7 月換場 + 試用期；Asher 主動框架為升級版出口而非退讓。核心決心：「Track B（Microsoft 刷題）絕對不能停，7 月壓力降正是效率最高時」。",
+    "days_since_last_mention": 1,
+    "note": "5/31 是本追蹤期第二重要的 career 訊號（次於 5/22 主管提案）。Asher 深聊後釐清：舊錨（9月確定離）→ 新框架（7月換場 + 3個月試用用證據決定）。Track B 不能停是 Asher 自己說的，不是 Career 部長催的——這個決心要守住。"
   },
 
   "this_cycle_recommendation": {
-    "type": "W23 第一步：LC 33 + 工廠結束後問 team 名",
-    "summary": "W22 以 5/27 三題 Medium 收官（streak = 1）。W23（6/1-6/7）工廠最後三天（6/2-6/4）後恢復正常。建議：W23 做 LC 33（Search in Rotated Sorted Array，Medium，接上 Binary Search 系列，預計 20-30 分鐘）。工廠結束後（6/5+）找自然時機問主管新 team 是哪個，這是目前唯一卡著的 Tier 1 關鍵資訊。",
-    "rationale": "W23 工廠壓力最後一週，6/4 結束。LC 33 難度適中（Binary Search 延伸），不需要特別的環境設置，工廠夜晚或 6/4 後週末都可以做。主管 team 名是 Tier 1 路徑的瓶頸，觀察期要評估 WLB 必須先知道 team。"
+    "type": "W23 的事：LC 33（第 20 題）+ 6/4 後問 team 名",
+    "summary": "W23（6/1-6/7）第一天。工廠最後三天（6/2-6/4），6/4 收工。本週核心：做 LC 33（Search in Rotated Sorted Array，Medium，Binary Search 延伸），完成即達 20 題門檻，之後可以評估要不要開始 System Design 或研究 JD。工廠結束後（6/5+）自然時機問主管新 team 名稱，這是 Tier 1 路徑唯一卡著的資訊。5/31 diary 的 Track B 決心（刷題 7 月後不能停）是 Asher 自己說的，不需要外力催。",
+    "rationale": "LC 33 = 第 20 題 = Phase 1 的里程碑。工廠收工後（6/5 週五起）是窗口最大的時候，週末可以做。主管 team 名 carry 三週了，6/4 工廠結束後有自然機會接話。5/31 diary 已確立 Track B 不能停的內在動機，Career 部長只要不打擾就好。"
   },
 
   "carryover_recommendations": [
@@ -155,6 +155,11 @@
       "circle_id": "20260531_C001",
       "date": "2026-05-31",
       "action": "深度檢視（距上次 6 天）。正式對齊 prep_status：leetcode.md 顯示 19 題（E×10 / M×9），career.json 舊值 7 → 修正為 19。發現 W22 實際有推進：5/27 LC 15+11+739（3 Medium），此前 pulse check 誤判為「仍無紀錄」（因 LC 在 20260527_C001 當天收盤後才完成，知識部長 5/28 更新 Engineering XP 為 19 題但 career state 未同步）。weekly-log.md W22 補填。streak 0→1（W22 活）。主管 team 名仍未知，工廠 6/2-6/4 最後三天，6/4 後問主管。W23 建議：LC 33（Binary Search，Medium）+ 問 team 名。Career Move XP +0（本次無 Career Move 動作）。"
+    },
+    {
+      "circle_id": "20260601_C001",
+      "date": "2026-06-01",
+      "action": "Pulse check（距上次深度檢視 1 天，W23 Day 1 週一）。W23 無新紀錄（工廠最後三天 6/2-6/4）。Targets / Pipeline 無變化。重要：5/31 diary 深聊補充 — Asher 已跟主管攤牌，主管承諾 7 月換場 + 3 個月試用期。舊錨（9 月確定離）→ 新框架（7 月換場升級版）。Asher 自言 Track B 刷題 7 月後不能停。career.json timeline 更新反映此進展。diary_signal 更新到 5/31。W23 建議不變：LC 33（第 20 題）+ 6/4 後問主管 team 名。"
     }
   ]
 }
