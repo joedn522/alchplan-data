@@ -298,12 +298,14 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-05-26T23:59:59Z",
-    "status": "consumed",
+    "status": "archived",
     "created_at": "2026-05-25T08:00:01Z",
     "circle_id": "20260525_C001",
     "consumed_by": "lifecoach_20260526_C001",
     "consumed_at": "2026-05-26T08:00:02Z",
-    "consume_note": "5/25（週一）diary 未寫確認（無檔案）。工廠第二週第一天，空白預期內。"
+    "consume_note": "5/25（週一）diary 未寫確認（無檔案）。工廠第二週第一天，空白預期內。",
+    "archived_at": "2026-06-01T08:13:00Z",
+    "archive_reason": "consumed + 建立滿 7 天，PM 20260601_C001 封存"
   },
   {
     "id": "lc-20260526-diary-today-nudge",
@@ -402,6 +404,19 @@
     "consumed_by": "lifecoach_20260531_C001",
     "consumed_at": "2026-05-31T08:17:42Z",
     "consume_note": "5/30 diary 未寫確認（無檔案）。工廠期第一個真正的休息週末，理解。LC 20260531_C001 newsletter 輸出，提醒 Asher 好好休息並告知 6/4 後有兩個提案待確認。"
+  },
+  {
+    "id": "lc-20260601-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "昨天（5/31）你寫了追蹤期最深的一頁——「我用『時間和自由』衡量人生，不用『頭銜和薪水』。過時反射，謝謝你保護過我，但你可以退休了。」\n\n今天（6/1，週一）是工廠最後一週第一天，四天後（6/4，週四）收工。帶著那個北極星進去，今天有什麼想記下來的——哪怕一句話？不寫也 shelve，不強求。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-06-02T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-06-01T08:13:00Z",
+    "circle_id": "20260601_C001"
   },
   {
     "id": "lc-20260529-prop-micro-diary-7min",
