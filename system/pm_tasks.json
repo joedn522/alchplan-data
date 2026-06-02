@@ -414,9 +414,25 @@
     "minister_default": "shelve",
     "default_action": "apply_minister_default",
     "default_deadline": "2026-06-02T23:59:59Z",
-    "status": "open",
+    "status": "consumed",
     "created_at": "2026-06-01T08:13:00Z",
-    "circle_id": "20260601_C001"
+    "circle_id": "20260601_C001",
+    "consumed_by": "lifecoach_20260602_C001",
+    "consumed_at": "2026-06-02T08:00:02Z",
+    "consume_note": "6/1 diary ✅ — 精力 4，從容，第一個離場，完整交辦 L11，Rewire Ch.8 視覺化想像生效，§6 無負面情緒。核心方針首次在行動中完整兌現。系統自動關閉。"
+  },
+  {
+    "id": "lc-20260602-diary-today-nudge",
+    "type": "open",
+    "minister": "lifecoach",
+    "question": "6/1 那天，你是工廠裡第一個離場的人——把事交辦出去、時間到就走，「槓桿 > 工時」從方針變成了行動。\n\n今天（6/2，週二）工廠還剩兩天，後天（6/4，週四）就收工了。\n\n另外提醒：收工前有兩個提案在 inbox 等你：**微日記 7 分鐘** + **週末散步**，deadline 就是 6/4——不回的話會自動 shelve，如果想要的話這兩天可以瞄一眼。\n\n今天有什麼想記下來的嗎？一句話就算接住了。不寫也 shelve，不強求。",
+    "options": [],
+    "minister_default": "shelve",
+    "default_action": "apply_minister_default",
+    "default_deadline": "2026-06-03T23:59:59Z",
+    "status": "open",
+    "created_at": "2026-06-02T08:00:02Z",
+    "circle_id": "20260602_C001"
   },
   {
     "id": "lc-20260529-prop-micro-diary-7min",
