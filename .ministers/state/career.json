@@ -1,5 +1,5 @@
 {
-  "last_circle_id": "20260601_C001",
+  "last_circle_id": "20260602_C001",
   "schema_version": 1,
   "last_deep_review_date": "2026-05-31",
 
@@ -55,7 +55,7 @@
   "diary_signal": {
     "last_career_mention_date": "2026-05-31",
     "last_career_mention_summary": "5/31 diary（精力 3，心浮氣躁）：「明明 7 月就想換工作了，卻還是被這種急事弄得很煩。」演員框架有些搖晃（「錨今天有點沒撐住我」）。深聊補充：Asher 已跟主管攤牌 → 主管承諾 7 月換場 + 試用期；Asher 主動框架為升級版出口而非退讓。核心決心：「Track B（Microsoft 刷題）絕對不能停，7 月壓力降正是效率最高時」。",
-    "days_since_last_mention": 1,
+    "days_since_last_mention": 2,
     "note": "5/31 是本追蹤期第二重要的 career 訊號（次於 5/22 主管提案）。Asher 深聊後釐清：舊錨（9月確定離）→ 新框架（7月換場 + 3個月試用用證據決定）。Track B 不能停是 Asher 自己說的，不是 Career 部長催的——這個決心要守住。"
   },
 
@@ -160,6 +160,11 @@
       "circle_id": "20260601_C001",
       "date": "2026-06-01",
       "action": "Pulse check（距上次深度檢視 1 天，W23 Day 1 週一）。W23 無新紀錄（工廠最後三天 6/2-6/4）。Targets / Pipeline 無變化。重要：5/31 diary 深聊補充 — Asher 已跟主管攤牌，主管承諾 7 月換場 + 3 個月試用期。舊錨（9 月確定離）→ 新框架（7 月換場升級版）。Asher 自言 Track B 刷題 7 月後不能停。career.json timeline 更新反映此進展。diary_signal 更新到 5/31。W23 建議不變：LC 33（第 20 題）+ 6/4 後問主管 team 名。"
+    },
+    {
+      "circle_id": "20260602_C001",
+      "date": "2026-06-02",
+      "action": "Pulse check（距上次深度檢視 2 天，W23 Day 2 週二）。W23 無新紀錄（工廠最後兩天 6/3-6/4）。Targets / Pipeline 無變化。6/1 diary 精力 4，從容——核心方針「槓桿 > 工時」首次完整兌現在行動（第一個離場 + 把 L11 全部交辦出去），演員框架穩固主動，無直接 career 提及。建議不變：6/4 收工後問主管 team 名，本週 LC 33（第 20 題）。"
     }
   ]
 }
